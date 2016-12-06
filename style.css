@@ -1,0 +1,26 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.title {
+	text-align: center;
+}
+
+small {
+	text-align: center;
+
+}
+
+md-sidenav {
+	background-color: darkgrey;
+}
+
+md-content {
+	background-color: lightgrey;
+}
+
+html, body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	
+}
