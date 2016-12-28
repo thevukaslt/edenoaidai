@@ -1,0 +1,16 @@
+[
+	{ 
+		"title"	: "Didis Dieve, giedam Tau", 
+		"songId": "1" ,
+		"id": 1 ,
+		"verse"	: "Didis Viešpats ir vertas didžios šlovės. Ps 96, 4",
+		"body"	: " Didis Dieve, giedam Tau, <br\/>Tavo vardą išpažįstam, <br\/>Su šventais pulkais Dangaus",
+		"copyright": "Ignaz Franz (1719–1790) tekstas, 1774 <br\/>Heinrich Bone (1813–1893) muzika, 1852"
+	},
+	{ 
+		"title": "Antroji giesmė", 
+		"songId": "2" ,
+		"body": "Aš esu"
+	}
+
+]

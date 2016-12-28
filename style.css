@@ -22,5 +22,8 @@ md-content {
 html, body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	
+}
+
+nav {
+	margin-bottom: 1rem;
 }

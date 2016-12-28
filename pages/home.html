@@ -1,0 +1,11 @@
+
+  <div class="col-sm-6 p-t-4" ng-repeat="song in main.songs | limitTo:5">
+    <div class="card-header">
+		<h2>{{song.songId}}</h2>
+	</div>
+    <div class="card card-block">
+      <h3 class="card-title">{{song.title}}</h3>
+      <p class="card-text">{{song.verse}}</p>
+      <a href="song/{{song.id}}" class="btn btn-primary">Žiūrėti</a>
+    </div>
+  </div>		  
