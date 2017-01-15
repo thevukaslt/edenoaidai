@@ -4,13 +4,16 @@
 		"songId": "1" ,
 		"id": 1 ,
 		"verse"	: "Didis Viešpats ir vertas didžios šlovės. Ps 96, 4",
-		"body"	: " Didis Dieve, giedam Tau, <br\/>Tavo vardą išpažįstam, <br\/>Su šventais pulkais Dangaus",
+		"body"	: " Didis Dieve, giedam Tau, <br\/>Tavo vardą išpažįstam, <br\/>Su šventais pulkais Dangaus <br\/>Šlovinti Tave išdrįstam. <br\/>Stebuklingas Tu visuos <br\/>Žemės ir Dangaus darbuos. <br\/><br\/>2. Šlovę teikia Danguje <br\/>Tau kerubai ir serafai, <br\/>Lenkiasi jie prieš Tave, <br\/>Garbindami dieną naktį. <br\/>Gieda pagarbiai visi: <br\/>Šventas, šventas Tu esi! <br\/><br\/>3. Vietose įvairiose<br\/>Tavo mes vaikai sustoję,<br\/>Džiugūs Tavo Namuose,<br\/>Nuoširdžiausiai Tau dėkojam:<br\/>Dieve, amžina šlovė<br\/>Tau Visatoj teskambės!",
 		"copyright": "Ignaz Franz (1719–1790) tekstas, 1774 <br\/>Heinrich Bone (1813–1893) muzika, 1852"
 	},
 	{ 
-		"title": "Antroji giesmė", 
+		"title"	: "Pagarbinkim Dievą, valdovą Dangaus", 
 		"songId": "2" ,
-		"body": "Aš esu"
+		"id": 2,
+		"verse"	: "Būk pašlovintas, Viešpatie... nuo amžių per amžius! 1 Met 29, 10",
+		"body"	: "Pagarbinkim Dievą, valdovą Dangaus,<br\/>Kūrėją Visatos ir žemės žmogaus.<br\/>Jo rankose visa – pasaulių pulkai,<br\/>Likimai žmonių ir žvaigždynų takai.<br\/><br\/><i>Priegiesmis:<\/i><br\/>Jam garbė! Jam garbė! –<br\/>Tesilies iš širdies.<br\/>Jam garbė! Jam garbė! –<br\/>Amžinai teskambės.<br\/>Pagarbinkim Dievą pilni pagarbos!<br\/>Osana Kūrėjui! – visi tekartos.<br\/><br\/>2. Pamilo pasaulį Kūrėjas kilnus<br\/>Ir atsiuntė Sūnų, kad gelbėtų mus<br\/>Iš pykčio, pavydo ir keršto purvų,<br\/>Kad būtų ramybė, taika su Dievu.<br\/><br\/>3. Nors dūsauti tenka dar žemės kely,<br\/>Bet būkime kantrūs – viltis netoli!<br\/>Mūs laukia ramybės buveinės seniai –<br\/>Danguj paruošti amžinieji Namai.<br\/>",
+		"copyright": "Fanny J. Crosby (1820–1915), 1875<br\/>William H. Doane (1832–1915) muzika, 1875<br\/>Vertė Romualda Adomaitytė-Chabarina, 2000<br\/>"
 	}
 
 ]

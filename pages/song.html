@@ -1,13 +1,15 @@
-<div class="jumbotron">
-  <h1 class="display-3">{{song.data.title}} </h1>
-  <h2>{{song.data.songId}}</h2>
-  <p class="lead">{{song.data.verse}}</p>
-  <hr class="my-2">
-  <p ng-bind-html="song.data.body">
+<div class="col-md-12">
+	<div class="jumbotron">
+	  <h1 class="display-5">{{song.song.title}}</h1>
+	  <h2 class="">Nr. {{song.song.songId}}</h2>
+	  <p class="lead">{{song.verse}}</p>
 
+	  <hr>
 
-  </p>
-  <p class="font-italic" ng-bind-html="song.data.copyright">
-    
-  </p>
+	  <p ng-bind-html="song.body"></p>
+
+	  <hr>
+
+	  <p class="font-italic text-xs-right" ng-bind-html="song.copyright"></p>
+	</div>
 </div>

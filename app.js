@@ -28,7 +28,7 @@
                 controllerAs: 'song'
             })
             //fallback URL address
-            .otherwise({ redirectTo: '/' });;
+            .otherwise({ redirectTo: '/' });
 
         // use the HTML5 History API
     	$locationProvider.html5Mode(true);
@@ -73,19 +73,23 @@
  		var self = this;
 
         //Find hymn
-        self.data = $filter('filter')($rootScope.library, {id: $routeParams.id})[0];
+        self.song = $filter('filter')($rootScope.library, {id: $routeParams.id})[0];
+        //this.self = $filter('filter')($rootScope.library, {id: $routeParams.id})[0];
         //Trust body for HTML output
-        self.data.body = $sce.trustAsHtml(self.data.body);
-        self.data.copyright = $sce.trustAsHtml(self.data.copyright);
-
+        self.body = $sce.trustAsHtml(self.song.body);
+        self.copyright = $sce.trustAsHtml(self.song.copyright);
 
     })
 
     //Navigation controller
-    .controller('navCtrl', function($scope, $location) {
+    .controller('navCtrl', function($scope, $location, $filter, $rootScope) {
     	this.url = function (path) {
 	    	return $location.path() == path;
 	    };
+
+        this.search = function(data) {
+            return this.songs = $filter('filter')($rootScope.library, {songId: data.$});
+        };
 
     });
 	

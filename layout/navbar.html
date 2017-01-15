@@ -4,4 +4,9 @@
 		<a class="nav-item nav-link" ng-class="{active: nav.url('/about')}" href="about">Apie</a>
 
 	</div>
+
+	<form class="form-inline float-xs-right">
+	    <input class="form-control" type="text" placeholder="Ieškoti" ng-change="nav.search(searchdata)" ng-model="searchdata">
+	    {{nav.songs}}
+	</form>
 </nav>
