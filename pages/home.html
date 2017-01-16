@@ -1,11 +1,20 @@
 
-  <div class="col-sm-6 p-t-4" ng-repeat="song in main.songs | limitTo:5">
-    <div class="card-header">
-		<h2>{{song.songId}}</h2>
-	</div>
-    <div class="card card-block">
-      <h3 class="card-title">{{song.title}}</h3>
-      <p class="card-text">{{song.verse}}</p>
-      <a href="song/{{song.id}}" class="btn btn-primary">Žiūrėti</a>
-    </div>
-  </div>		  
+
+<div layout-xs="column" layout="row">
+
+  <md-card ng-repeat="song in main.songs | limitTo:5" flex>
+    <md-card-title>
+      <md-card-title-text>
+        <span class="md-headline">{{song.title}}</span>
+        <span class="md-subhead">{{song.verse}}</span>
+      </md-card-title-text>
+      <md-card-title-media>
+        <span class="song-num">{{song.songId}}</span>
+      </md-card-title-media>
+    </md-card-title>
+    <md-card-actions layout="row" layout-align="center center">
+      <md-button class="md-raised md-primary" ng-href="song/{{song.id}}">ŽIŪRĖTI</md-button>
+    </md-card-actions>
+  </md-card>
+
+</div>

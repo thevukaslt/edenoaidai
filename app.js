@@ -1,9 +1,21 @@
 (function(){
 
 
-	angular.module('app', ['ngRoute'])
+	angular.module('app', ['ngRoute', 'ngMaterial'])
 
-	// configure our routes
+    //Theme
+    .config(function($mdThemingProvider) {
+        // Enable browser color
+        //$mdThemingProvider.enableBrowserColor();
+        $mdThemingProvider.theme('default')
+            .primaryPalette('teal')
+            .accentPalette('deep-orange');
+        //$mdThemingProvider.setDefaultTheme('main');
+
+
+    })
+
+	//Routing
     .config(function($routeProvider, $locationProvider) {
         $routeProvider
 
@@ -17,8 +29,8 @@
             // route for the about page
             .when('/about', {
                 templateUrl : 'pages/about.html',
-                controller  : 'aboutController',
-                controllerAs: 'about'
+                //controller  : 'aboutController',
+                //controllerAs: 'about'
             })
 
             // route for the song page
@@ -42,7 +54,7 @@
             $http.get('edeno-aidai.json').then(
 
                 function(response){
-                    console.log(response.statusText);
+                    console.log(response.statusText + " Biblioteka gauta");
                     $rootScope.library = response.data;
                 },
 
@@ -64,9 +76,9 @@
 
     })
 
-    .controller('aboutController', function($scope) {
-        $scope.message = 'Look! I am an about page.';
-    })
+    /*.controller('aboutController', function($scope) {
+        
+    })*/
 
     //Song controller
     .controller('songController', function($rootScope, $routeParams, $filter, $sce) {
@@ -91,6 +103,17 @@
             return this.songs = $filter('filter')($rootScope.library, {songId: data.$});
         };
 
-    });
+    })
+
+    .directive('back', ['$window', function($window) {
+        return {
+            restrict: 'A',
+            link: function (scope, elem, attrs) {
+                elem.bind('click', function () {
+                    $window.history.back();
+                });
+            }
+        };
+    }]);
 	
 })();

@@ -1,4 +1,4 @@
-<div class="col-md-12">
+<!--<div class="col-lg-4 offset-lg-4">
 	<div class="jumbotron">
 	  <h1 class="display-5">{{song.song.title}}</h1>
 	  <h2 class="">Nr. {{song.song.songId}}</h2>
@@ -12,4 +12,39 @@
 
 	  <p class="font-italic text-xs-right" ng-bind-html="song.copyright"></p>
 	</div>
+</div>-->
+
+<div layout-align="center center">
+
+	<md-card flex-gt-xs="30" flex-offset-gt-xs="35">
+
+		<md-card-title>
+	        <md-card-title-text layout="column">
+
+	        	<div layout="row">
+		        	<span class="md-headline">{{song.song.title}}</span>
+		        	<span flex></span>
+			    	<span class="song-num">{{song.song.songId}}</span>
+
+	        	</div>
+
+				<p layout="">{{song.song.verse}}</p>
+
+	        </md-card-title-text>
+	    </md-card-title>
+
+		<md-card-content >
+
+			<p ng-bind-html="song.body"></p>
+
+			<hr>
+
+			<small ng-bind-html="song.copyright"></small>
+
+		</md-card-content>
+		<md-card-actions layout="row" layout-align="center center">
+			<md-button class="md-raised" back flex>GRĮŽTI</md-button>
+		</md-card-actions>
+	</md-card>
+
 </div>

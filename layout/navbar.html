@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light bg-faded">
+<!--<nav class="navbar navbar-light bg-faded">
 	<div class="nav navbar-nav">
 		<a class="nav-item nav-link" ng-class="{active: nav.url('/')}" href="/">Pagrindinis</a>
 		<a class="nav-item nav-link" ng-class="{active: nav.url('/about')}" href="about">Apie</a>
@@ -9,4 +9,15 @@
 	    <input class="form-control" type="text" placeholder="Ieškoti" ng-change="nav.search(searchdata)" ng-model="searchdata">
 	    {{nav.songs}}
 	</form>
-</nav>
+</nav>-->
+
+<md-toolbar>
+	<md-content class="md-padding">
+		<md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+			<md-nav-item md-nav-href="/" name="Pagrindinis">Pagrindinis</md-nav-item>
+			<md-nav-item md-nav-href="/about" name="Apie">Apie</md-nav-item>
+		</md-nav-bar>    
+	</md-content>
+
+</md-toolbar>
+

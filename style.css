@@ -2,28 +2,28 @@
   display: none !important;
 }
 
-.title {
+/*html, body {
+	font-family: 'Roboto', sans-serif;
+}*/
+
+.text-center {
 	text-align: center;
 }
 
-small {
-	text-align: center;
-
+.song-num {
+	font-size: 24pt;
 }
 
-md-sidenav {
+/*md-sidenav {
 	background-color: darkgrey;
 }
 
 md-content {
 	background-color: lightgrey;
-}
+}*/
 
-html, body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-}
 
-nav {
+
+/*nav {
 	margin-bottom: 1rem;
-}
+}*/
