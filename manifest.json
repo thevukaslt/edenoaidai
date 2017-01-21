@@ -9,5 +9,6 @@
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fafafa",
-  "theme_color": "teal"
+  "theme_color": "teal",
+  "offline_enabled": true,
 }
