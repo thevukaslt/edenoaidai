@@ -1,16 +1,21 @@
 (function(){
 
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').then(function(reg){
+            console.log('NG: installed.');
+        }).catch(function(err){
+            console.log('NG: failed.');
+        });
+    };
 
 	angular.module('app', ['ngRoute', 'ngMaterial'])
 
     //Theme
     .config(function($mdThemingProvider) {
-        // Enable browser color
-        //$mdThemingProvider.enableBrowserColor();
+        //Theme colors
         $mdThemingProvider.theme('default')
-            .primaryPalette('teal')
-            .accentPalette('deep-orange');
-        //$mdThemingProvider.setDefaultTheme('main');
+            .primaryPalette('deep-orange')
+            .accentPalette('grey');
 
 
     })
@@ -28,9 +33,7 @@
 
             // route for the about page
             .when('/about', {
-                templateUrl : 'pages/about.html',
-                //controller  : 'aboutController',
-                //controllerAs: 'about'
+                templateUrl : 'pages/about.html'
             })
 
             // route for the song page
@@ -38,6 +41,12 @@
                 templateUrl : 'pages/song.html',
                 controller  : 'songController',
                 controllerAs: 'song'
+            })
+            // route for the json-store
+            .when('/store', {
+                templateUrl : 'pages/store.html',
+                controller  : 'storeCtrl',
+                controllerAs: 'store'
             })
             //fallback URL address
             .otherwise({ redirectTo: '/' });
@@ -54,7 +63,7 @@
             $http.get('edeno-aidai.json').then(
 
                 function(response){
-                    console.log(response.statusText + " Biblioteka gauta");
+                    //console.log(response.statusText + " Biblioteka gauta");
                     $rootScope.library = response.data;
                 },
 
@@ -69,16 +78,18 @@
 
     )
 
-    .controller('mainController', function($scope, $http, $rootScope) {
+    .controller('mainController', function($scope, $rootScope, $filter) {
     	var main = this;
 
-    	main.songs = $rootScope.library;
+    	//main.songs = $rootScope.library;
+
+        main.songs = $filter('orderBy')($rootScope.library, function() {
+            return 0.5 - Math.random();
+        });
+
+
 
     })
-
-    /*.controller('aboutController', function($scope) {
-        
-    })*/
 
     //Song controller
     .controller('songController', function($rootScope, $routeParams, $filter, $sce) {
@@ -95,13 +106,20 @@
 
     //Navigation controller
     .controller('navCtrl', function($scope, $location, $filter, $rootScope) {
-    	this.url = function (path) {
-	    	return $location.path() == path;
-	    };
-
-        this.search = function(data) {
-            return this.songs = $filter('filter')($rootScope.library, {songId: data.$});
+        this.url = function (path) {
+            return $location.path() == path;
         };
+
+        this.go = function ( path ) {
+          $location.path( path );
+        };
+
+    })
+
+    //Store controller
+    .controller('storeCtrl', function($scope, $location, $filter, $rootScope) {
+        var self = this;
+
 
     })
 

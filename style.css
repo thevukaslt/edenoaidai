@@ -2,28 +2,24 @@
   display: none !important;
 }
 
-/*html, body {
-	font-family: 'Roboto', sans-serif;
-}*/
-
 .text-center {
 	text-align: center;
+}
+
+.text-italic {
+	font-style: italic;
 }
 
 .song-num {
 	font-size: 24pt;
 }
 
-/*md-sidenav {
-	background-color: darkgrey;
+
+
+@media screen and (min-width: 600px) {
+
+    .home-card {
+		width: 600px;
+	}
+
 }
-
-md-content {
-	background-color: lightgrey;
-}*/
-
-
-
-/*nav {
-	margin-bottom: 1rem;
-}*/

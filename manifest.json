@@ -1,0 +1,13 @@
+{
+  "name": "Edeno Aidų Giesmynas",
+  "short_name": "Edeno Aidai",
+  "icons": [{
+    "src": "favicon.png",
+      "sizes": "640x640",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "teal"
+}

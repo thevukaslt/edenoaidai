@@ -1,23 +1,23 @@
-<!--<nav class="navbar navbar-light bg-faded">
-	<div class="nav navbar-nav">
-		<a class="nav-item nav-link" ng-class="{active: nav.url('/')}" href="/">Pagrindinis</a>
-		<a class="nav-item nav-link" ng-class="{active: nav.url('/about')}" href="about">Apie</a>
 
-	</div>
+<md-toolbar>
+	<md-content class="md-padding" layout>
 
-	<form class="form-inline float-xs-right">
-	    <input class="form-control" type="text" placeholder="Ieškoti" ng-change="nav.search(searchdata)" ng-model="searchdata">
-	    {{nav.songs}}
-	</form>
-</nav>-->
+			<md-input-container flex ng-click="nav.go('/')">
+				<label>Paieška pagal giesmės numerį</label>
+				<input type="number" min="0" max="300" ng-model="$root.searchQuery.songId">
+			</md-input-container> 
 
+	</md-content>
+</md-toolbar>
+
+<!--
 <md-toolbar>
 	<md-content class="md-padding">
 		<md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
 			<md-nav-item md-nav-href="/" name="Pagrindinis">Pagrindinis</md-nav-item>
 			<md-nav-item md-nav-href="/about" name="Apie">Apie</md-nav-item>
+
 		</md-nav-bar>    
 	</md-content>
 
-</md-toolbar>
-
+</md-toolbar>-->

@@ -1,20 +1,18 @@
-
-
-<div layout-xs="column" layout="row">
-
-  <md-card ng-repeat="song in main.songs | limitTo:5" flex>
+<div layout="row" layout-align="center center" layout-padding 
+    ng-repeat="song in main.songs | filter:(($root.searchQuery.songId===null)?undefined:$root.searchQuery) | limitTo:4">
+  <md-card ng-init="height = 6" ng-mouseenter="height = 1" ng-mouseleave="height = 6" md-whiteframe="{{height}}" 
+           flex-xs flex-gt-xs=none flex-gt-lg=50 class="home-card">
     <md-card-title>
       <md-card-title-text>
         <span class="md-headline">{{song.title}}</span>
         <span class="md-subhead">{{song.verse}}</span>
       </md-card-title-text>
-      <md-card-title-media>
+      
         <span class="song-num">{{song.songId}}</span>
-      </md-card-title-media>
+      
     </md-card-title>
-    <md-card-actions layout="row" layout-align="center center">
-      <md-button class="md-raised md-primary" ng-href="song/{{song.id}}">ŽIŪRĖTI</md-button>
+    <md-card-actions layout layout-align="end center">
+      <md-button class="md-primary" ng-href="song/{{song.id}}" ng-click="$root.searchQuery = ''">ŽIŪRĖTI</md-button>
     </md-card-actions>
   </md-card>
-
-</div>
+</div>   

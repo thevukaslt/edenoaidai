@@ -1,22 +1,6 @@
-<!--<div class="col-lg-4 offset-lg-4">
-	<div class="jumbotron">
-	  <h1 class="display-5">{{song.song.title}}</h1>
-	  <h2 class="">Nr. {{song.song.songId}}</h2>
-	  <p class="lead">{{song.verse}}</p>
+<div layout="row" layout-align="center center" layout-padding>
 
-	  <hr>
-
-	  <p ng-bind-html="song.body"></p>
-
-	  <hr>
-
-	  <p class="font-italic text-xs-right" ng-bind-html="song.copyright"></p>
-	</div>
-</div>-->
-
-<div layout-align="center center">
-
-	<md-card flex-gt-xs="30" flex-offset-gt-xs="35">
+	<md-card flex-xs flex-gt-xs=none class="home-card">
 
 		<md-card-title>
 	        <md-card-title-text layout="column">
@@ -39,11 +23,11 @@
 
 			<hr>
 
-			<small ng-bind-html="song.copyright"></small>
+			<small ng-bind-html="song.copyright" class="text-italic"></small>
 
 		</md-card-content>
-		<md-card-actions layout="row" layout-align="center center">
-			<md-button class="md-raised" back flex>GRĮŽTI</md-button>
+		<md-card-actions layout="row" layout-align="end center">
+			<md-button class="md-accent" ng-href="/">ATGAL</md-button>
 		</md-card-actions>
 	</md-card>
 
