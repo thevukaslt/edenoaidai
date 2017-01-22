@@ -1,5 +1,5 @@
 self.addEventListener('install', function(e) {
-
+	//Updated as of 01-22 18:17
 	console.log('SW: installing.');
 
 	var urlsToCache = [

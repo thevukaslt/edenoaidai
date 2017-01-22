@@ -10,5 +10,5 @@
   "display": "standalone",
   "background_color": "#fafafa",
   "theme_color": "teal",
-  "offline_enabled": true,
+  "offline_enabled": true
 }
