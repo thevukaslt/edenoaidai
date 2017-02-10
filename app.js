@@ -1,21 +1,144 @@
 (function(){
 
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js').then(function(reg){
-            console.log('NG: installed.');
-        }).catch(function(err){
-            console.log('NG: failed.');
+
+/*
+    //Service Worker
+    var serviceWorker = function() {
+
+        if (!navigator.serviceWorker) return;
+
+        navigator.serviceWorker.register('/sw.js').then(function(reg) {
+            if (!navigator.serviceWorker.controller) {
+                return;
+            }
+
+            if (reg.waiting) {
+                indexController._updateReady(reg.waiting);
+                return;
+            }
+
+            if (reg.installing) {
+                indexController._trackInstalling(reg.installing);
+                return;
+            }
+
+            reg.addEventListener('updatefound', function() {
+                indexController._trackInstalling(reg.installing);
+            });
+
+            // Ensure refresh is only called once.
+            // This works around a bug in "force update on reload".
+            var refreshing;
+            navigator.serviceWorker.addEventListener('controllerchange', function() {
+                if (refreshing) return;
+                window.location.reload();
+                refreshing = true;
+            });
+        };
+
+    };*/
+        /*if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').then(function(reg){
+
+                $mdToast.show(
+                    $mdToast.cache()
+                );
+
+                reg.unregister();
+
+                reg.update();
+
+                reg.installing;
+
+                reg.waiting;
+
+                reg.active;
+
+                reg.addEventListener('updateFound', function() {
+                    //reg.installing has changed
+                })
+
+                var sw = reg.installing;
+
+
+                sw.addEventListener('stateChange', function() {
+                    console.log('Controller: ' + sw.state);
+                    
+                });
+
+                console.log('NG: installed.');
+            }).catch(function(err){
+                console.log('NG: failed.');
+            });
+
+            //Refers to the current service worker
+            if (!navigator.serviceWorker.controller) {
+
+            }
+
+            if (reg.waiting) {
+
+            }
+
+            if (reg.installing) {
+                //there's an update in progress
+                reg.installing.addEventListener('statechange', function() {
+                    if (this.state == 'installed') {
+                        //there's an update ready
+                    }
+                });
+            }
+        };
+
+        self.addEventListener('push', function(e) {
+            
+            $mdToast.show(
+                $mdToast.cache()
+            );      
         });
-    };
+    }*/
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	angular.module('app', ['ngRoute', 'ngMaterial'])
 
-    //Theme
-    .config(function($mdThemingProvider) {
+    //Config
+    .config(function($mdThemingProvider, $mdToastProvider) {
         //Theme colors
         $mdThemingProvider.theme('default')
             .primaryPalette('deep-orange')
             .accentPalette('grey');
+
+        //Toast notifications system
+        $mdToastProvider.addPreset('cache', {
+              options: function() {
+                return {
+                  template:
+                    '<md-toast>' +
+                      '<div class="md-toast-content">' +
+                        'Edeno aidai paruošti naudoti be interneto.' +
+                      '</div>' +
+                    '</md-toast>',
+                  //controllerAs: 'toast',
+                  //bindToController: true
+                };
+              }
+        });
 
 
     })
@@ -57,9 +180,15 @@
             
     })
 
+
+
     .run(
-        function($http, $rootScope) {
-            
+        function($http, $rootScope, serviceWorker) {           
+
+            //Init ServiceWorker
+            serviceWorker.run();
+
+            //Data preload
             $http.get('edeno-aidai.json').then(
 
                 function(response){
@@ -71,14 +200,143 @@
                     //console.log();
                     console.log('Klaida '+response.status+', biblioteka neįkelta.');
                 }
-           );
-
+            );
 
         }
 
     )
 
-    .controller('mainController', function($scope, $rootScope, $filter) {
+    .service('serviceWorker', function($mdToast) {
+
+        var self = this;
+
+
+        //Service Worker
+        self.run = function() {
+
+            if (!navigator.serviceWorker) return;
+
+            navigator.serviceWorker.register('/sw.js').then(function(reg) {
+
+                /*if (reg.active) {
+                    console.log(reg.active);
+                }*/
+
+                if (!navigator.serviceWorker.controller) {
+                    return;
+                }
+
+                if (reg.waiting) {
+                    self._updateReady(reg.waiting);
+                    return;
+                }
+
+                if (reg.installing) {
+                    self._trackInstalling(reg.installing);
+                    return;
+                }
+
+                reg.addEventListener('updatefound', function() {
+                    self._trackInstalling(reg.installing);
+                });
+
+                // Ensure refresh is only called once.
+                // This works around a bug in "force update on reload".
+                var refreshing;
+                navigator.serviceWorker.addEventListener('controllerchange', function() {
+                    if (refreshing) return;
+                    window.location.reload();
+                    refreshing = true;
+                });
+            }).catch(function(res) {
+                console.log('Klaida: ' +res);
+                $mdToast.show({
+                    hideDelay   : 3000,
+                    controller  : 'toastController',
+                    controllerAs: 'toast',
+                    template: 
+                    '<md-toast>'+
+                      '<span class="md-toast-text">Įvyko klaida, bandykite kitą naršyklę.</span>'+
+                    '</md-toast>'
+                });  
+            });
+
+        };
+
+        self._trackInstalling = function(worker) {
+
+            worker.addEventListener('statechange', function() {
+
+                if (worker.state == 'installed') {
+                    self._updateReady(worker);
+                }
+
+            });
+        };
+
+        self._updateReady = function(worker) {
+
+            var toast = 
+                $mdToast.show({
+                    hideDelay   : 0,
+                    controller  : 'toastController',
+                    controllerAs: 'toast',
+                    //templateUrl : 'layout/toast.html'
+                    template: 
+                    '<md-toast>'+
+                      '<span class="md-toast-text" flex>Rastas atnaujinimas!</span>'+
+                      '<md-button ng-click="toast.update()">'+
+                        'Atnaujinti'+
+                      '</md-button>'+
+                      '<md-button ng-click="toast.hide()">'+
+                        'Slėpti'+
+                      '</md-button>'+
+                    '</md-toast>'
+                });        
+
+            toast.then(function(answer) {
+                if (answer != 'refresh') return;
+                worker.postMessage({action: 'skipWaiting'});
+                window.location.reload();
+            });
+
+        };
+
+        self._runUpdate = function() {
+            worker.postMessage({action: 'skipWaiting'});
+        };
+    })
+
+
+    .controller('toastController', function($mdToast) {
+        var isDlgOpen;
+        var self = this;
+
+        self.hide = function() {
+            if (isDlgOpen) return;
+
+            $mdToast
+              .hide()
+              .then(function() {
+                isDlgOpen = false;
+              });
+            };
+
+        self.update = function() {
+
+            if ( isDlgOpen ) return;
+            isDlgOpen = true;
+
+            $mdToast
+              .hide('refresh')
+              .then(function() {
+                isDlgOpen = false;
+              });
+
+        };
+    })
+
+    .controller('mainController', function($rootScope, $filter, $location) {
     	var main = this;
 
     	//main.songs = $rootScope.library;
@@ -87,6 +345,9 @@
             return 0.5 - Math.random();
         });
 
+        main.go = function ( path ) {
+            $location.path( path );
+        };        
 
 
     })
