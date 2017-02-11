@@ -156,7 +156,7 @@
         function($http, $rootScope, serviceWorker) {           
 
             //Init ServiceWorker
-            //serviceWorker.run();
+            serviceWorker.run();
 
             //Data preload
             $http.get('edeno-aidai.json').then(
