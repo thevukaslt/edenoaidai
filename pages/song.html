@@ -1,7 +1,10 @@
 <div layout="row" layout-align="center center" layout-padding>
 
 	<md-card flex flex-xs flex-gt-xs=none class="home-card">
-
+	<md-card-actions layout="row" layout-align="space-around center">
+        	<md-button class="md-primary" ng-click="song.textDw()">Aa -</md-button>
+        	<md-button class="md-primary" ng-click="song.textUp()">Aa +</md-button>
+		</md-card-actions>
 		<md-card-title>
 	        <md-card-title-text layout="column">
 
@@ -19,7 +22,7 @@
 
 		<md-card-content >
 
-			<p ng-bind-html="song.body"></p>
+			<p ng-bind-html="song.body" style="font-size: {{song.fontSize}}px"></p>
 
 			<hr>
 

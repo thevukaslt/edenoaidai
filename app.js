@@ -97,17 +97,7 @@
             );      
         });
     }*/
-            
-
-
-
-
-
-
-
-
-
-
+        
 
 
 
@@ -123,24 +113,6 @@
         $mdThemingProvider.theme('default')
             .primaryPalette('deep-orange')
             .accentPalette('grey');
-
-        //Toast notifications system
-        $mdToastProvider.addPreset('cache', {
-              options: function() {
-                return {
-                  template:
-                    '<md-toast>' +
-                      '<div class="md-toast-content">' +
-                        'Edeno aidai paruošti naudoti be interneto.' +
-                      '</div>' +
-                    '</md-toast>',
-                  //controllerAs: 'toast',
-                  //bindToController: true
-                };
-              }
-        });
-
-
     })
 
 	//Routing
@@ -180,13 +152,11 @@
             
     })
 
-
-
     .run(
         function($http, $rootScope, serviceWorker) {           
 
             //Init ServiceWorker
-            serviceWorker.run();
+            //serviceWorker.run();
 
             //Data preload
             $http.get('edeno-aidai.json').then(
@@ -218,9 +188,35 @@
 
             navigator.serviceWorker.register('/sw.js').then(function(reg) {
 
-                /*if (reg.active) {
-                    console.log(reg.active);
-                }*/
+                if (reg.installing) {
+
+                    reg.installing.addEventListener('statechange', function(){
+
+                        if (reg.active) {
+
+                            navigator.webkitTemporaryStorage.queryUsageAndQuota ( 
+                                function(usedBytes, grantedBytes) {  
+                                    //console.log('we are using ', usedBytes, ' of ', grantedBytes, 'bytes');
+
+                                    $mdToast.show({
+                                        hideDelay   : 3000,
+                                        controller  : 'toastController',
+                                        controllerAs: 'toast',
+                                        template: 
+                                        '<md-toast>' +
+                                          '<span class="md-toast-text">Edeno Aidai sėkmingai išsaugoti. ' + '<br>' +
+                                          'Sunaudota ' + Math.round(usedBytes/1024) + ' KB.</span>' +
+                                        '</md-toast>'
+                                    });  
+                                }, 
+                                function(e) { console.log('Error', e);  }
+                            );
+
+                        }   
+
+                    });
+
+                }
 
                 if (!navigator.serviceWorker.controller) {
                     return;
@@ -248,7 +244,9 @@
                     window.location.reload();
                     refreshing = true;
                 });
+
             }).catch(function(res) {
+
                 console.log('Klaida: ' +res);
                 $mdToast.show({
                     hideDelay   : 3000,
@@ -256,9 +254,10 @@
                     controllerAs: 'toast',
                     template: 
                     '<md-toast>'+
-                      '<span class="md-toast-text">Įvyko klaida, bandykite kitą naršyklę.</span>'+
+                      '<span class="md-toast-text">Nepavyko išsaugoti...</span>'+
                     '</md-toast>'
                 });  
+
             });
 
         };
@@ -272,6 +271,7 @@
                 }
 
             });
+
         };
 
         self._updateReady = function(worker) {
@@ -281,10 +281,9 @@
                     hideDelay   : 0,
                     controller  : 'toastController',
                     controllerAs: 'toast',
-                    //templateUrl : 'layout/toast.html'
                     template: 
                     '<md-toast>'+
-                      '<span class="md-toast-text" flex>Rastas atnaujinimas!</span>'+
+                      '<span class="md-toast-text" flex>Išleistas atnaujinimas!</span>'+
                       '<md-button ng-click="toast.update()">'+
                         'Atnaujinti'+
                       '</md-button>'+
@@ -297,13 +296,8 @@
             toast.then(function(answer) {
                 if (answer != 'refresh') return;
                 worker.postMessage({action: 'skipWaiting'});
-                window.location.reload();
             });
 
-        };
-
-        self._runUpdate = function() {
-            worker.postMessage({action: 'skipWaiting'});
         };
     })
 
@@ -339,15 +333,13 @@
     .controller('mainController', function($rootScope, $filter, $location) {
     	var main = this;
 
-    	//main.songs = $rootScope.library;
-
         main.songs = $filter('orderBy')($rootScope.library, function() {
             return 0.5 - Math.random();
         });
 
-        main.go = function ( path ) {
+        /*main.go = function ( path ) {
             $location.path( path );
-        };        
+        };  */      
 
 
     })
@@ -358,10 +350,17 @@
 
         //Find hymn
         self.song = $filter('filter')($rootScope.library, {id: $routeParams.id})[0];
-        //this.self = $filter('filter')($rootScope.library, {id: $routeParams.id})[0];
         //Trust body for HTML output
         self.body = $sce.trustAsHtml(self.song.body);
         self.copyright = $sce.trustAsHtml(self.song.copyright);
+
+        self.fontSize = 16;
+        self.textUp = function() {
+            self.fontSize = self.fontSize + 2;
+        }
+        self.textDw = function() {
+            self.fontSize = self.fontSize - 2;
+        }
 
     })
 

@@ -5,10 +5,6 @@ var activeCache = cacheTitle + '-v' + currentCache;
 
 
 self.addEventListener('install', function(e) {
-	//Updated as of 01-22 18:17
-	//console.log('SW: installing.');
-
-
 
 	var urlsToCache = [
 		'/',
@@ -23,16 +19,18 @@ self.addEventListener('install', function(e) {
 		'manifest.json',
 		'index.html',
 		'https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css',
-		'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic',
+		//'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic',
 		'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js',
 		'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js',
 		'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js',
 		'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js',
 		'https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js',
-		'https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2',
+		'https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic'
+
+		/*'https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2',
 		'https://fonts.gstatic.com/s/roboto/v15/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2',
 		'https://fonts.gstatic.com/s/roboto/v15/Ks_cVxiCiwUWVsFWFA3Bjn-_kf6ByYO6CLYdB4HQE-Y.woff2',
-		'https://fonts.gstatic.com/s/roboto/v15/oOeFwZNlrTefzLYmlVV1UIX0hVgzZQUfRDuZrPvH3D8.woff2'
+		'https://fonts.gstatic.com/s/roboto/v15/oOeFwZNlrTefzLYmlVV1UIX0hVgzZQUfRDuZrPvH3D8.woff2'*/
 	];
 
 	e.waitUntil(
@@ -46,7 +44,7 @@ self.addEventListener('install', function(e) {
 
 
 self.addEventListener('activate', function(e) {
-  	console.log('SW: activated.');
+  	//console.log('SW: activated.');
 
 	e.waitUntil(
 		caches.keys().then(function(cacheNames) {
@@ -55,7 +53,7 @@ self.addEventListener('activate', function(e) {
 					return cacheName.startsWith(cacheTitle) &&
 				    	cacheName != activeCache;
 				}).map(function(cacheName) {
-  					console.log('SW: deleted old caches.');
+  					//console.log('SW: deleted old caches.');
 					return caches.delete(cacheName);
 				})
 			);
@@ -88,4 +86,3 @@ self.addEventListener('message', function(e) {
     self.skipWaiting();
   }
 });
-//u

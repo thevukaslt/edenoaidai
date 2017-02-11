@@ -1,16 +1,29 @@
 <div layout="row" layout-align="center center" layout-padding
     ng-repeat="song in main.songs | filter:(($root.searchQuery.songId===null)?undefined:$root.searchQuery) | limitTo:4">
+
   <md-card ng-init="height = 6" ng-mouseenter="height = 1" ng-mouseleave="height = 6" md-whiteframe="{{height}}" 
-           flex-xs flex-gt-xs=none flex-gt-lg=50 class="home-card" ang-click="main.go(song/1)">
-    <md-card-title>
-      <md-card-title-text layout-align="start center">
-        <md-button ng-href="song/{{song.id}}" ng-click="$root.searchQuery = ''"><span class="md-headline" style="font-size: 22px;">{{song.title}}</span></md-button>
+           flex-xs flex-gt-xs=none flex-gt-lg=50 class="home-card" ang-click="main.go(song/1)" layout-wrap>
+
+    <md-card-title layout-wrap>
+
+      <div flex="none" flex-order-xs="-1" layout-align="end center">
+        <span class="song-num" layout-padding>{{song.songId}}</span>      
+      </div>
+
+
+      <md-card-title-text layout-align="start center" flex-order-gt-xs="1">
+        <!--<md-button ng-href="song/{{song.id}}" ng-click="$root.searchQuery = ''"><span class="md-headline" style="font-size: 22px;">{{song.title}}</span></md-button>-->
+        <span class="md-headline" style="font-size: 22px;">{{song.title}}</span>
         <span class="md-subhead">{{song.verse}}</span>        
       </md-card-title-text>      
-        <span class="song-num">{{song.songId}}</span>      
+
+        
     </md-card-title>
+
     <md-card-actions layout layout-align="end center">
         <md-button class="md-primary" ng-href="song/{{song.id}}" ng-click="$root.searchQuery = ''">ŽIŪRĖTI</md-button>
     </md-card-actions>  
+
   </md-card>
+
 </div>   
