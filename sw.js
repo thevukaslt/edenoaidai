@@ -1,4 +1,4 @@
-var currentCache = "1";
+var currentCache = "2";
 var cacheTitle = "edeno-aidai";
 
 var activeCache = cacheTitle + '-v' + currentCache;

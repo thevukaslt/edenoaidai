@@ -149,7 +149,7 @@
 		"id": 19,
 		"verse"	: "Visokiomis aplinkybėmis dėkokite, nes to Dievas nori iš jūsų Kristuje Jėzuje. 1 Tes 5, 18",
 		"body"	: "Už viską Tau aš, Viešpatie, dėkoju –<br\/>Ir už naštas, ir sielvartus kely,<br\/>Ir už džiaugsmus, ir spindintį rytojų!<br\/>Tu mano žvilgsnį vis aukštyn keli.<br\/><br\/>2. Už meilę ir paguodą man išlietą<br\/>Tau aš lenkiuos dėkinga širdimi,<br\/>Ir už dyglius, ir už naktis žvaigždėtas,<br\/>Už tai, kad auklėji ir mėgini.<br\/><br\/>3. Už Tavo šviesą iš Dangaus aukštybių –<br\/>Ašarų slėny ją kasdien matau,<br\/>Ir už kantrybę tėvišką, beribę, –<br\/>Už viską dėkui Tau karštai sakau!<br\/><br\/>4. Už viską Tau aš, Viešpatie, dėkingas,<br\/>Už Tavo auką, viltį ateities,<br\/>Už tai, kad Tu mus padarei laimingus<br\/>Ir atpirkai iš amžinos žūties",
-		"copyright": "Olgos GonĀarovos tekstas<br\/>Hubert P. Main (1839–1925) muzika, 1880<br\/>Vertė Zita Kirsnauskaitė, Danielius Oželis,<br\/>Romualda Adomaitytė-Chabarina, ~ 1998"
+		"copyright": "Olgos Gončarovos tekstas<br\/>Hubert P. Main (1839–1925) muzika, 1880<br\/>Vertė Zita Kirsnauskaitė, Danielius Oželis,<br\/>Romualda Adomaitytė-Chabarina, ~ 1998"
 	},
 	{
 		"title"	: "Žeme, ateina Viešpats jau", 
@@ -166,5 +166,23 @@
 		"verse"	: "Šiandien Dovydo mieste jums gimė Išganytojas. Jis yra Viešpats Mesijas. Lk 2, 11",
 		"body"	: "Tyli naktis, šventa naktis,<br\/>Apgaubta žvaigždėmis.<br\/>Snaudžia kalvos, Betliejuj tyla,<br\/>Vien tik Juozapas ir Marija<br\/>Džiaugias Kūdikiu jau –<br\/>Šia palaima Dangaus.<br\/><br\/>2. Tyli naktis, šventa naktis,<br\/>Skleidžias jos paslaptis –<br\/>Žemei gieda šventi angelai,<br\/>Piemenims skelbia žinią linksmai:<br\/>„Priartėjo Dangus –<br\/>Gimė Kristus brangus“.<br\/><br\/>3. Tyli naktis, šventa naktis.<br\/>Atnešta mums viltis:<br\/>Žemėj nieko kilnesnio nėra<br\/>Nei Ganytojo meilė tyra.<br\/>Šlovink Dievą, žmogau,<br\/>Už malonę Dangaus!",
 		"copyright": "Joseph Mohr (1792–1848) tekstas, 1818<br\/>Franz Gruber (1787–1863) muzika, 1818<br\/>Vertė Romualda Adomaitytė-Chabarina,<br\/>Danielius Oželis, 2001"
+	},
+	{
+		"title"	: "Nakties tyloj ramius laukus", 
+		"songId": "22" ,
+		"id": 22,
+		"verse"	: "Garbė Dievui aukštybėse, o žemėje ramybė Jo mylimiems žmonėms! Lk 2, 14",
+		"body"	: "Nakties tyloj ramius laukus<br\/>Štai nutvieskė šviesa –<br\/>Aplankė žemę angelai<br\/>Su nuostabia žinia:<br\/>„Ramybė Dievo mylimiems,<br\/>Jo laukiantiems žmonėms!“<br\/>Nuščiuvo žemė nelauktai,<br\/>Suskambus šioms giesmėms.<br\/><br\/>2. Suspindi Dievo angelai<br\/>Lyg žvaigždės naktyje,<br\/>Kaskart ramybę nešdami<br\/>Žmonijai tamsoje.<br\/>Jie skuba ten, kur neviltis,<br\/>Kur sielvartai, skausmai.<br\/>Ir nenutildys jų giesmių<br\/>Pasaulio šio triukšmai.<br\/><br\/>3. Kai sunkiai kopiate aukštyn<br\/>Į dangiškus namus,<br\/>Jūs, prislėgti vargų naštų,<br\/>Tikėkit, džiaugsmas bus!<br\/>Pažvelkit, švinta jau aušra –<br\/>Naujos dienos pradžia.<br\/>Išgirskite, kaip angelai<br\/>Jums gieda giesmę šią.<br\/><br\/>4. Artėja greitai laikas tas,<br\/>Paskelbtas pranašų:<br\/>Neliks nelaimių nei vargų,<br\/>Dejonių nei skriaudų.<br\/>Ramybė žemėje klestės,<br\/>Nutils karų garsai,<br\/>Ir susilies vienoj giesmėj<br\/>Visatoje balsai.",
+		"copyright": "Edmund H. Sears (1810–1876) tekstas, 1849<br\/>Richard S. Willis (1819–1900) muzika, 1850<br\/>Vertė Romualda Adomaitytė-Chabarina, 2001"
+	},
+	{
+		"title"	: "Viešpats – Emanuelis", 
+		"songId": "23" ,
+		"id": 23,
+		"verse"	: "Jis vadinsis Emanuelis, o tai reiškia: „Dievas su mumis“. Mt 1, 23 ",
+		"body"	: "Viešpats – Emanuelis,<br\/>Kūrėjas galingas Jis, paguoda širdžių.<br\/>Tai – Jėzus Kristus – su mumis Dievas –<br\/>Valdo Visatą Jis gyvybės žodžiu.<br\/>Jis – mylintis Dievas – atpirko žmoniją<br\/>Iš pasmerkimo krauju šventuoju.<br\/>Šlovė Jam priklauso! Garbė Jam aukščiausia!<br\/>Jo rankose visa, likimai žmonių.",
+		"copyright": "Naida Hearn (1944–2001) tekstas ir muzika, 1974<br\/>Jim ir Ann Mills tekstas ir muzika, 1979<br\/>Vertė Danielius Oželis, 2001<br\/>Ryčio Baranausko aranžuotė, ~ 1995"
 	}
+	
+	
 ]
