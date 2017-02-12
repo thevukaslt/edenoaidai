@@ -1,111 +1,8 @@
 (function(){
 
+    var swActive = true;
 
-/*
-    //Service Worker
-    var serviceWorker = function() {
-
-        if (!navigator.serviceWorker) return;
-
-        navigator.serviceWorker.register('/sw.js').then(function(reg) {
-            if (!navigator.serviceWorker.controller) {
-                return;
-            }
-
-            if (reg.waiting) {
-                indexController._updateReady(reg.waiting);
-                return;
-            }
-
-            if (reg.installing) {
-                indexController._trackInstalling(reg.installing);
-                return;
-            }
-
-            reg.addEventListener('updatefound', function() {
-                indexController._trackInstalling(reg.installing);
-            });
-
-            // Ensure refresh is only called once.
-            // This works around a bug in "force update on reload".
-            var refreshing;
-            navigator.serviceWorker.addEventListener('controllerchange', function() {
-                if (refreshing) return;
-                window.location.reload();
-                refreshing = true;
-            });
-        };
-
-    };*/
-        /*if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js').then(function(reg){
-
-                $mdToast.show(
-                    $mdToast.cache()
-                );
-
-                reg.unregister();
-
-                reg.update();
-
-                reg.installing;
-
-                reg.waiting;
-
-                reg.active;
-
-                reg.addEventListener('updateFound', function() {
-                    //reg.installing has changed
-                })
-
-                var sw = reg.installing;
-
-
-                sw.addEventListener('stateChange', function() {
-                    console.log('Controller: ' + sw.state);
-                    
-                });
-
-                console.log('NG: installed.');
-            }).catch(function(err){
-                console.log('NG: failed.');
-            });
-
-            //Refers to the current service worker
-            if (!navigator.serviceWorker.controller) {
-
-            }
-
-            if (reg.waiting) {
-
-            }
-
-            if (reg.installing) {
-                //there's an update in progress
-                reg.installing.addEventListener('statechange', function() {
-                    if (this.state == 'installed') {
-                        //there's an update ready
-                    }
-                });
-            }
-        };
-
-        self.addEventListener('push', function(e) {
-            
-            $mdToast.show(
-                $mdToast.cache()
-            );      
-        });
-    }*/
-        
-
-
-
-
-
-
-
-	angular.module('app', ['ngRoute', 'ngMaterial'])
+    angular.module('app', ['ngRoute', 'ngMaterial'])
 
     //Config
     .config(function($mdThemingProvider, $mdToastProvider) {
@@ -153,27 +50,52 @@
     })
 
     .run(
-        function($http, $rootScope, serviceWorker) {           
+        function($http, $rootScope, serviceWorker, $filter, $mdToast) {           
 
             //Init ServiceWorker
-            serviceWorker.run();
+            if (swActive) {
+                serviceWorker.run();
+            }
 
-            //Data preload
+            //Fetch hymns
             $http.get('edeno-aidai.json').then(
 
-                function(response){
-                    //console.log(response.statusText + " Biblioteka gauta");
-                    $rootScope.library = response.data;
-                },
+                function(res){
+                    //Let's shuffle it, to get some random
+                    /*$rootScope.library = $filter('orderBy')(res.data, function() {
+                        return 0.5 - Math.random();
+                    });
 
-                function(response){
-                    //console.log();
-                    console.log('Klaida '+response.status+', biblioteka neįkelta.');
+                    console.log('Fetch order: ');
+                    console.log($rootScope.library);*/
+
+                    $rootScope.library = res.data;
+                }
+                
+            ).catch(
+                function(res){
+                    console.log('Klaida: edeno-aidai.json '+res.status + ' ' + res.statusText);
+
+                    $mdToast.show({
+                        controller  : 'toastController',
+                        controllerAs: 'toast',
+                        template: 
+                        '<md-toast>' +
+                            '<span class="md-toast-text">Nepavyko įkelti giesmyno.</span>' +
+                            '<md-button ng-click="toast.update(\'reload\')">'+
+                                'Bandyti dar kartą' + 
+                            '</md-button>'+
+                        '</md-toast>'
+
+
+                    }).then(function(value){
+                        if (value == 'reload') {
+                            window.location.reload();
+                        }
+                    });  
                 }
             );
-
         }
-
     )
 
     .service('serviceWorker', function($mdToast) {
@@ -284,7 +206,7 @@
                     template: 
                     '<md-toast>'+
                       '<span class="md-toast-text" flex>Išleistas atnaujinimas!</span>'+
-                      '<md-button ng-click="toast.update()">'+
+                      '<md-button ng-click="toast.update(\'refresh\')">'+
                         'Atnaujinti'+
                       '</md-button>'+
                       '<md-button ng-click="toast.hide()">'+
@@ -301,7 +223,6 @@
         };
     })
 
-
     .controller('toastController', function($mdToast) {
         var isDlgOpen;
         var self = this;
@@ -316,13 +237,15 @@
               });
             };
 
-        self.update = function() {
+        self.update = function(value) {
 
             if ( isDlgOpen ) return;
             isDlgOpen = true;
 
+            //console.log('Toast value is '+value);
+
             $mdToast
-              .hide('refresh')
+              .hide(value)
               .then(function() {
                 isDlgOpen = false;
               });
@@ -333,9 +256,17 @@
     .controller('mainController', function($rootScope, $filter, $location) {
     	var main = this;
 
-        main.songs = $filter('orderBy')($rootScope.library, function() {
+        /*main.songs = $filter('orderBy')($rootScope.library, function() {
             return 0.5 - Math.random();
-        });
+        });*/
+
+        main.songs = $rootScope.library;
+
+        /*main.songs = $filter('orderBy')($rootScope.library);
+
+        console.log('Controller order: ');
+        console.log(main.songs);*/
+
 
         /*main.go = function ( path ) {
             $location.path( path );
@@ -379,8 +310,6 @@
     //Store controller
     .controller('storeCtrl', function($scope, $location, $filter, $rootScope) {
         var self = this;
-
-
     })
 
     .directive('back', ['$window', function($window) {

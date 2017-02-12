@@ -1,8 +1,8 @@
 <div layout="row" layout-align="center center" layout-padding
-    ng-repeat="song in main.songs | filter:(($root.searchQuery.songId===null)?undefined:$root.searchQuery) | limitTo:4">
+    ng-repeat="song in main.songs | filter:(($root.searchQuery.songId===null)?undefined:$root.searchQuery) | limitTo:5">
 
   <md-card ng-init="height = 6" ng-mouseenter="height = 1" ng-mouseleave="height = 6" md-whiteframe="{{height}}" 
-           flex-xs flex-gt-xs=none flex-gt-lg=50 class="home-card" ang-click="main.go(song/1)" layout-wrap>
+           flex-xs flex-gt-xs=none flex-gt-lg=50 class="home-card" ang-click="main.go(song/{{song.id}})" layout-wrap>
 
     <md-card-title layout-wrap>
 
