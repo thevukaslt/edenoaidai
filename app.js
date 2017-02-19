@@ -1,6 +1,6 @@
 (function(){
 
-    var swActive = true;
+    var swActive = false;
 
     angular.module('app', ['ngRoute', 'ngMaterial'])
 
@@ -35,11 +35,11 @@
                 controllerAs: 'song'
             })
             // route for the json-store
-            .when('/store', {
+            /*.when('/store', {
                 templateUrl : 'pages/store.html',
                 controller  : 'storeCtrl',
                 controllerAs: 'store'
-            })
+            })*/
             //fallback URL address
             .otherwise({ redirectTo: '/' });
 
@@ -306,11 +306,20 @@
         };
 
     })
-
+/*
     //Store controller
     .controller('storeCtrl', function($scope, $location, $filter, $rootScope) {
         var self = this;
-    })
+
+        self.library = $rootScope.library;
+
+        self.generate = function() {
+            self.library.push(self.new);
+
+            self.new = '';
+        };
+
+    })*/
 
     .directive('back', ['$window', function($window) {
         return {

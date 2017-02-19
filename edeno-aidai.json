@@ -1,266 +1,450 @@
 [
-	{ 
-		"title"	: "Didis Dieve, giedam Tau", 
-		"songId": "1" ,
-		"id": 1 ,
-		"verse"	: "Didis Viešpats ir vertas didžios šlovės. Ps 96, 4",
-		"body"	: " Didis Dieve, giedam Tau, <br\/>Tavo vardą išpažįstam, <br\/>Su šventais pulkais Dangaus <br\/>Šlovinti Tave išdrįstam. <br\/>Stebuklingas Tu visuos <br\/>Žemės ir Dangaus darbuos. <br\/><br\/>2. Šlovę teikia Danguje <br\/>Tau kerubai ir serafai, <br\/>Lenkiasi jie prieš Tave, <br\/>Garbindami dieną naktį. <br\/>Gieda pagarbiai visi: <br\/>Šventas, šventas Tu esi! <br\/><br\/>3. Vietose įvairiose<br\/>Tavo mes vaikai sustoję,<br\/>Džiugūs Tavo Namuose,<br\/>Nuoširdžiausiai Tau dėkojam:<br\/>Dieve, amžina šlovė<br\/>Tau Visatoj teskambės!",
-		"copyright": "Ignaz Franz (1719–1790) tekstas, 1774 <br\/>Heinrich Bone (1813–1893) muzika, 1852"
-	},
-	{ 
-		"title"	: "Pagarbinkim Dievą, valdovą Dangaus", 
-		"songId": "2" ,
-		"id": 2,
-		"verse"	: "Būk pašlovintas, Viešpatie... nuo amžių per amžius! 1 Met 29, 10",
-		"body"	: "Pagarbinkim Dievą, valdovą Dangaus,<br\/>Kūrėją Visatos ir žemės žmogaus.<br\/>Jo rankose visa – pasaulių pulkai,<br\/>Likimai žmonių ir žvaigždynų takai.<br\/><br\/><i>Priegiesmis:<\/i><br\/>Jam garbė! Jam garbė! –<br\/>Tesilies iš širdies.<br\/>Jam garbė! Jam garbė! –<br\/>Amžinai teskambės.<br\/>Pagarbinkim Dievą pilni pagarbos!<br\/>Osana Kūrėjui! – visi tekartos.<br\/><br\/>2. Pamilo pasaulį Kūrėjas kilnus<br\/>Ir atsiuntė Sūnų, kad gelbėtų mus<br\/>Iš pykčio, pavydo ir keršto purvų,<br\/>Kad būtų ramybė, taika su Dievu.<br\/><br\/>3. Nors dūsauti tenka dar žemės kely,<br\/>Bet būkime kantrūs – viltis netoli!<br\/>Mūs laukia ramybės buveinės seniai –<br\/>Danguj paruošti amžinieji Namai.<br\/>",
-		"copyright": "Fanny J. Crosby (1820–1915), 1875<br\/>William H. Doane (1832–1915) muzika, 1875<br\/>Vertė Romualda Adomaitytė-Chabarina, 2000<br\/>"
-	},
-	{ 
-		"title"	: "Mes džiaugsmingi garbę giedam", 
-		"songId": "3" ,
-		"id": 3,
-		"verse"	: "Šlovinkite Viešpatį! Dėkokite Viešpačiui, nes Jis geras. Ps 106, 1",
-		"body"	: "Mes džiaugsmingi garbę giedam<br\/>Dievui meilės ir šlovės!<br\/>Skleidžiasi širdis lyg žiedas,<br\/>Mūsų Saule, Tu mums šviesk. <br\/>Debesį tamsos su vėju,<br\/>Liūdesį kaltės nuvyk.<br\/>Džiaugsmo amžino Kūrėjau,<br\/>Meilės spinduliais valdyk.<br\/><br\/>2. Neaprėpiamoj Visatoj<br\/>Šlovina Tave visi.<br\/>Žvaigždės, angelai apsako,<br\/>Koks Tu prakilnus esi!<br\/>Kūriniai Tave apgieda<br\/>Su džiaugsmingom širdimis.<br\/>Jūra, paukščiai, miškas, pieva<br\/>Kviečia džiaugtis Tavimi.<br\/><br\/>3. Kaip giliausias vandenynas<br\/>Tavo ramuma gili.<br\/>Džiaugsmo Tu šaltinis grynas,<br\/>Mus kaip tėvas Tu gaili.<br\/>Meilės spindinčias palaimas<br\/>Lieji iš Dangaus skliautų.<br\/>Dieve, mokyk brolių meilės<br\/>Ir gyvent džiaugsmu šventu!<br\/>",
-		"copyright": "Henry J. van Dyke (1852–1933) tekstas, 1907<br\/>Ludwig van Beethoven (1770–1827) „Odė džiaugsmui“, 1824<br\/>Vertė Vilma Vanagienė, Romualda Adomaitytė-Chabarina, 2000"
-	},
-	{ 
-		"title"	: "Aleliuja! – teikim šlovę", 
-		"songId": "4" ,
-		"id": 4,
-		"verse"	: "Aleliuja!.. Šlovė ir galybė priklauso mūsų Dievui. Apr 19, 1",
-		"body"	: "Aleliuja! – teikim šlovę<br\/>Viešpačiui galingam, vardui Jo šlovingam,<br\/>Aukštinkim Dangaus Valdovą,<br\/>Dievą šlovinkim visi!<br\/><br\/>Pr.: Giesmes Jam giedokim,<br\/>Šlovinkim Kūrėją žemės ir Dangaus.<br\/>Širdis Jam aukokim –<br\/>Tikras Draugas Jis žmogaus.<br\/><br\/>2. Dieve, Tu toksai didingas,<br\/>Tau garbė priklauso, Tau – šlovė didžiausia.<br\/>Myli žmones nuodėmingus<br\/>Meile Tu Sava kilnia.<br\/><br\/>3. Dieve, Sūnų paaukojai,<br\/>Nuodėmes nuplovei Jo krauju šventuoju.<br\/>Pergalę Jis iškovojo –<br\/>Esame dabar laisvi!<br\/><br\/>4. Viešpats Dievas mus taip myli,<br\/>Leidžia net vadintis Jo vaikais garbingais.<br\/>Esame dabar laimingi.<br\/>Dievą šlovinkim visi!",
-		"copyright": "Ella Lauder tekstas<br\/>Daniel B. Towner (1850–1919) muzika<br\/>Vertė Danielius Oželis, 2000"
-	},
-	{ 
-		"title"	: "Kūrėjau didis, Tau aš giedu šlovę", 
-		"songId": "5" ,
-		"id": 5,
-		"verse"	: "Su džiaugsmu apgiedu Tavo rankų darbus... Mano Dieve, Tu be galo didis! Ps 92, 5; 104, 1",
-		"body"	: "Kūrėjau didis, Tau aš giedu šlovę,<br\/>Kai kūrinių grožybę apmąstau,<br\/>Tave aš garbinu gamtos šventovėj,<br\/>Kur kiekviena žolelė lenkias Tau.<br\/><br\/>Pr.: Valdove didis, giedu su džiaugsmu:<br\/>Koks didis Tu! Koks didis Tu!<br\/>Tave išaukštinu aš su džiaugsmu:<br\/>Koks nuostabus, koks geras Tu!<br\/><br\/>2. Kada nakties dangus žvaigždėm suspindi,<br\/>O rytą džiugina aušra šviesi,<br\/>Kai žavi jūra ir kalnai didingi,<br\/>Aš giedu Tau: koks didis Tu esi!<br\/><br\/>3. Apgiedu Tavo rankų darbus, Tėve,<br\/>Ir meilę Jėzaus, Jis – mana viltis!<br\/>Ramybę atnešė Jisai atėjęs,<br\/>Ir kryžių – mano naštą – nešė Jis.<br\/><br\/>4. Kai vėlei Jis sugrįš, trimitams gaudžiant,<br\/>Nuves prie tviskančių Dangaus krantų,<br\/>Giedosiu, ašarą užmiršęs graudžią:<br\/>Koks geras, Dieve, koks didingas Tu!",
-		"copyright": "Carl G. Boberg (1859–1940),<br\/>Stuart K. Hine (1899–1949) tekstas, 1885 ir 1953<br\/>Švedų melodija, 1889<br\/>Vertė Vilma Vanagienė, Romualda Adomaitytė-Chabarina, 2000"
-	},
-	{ 
-		"title"	: "Neriboton erdvėn ilgesingai žvelgiu", 
-		"songId": "6" ,
-		"id": 6,
-		"verse"	: "Pakelkite akis ir pasižiūrėkite į aukštybes! Kas jas sukūrė? Iz 40, 26",
-		"body"	: "Neriboton erdvėn ilgesingai žvelgiu –<br\/>Nesuskaitomai daug ten planetų, žvaigždžių.<br\/>Tai – pasauliai nauji, jų tvarka nuostabi<br\/>Skelbia esant Visatoj didį Viešpatį.<br\/><br\/>Priegiesmis:<br\/>Suprask, žmogau, tu pagaliau,<br\/>Koks galingas ir koks geras Viešpats tau!<br\/><br\/>2. Vaizdas slėnių, kalnų, upių, pievų, miškų<br\/>Ir bangų neramių vandenynų plačių<br\/>Nuolat žavi mane, nuolat įkvepia man<br\/>Šventą pagarbą Dievui, Kūrėjui didžiam.<br\/><br\/>3. Meilė Dievo Sūnaus, Atpirkėjo brangaus,<br\/>Tau suklupus, žmogau, tai kvietimas Dangaus.<br\/>Jo šventoji auka ten, Golgotos kalne,<br\/>Tai – išganymas tau, tai – pasauliui žinia.",
-		"copyright": "Jan Vilson tekstas<br\/>L. Kratz muzika"
-	},
-	{ 
-		"title"	: "Šlovink, siela, tu galingąjį Dievą Karalių!", 
-		"songId": "7" ,
-		"id": 7,
-		"verse"	: "Šlovink Viešpatį, mano siela, ir visa, kas manyje, tešlovina Jo šventąjį vardą! Ps 103, 1",
-		"body"	: "Šlovink, siela, tu galingąjį Dievą Karalių!<br\/>Šlovink ir aukštinki vardą didžio Visagalio!<br\/>Jam iš širdies amžiais šlovė tesilies –<br\/>Mūsų Karaliui didingam!<br\/><br\/>2. Šlovinkim Viešpatį didį! – Jis valdo Visatą.<br\/>Jėzus į dangišką šalį mums nutiesė taką.<br\/>Eik su Dievu – sieloj tebūna ramu –<br\/>Gausiai malonių Jis teikia.<br\/><br\/>3. Šlovinkim Dievą, sukūrusį mus Savo šlovei.<br\/>Jis mums suteikia palaimų ir visą gerovę.<br\/>Jei tau sunku, Dievas pagelbės laiku –<br\/>Tau Jis išties Savo ranką.<br\/><br\/>4. Šlovinkim Dievą, Jis blogį per Kristų išrovė.<br\/>Leidžia Jis lietis malonės išganančiai srovei.<br\/>Įsidėmėk! Šlovinti Dievą pradėk!<br\/>Amžiais garbė Jam teskamba!",
-		"copyright": "Joachim Neander (1650–1680) tekstas, 1680<br\/>XVII a. vokiečių melodija"
-	},
-	{ 
-		"title"	: "Dievas čia, Dievas čia", 
-		"songId": "8" ,
-		"id": 8,
-		"verse"	: "Tebūna Viešpats, mūsų Dievas, su mumis... Tepalenkia mūsų širdis į Save. 1 Kar 8, 57–58",
-		"body"	: "Dievas čia, Dievas čia,<br\/>Visada Jis nori būti šalia.<br\/>Tau mes lenkiamės žemai<br\/>Ir dėkojam nuoširdžiai,<br\/>Kad, o Dieve, Tu esi šiandien čia.<br\/>Tau mes lenkiamės žemai<br\/>Ir dėkojam nuoširdžiai,<br\/>Kad, o Dieve, Tu esi šiandien čia.<br\/><br\/>2. Geras Jis! Geras Jis!<br\/>Nori būti Jis kartu su mumis.<br\/>Tau mes lenkiamės žemai<br\/>Ir dėkojam nuoširdžiai,<br\/>Kad, o Dieve, Tu esi šiandien čia.<br\/>Tau mes lenkiamės žemai<br\/>Ir dėkojam nuoširdžiai,<br\/>Kad, o Dieve, Tu esi šiandien čia.",
-		"copyright": "Diane Ball tekstas ir muzika, 1978<br\/>Dariaus Kudirkos aranžuotė, 2007"
-	},
-	{ 
-		"title"	: "Dangaus šventovėj didis Viešpats,", 
-		"songId": "9" ,
-		"id": 9,
-		"verse"	: "Viešpats yra Savo šventykloje; tenutyla Jo akivaizdoje visa žemė! Hab 2, 20",
-		"body"	: "Dangaus šventovėj didis Viešpats,<br\/>Valdovas amžinas, galingas! –<br\/>Te žemė nutyla jau,<br\/>Te žemė nutyla prieš Šventąjį!<br\/>Nurimkim, paruoškim širdis Jam.<br\/>Amen.",
-		"copyright": "George F. Root (1820–1895) muzika"
-	},
-	{
-		"title"	: "Viešpatie, Tave aš myliu", 
-		"songId": "10" ,
-		"id": 10,
-		"verse"	: "Taip, Viešpatie. Tu žinai, kad Tave myliu. Jn 21, 16",
-		"body"	: "Viešpatie, Tave aš myliu,<br\/>Tu – Šviesa, Gyvenimas.<br\/>Nors visi Tave apleistų,<br\/>Liksiu ištikimas aš.<br\/>Kaip Draugu aš pasikliauju,<br\/>Jėzau, neapleisk manęs!<br\/>Kaip vaikelis prie motulės,<br\/>Noriu glaustis prie Tavęs.<br\/><br\/>2. Viešpatie, aš myliu žmones,<br\/>Jei Tave jie garbina,<br\/>Tuos, kas trokšta Tavo meilės,<br\/>Amžino gyvenimo.<br\/>Tavo mokinius suradus,<br\/>Džiaugiasi širdis mana,<br\/>Ir dvasia džiaugsmingai veržias<br\/>Į aukštybę pas Tave.<br\/><br\/>3. Viešpatie, žinai Tu viską<br\/>Ir širdies kilnius jausmus,<br\/>Negaliu aš Tau išreikšti,<br\/>Koks Tu man esi brangus!<br\/>O kai sykį viskas baigsis:<br\/>Vargas, rūpesčiai, skausmai, –<br\/>Mano siela Tave garbins<br\/>Su šventaisiais amžinai!",
-		"copyright": "Nežinomo autoriaus tekstas<br\/>François H. Barthélémon (1741–1808) muzika, 1785"
-	},
-	{
-		"title"	: "Džiaugsmo pilnos mūsų širdys!", 
-		"songId": "11" ,
-		"id": 11,
-		"verse"	: "Vilties Dievas jus, gyvenančius tikėjimu, tepripildo visokių džiaugsmų. Rom 15, 13",
-		"body"	: "Džiaugsmo pilnos mūsų širdys!<br\/>Teikiam garbę Dievui mes.<br\/>Ką žadėjo, Jis išpildys,<br\/>Jei paklusnūs būsime.<br\/><br\/>Priegiesmis:<br\/>Džiaugsmo pilnos mūsų širdys,<br\/>Dievo saulė šildo mus!<br\/>Iš versmių palaimų girdo<br\/>Viešpats mylimus vaikus.<br\/><br\/>2. Dievo meilė nuolat saugo<br\/>Mus išbandymų ugny.<br\/>Jo didi malonė gaubia,<br\/>Kai su Juo tu gyveni.<br\/><br\/>3. Teikia džiaugsmą tikintiesiems<br\/>Evangelijos šviesa.<br\/>Kelias Jėzaus atpirktiesiems<br\/>Jau paruoštas Jo auka.",
-		"copyright": "J. A. Reitz (1838–1904) tekstas<br\/>Robert Lowry (1826–1899) muzika"
-	},
-	{
-		"title"	: "Dievas – tai meilė, kokia tai laimė!", 
-		"songId": "12" ,
-		"id": 12,
-		"verse"	: "Dievas yra meilė, ir kas pasilieka meilėje, tas pasilieka Dieve. 1 Jn 4, 16",
-		"body"	: "Dievas – tai meilė, kokia tai laimė!<br\/>Dievas – tai meilė, Jis myli mus!<br\/><br\/>Priegiesmis:<br\/>Džiaugsmingi giedame:<br\/>Dievas – tai meilė.<br\/>Dievas – tai meilė,<br\/>Jis myli mus!<br\/><br\/>2. Buvom paklydę mes nuodėmingi,<br\/>Bet išvadavo meilingai Jis.<br\/><br\/>3. Ir siuntė Sūnų į šį pasaulį,<br\/>Kad Jis atpirktų mus iš kalčių.<br\/><br\/>4. Gerasis Jėzus už mus kentėjo.<br\/>Dabar laimingi per amžius mes!<br\/><br\/>5. Aš trokštu, Dieve, Tave mylėti,<br\/>Vien Tau dėkoti, gyventi Tau!",
-		"copyright": "August D. Rische (1819–1906) muzika, 1852<br\/>XIX a. Tiuringijos melodija"
-	},
-	{
-		"title"	: "Klajojau, Dieve, nevilty", 
-		"songId": "13" ,
-		"id": 13,
-		"verse"	: "Juk aš esu... nevertas... Bet Dievo malone esu, kas esu. 1 Kor 15, 9–10",
-		"body"	: "Klajojau, Dieve, nevilty,<br\/>Kol suradau Tave.<br\/>Malonė Tavo nuostabi<br\/>Išgelbėjo mane!<br\/><br\/>2. Tu man – ramybė, apsauga,<br\/>Užuovėja nakty.<br\/>Kol gyvas būsiu, visada<br\/>Tu liksi man viltis.<br\/><br\/>3. Per daugel pinklių sumaišties<br\/>Jau perėjau saugus!<br\/>Malonė tiltą man nuties<br\/>Į Viešpaties namus.<br\/><br\/>4. Nors ir gyvensiu amžinai<br\/>Tuos spindinčiuos Namuos,<br\/>Aš neužmiršiu, Tu žinai,<br\/>Išganymo dienos",
-		"copyright": "John Newton (1725–1807) tekstas, 1779<br\/>XIX a. amerikiečių melodija<br\/>Vertė Vilma Vanagienė,<br\/>Romualda Adomaitytė-Chabarina, 2000"
-	},
-	{
-		"title"	: "Dėkoju, Dieve, Tau už ryto vėsą", 
-		"songId": "14" ,
-		"id": 14,
-		"verse"	: "Šlovinkite savo širdyse Viešpatį, visuomet ir už viską dėkodami. Ef 5, 19–20",
-		"body"	: "Dėkoju, Dieve, Tau už ryto vėsą,<br\/>Dėkoju Tau už poilsį nakties,<br\/>Dėkoju Tau už skaisčią saulės šviesą,<br\/>Plakimą nenuilstančios širdies.<br\/><br\/>2. Dėkoju už melsvų pušų ošimą,<br\/>Už baltą švelnų žiedlapį obels,<br\/>Dėkoju už lakštingalos suokimą<br\/>Ir už gėrybes gelstančio rudens.<br\/><br\/>3. Dėkoju už žvaigždes, mėnulį, saulę,<br\/>Kuriuos dangaus tvirtybėj Tu laikai,<br\/>Už šitą gražų, nuostabų pasaulį,<br\/>Kurį galybe Savo Tu valdai.<br\/><br\/>4. Dėkoju už motutės tyrą širdį,<br\/>Už šypsenėlę kūdikio veide,<br\/>Dėkoju Tau už amžinybės viltį<br\/>Ir džiaugsmą būti Tavo šeimoje.<br\/><br\/>5. Dėkoju, Dieve, Tau už didžią meilę,<br\/>Kad Tu taip myli klystančius vaikus,<br\/>Kad mūsų nuodėmes visas atleidi<br\/>Ir mus vedi į amžinus Namus.<br\/>dievo šLovinimas ir padėka<br\/><br\/>6. Dėkoju, Dieve, Tau aš už gerumą,<br\/>Kurį širdim kaip vaikas pajutau,<br\/>Už Tavo globą, rūpestį, kantrumą.<br\/>Už viską viską aš dėkoju Tau!",
-		"copyright": "Danieliaus Oželio tekstas, 1999<br\/>Nežinomo autoriaus muzika<br\/>Dariaus Kudirkos aranžuotė, 2007"
-	},
-	{
-		"title"	: "Šlovė Dievui laiminančiam!", 
-		"songId": "15" ,
-		"id": 15,
-		"verse"	: "Amžių Karaliui, nemirtingajam, neregimajam... tebūna garbė ir šlovė. 1 Tim 1, 17",
-		"body"	: "Šlovė Dievui laiminančiam!<br\/>Šlovinkim Jį, mes, Jo vaikai!<br\/>Šlovė Dievui Aukščiausiajam! –<br\/>Tėvui, Sūnui, Dvasiai Šventai!",
-		"copyright": "Thomas Ken (1637–1710) tekstas, 1695<br\/>Louis Bourgeois (1510–1561) muzika, 1551"
-	},
-	{
-		"title"	: "Dieve, Tau karštai dėkoju", 
-		"songId": "16" ,
-		"id": 16,
-		"verse"	: "Dėkui Dievui už Jo neapsakomą dovaną! 2 Kor 8, 15",
-		"body"	: "Dieve, Tau karštai dėkoju<br\/>Už dienas, kurias siunti,<br\/>Už nežinomą rytojų,<br\/>Už ramias, saugias naktis,<br\/>Už džiaugsmingą, tyrą juoką,<br\/>Už liūdnas, skaudžias mintis.<br\/>Už pavasario žibuoklę,<br\/>Už žiemos šaltas pusnis.<br\/><br\/>2. Dieve, Tau karštai dėkoju,<br\/>Kad visad šalia esi,<br\/>Kad apsaugai nuo pavojų,<br\/>Kad išbandymus siunti.<br\/>Tau dėkoju už malonę<br\/>Ir už pamokas skaudžias,<br\/>Už palaimas ir gerovę,<br\/>Ir už ašaras karčias.<br\/><br\/>3. Dieve, Tau karštai dėkoju<br\/>Už saulutę danguje,<br\/>Grožį tą melsvųjų tolių,<br\/>Už rudens niūrias dienas,<br\/>Už gėrybių pilną kraitę<br\/>Ir už dovanas gausias,<br\/>Už sveikatos gausų saiką<br\/>Ir už netektis sunkias.<br\/>dievo šLovinimas ir padėka<br\/><br\/>4. Dieve, Tau karštai dėkoju,<br\/>Kad atleidai man kaltes,<br\/>Už pagalbą, kai kovoju,<br\/>Ačiū Tau už nesėkmes.<br\/>Ir už kryžiaus sunkią naštą,<br\/>Ir už pergales puikias,<br\/>Dieve, Tau širdingai ačiū,<br\/>Kad išgelbėjai mane!",
-		"copyright": "August Storm (1862–1914) tekstas, 1891<br\/>Johannes A. Hultman (1861–1942) muzika, 1908<br\/>Vertė Danielius Oželis, 1999 "
-	},
-	{
-		"title"	: "Tu toks teisingas esi, šventas Dieve", 
-		"songId": "17" ,
-		"id": 17,
-		"verse"	: "Giedosiu apie ištikimybę ir teisingumą, šlovės giesmę giedosiu Tau, Viešpatie. Ps 101, 1",
-		"body"	: "Tu toks teisingas esi, šventas Dieve,<br\/>sSu Tavimi saugūs mano keliai.<br\/>Tu vis toks pat – mums pagalba, guodėjas,<br\/>Tu liksi toks, koks esi amžinai.<br\/><br\/>Priegiesmis:<br\/>Tavo malonėje, ištikimybėje<br\/>Aš, Tavo vaikas, jaučiuosi saugus.<br\/>Duodi kas rytą Savųjų gėrybių.<br\/>Tu toks teisingas ir toks nuostabus!<br\/><br\/>2. Saulė, mėnulis, žvaigždžių tvirtas takas<br\/>Liudija Tavo galingus veiksmus.<br\/>Auštantis rytas ir vakaras sako:<br\/>Dievas teisingas ir toks pastovus.<br\/><br\/>3. Dievas atleidžia ir siunčia ramybę,<br\/>Leidžia mums džiaugtis Jo meile kasdien.<br\/>Duoda jėgų, viltį rytdienai didžią,<br\/>Lyja lietus Jo palaimų visiems.",
-		"copyright": "Thomas O. Chisholm (1866–1960) tekstas, 1923<br\/>William M. Runyan (1870–1957) muzika, 1925<br\/>Vertė Regina Laukytė, Danielius Oželis, 1999"
-	},
-	{
-		"title"	: "Dievas toks geras – jis mane globoja", 
-		"songId": "18" ,
-		"id": 18,
-		"verse"	: "Garbė Dievui, ...kuris palaimino mus Kristuje visokeriopa dvasine palaima. Ef 1, 3",
-		"body"	: "Dievas toks geras – jis mane globoja,<br\/>Jo didžią meilę aš kasdien jaučiu.<br\/>Savo gėrybių man Jis dovanoja,<br\/>Jį nuolat šlovint man tikrai džiugu!<br\/><br\/>2. Dievas toks geras – man gyvybę teikia,<br\/>Juo aš tikiu čia, vargo žemėje,<br\/>Bet kai sulauksiu Kristų grįžtant veikiai,<br\/>Į amžinybę Jis nuves mane.<br\/><br\/>3. Dievui dėkoju už metus laimingus,<br\/>Už Jo palaimas, skausmą ir džiaugsmus.<br\/>Už tai, kad priima mus nuodėmingus, –<br\/>Per Kristaus auką vaikas Jo esu.<br\/><br\/>4. Jam trokštu aš gyvenimą pašvęsti,<br\/>Apsauga Jo tvirtai pasitikiu.<br\/>Nors daug sunkumų tenka man iškęsti,<br\/>Su Juo į ateitį ramiai žvelgiu.",
-		"copyright": "Henrik Lebsak tekstas, ~ 1920<br\/>Hubert P. Main (1839–1925) muzika, 1880<br\/>Vertė Danielius Oželis, 2001"
-	},
-	{
-		"title"	: "Už viską Tau aš, Viešpatie, dėkoju", 
-		"songId": "19" ,
-		"id": 19,
-		"verse"	: "Visokiomis aplinkybėmis dėkokite, nes to Dievas nori iš jūsų Kristuje Jėzuje. 1 Tes 5, 18",
-		"body"	: "Už viską Tau aš, Viešpatie, dėkoju –<br\/>Ir už naštas, ir sielvartus kely,<br\/>Ir už džiaugsmus, ir spindintį rytojų!<br\/>Tu mano žvilgsnį vis aukštyn keli.<br\/><br\/>2. Už meilę ir paguodą man išlietą<br\/>Tau aš lenkiuos dėkinga širdimi,<br\/>Ir už dyglius, ir už naktis žvaigždėtas,<br\/>Už tai, kad auklėji ir mėgini.<br\/><br\/>3. Už Tavo šviesą iš Dangaus aukštybių –<br\/>Ašarų slėny ją kasdien matau,<br\/>Ir už kantrybę tėvišką, beribę, –<br\/>Už viską dėkui Tau karštai sakau!<br\/><br\/>4. Už viską Tau aš, Viešpatie, dėkingas,<br\/>Už Tavo auką, viltį ateities,<br\/>Už tai, kad Tu mus padarei laimingus<br\/>Ir atpirkai iš amžinos žūties",
-		"copyright": "Olgos Gončarovos tekstas<br\/>Hubert P. Main (1839–1925) muzika, 1880<br\/>Vertė Zita Kirsnauskaitė, Danielius Oželis,<br\/>Romualda Adomaitytė-Chabarina, ~ 1998"
-	},
-	{
-		"title"	: "Žeme, ateina Viešpats jau", 
-		"songId": "20" ,
-		"id": 20,
-		"verse"	: "Iš džiaugsmo drauge tegieda kalnai Viešpaties Artume, nes Jis ateina. Ps 98, 8–9",
-		"body"	: "Žeme, ateina Viešpats jau –<br\/>Karalių pasitik!<br\/>Te kiekviena širdis Jam atveria duris.<br\/>Visa gamta giedos, o širdys atkartos.<br\/>Dangus ir žemė Jam giedos.<br\/><br\/>2. Viešpats – Valdovas žemės šios –<br\/>Giedokim giesmes Jam!<br\/>O kloniai ir miškai, ir jūros, ir kalnai<br\/>Šį džiaugsmą atkartos, jį slėniai pakartos.<br\/>Te džiaugsmą širdys atkartos.<br\/><br\/>3. Nuodėmė teneviešpataus,<br\/>Neaugs pikti dygliai!<br\/>Atėjo Jis mylėt, palaimas mums išliet.<br\/>Ir širdys neliūdės, džiaugsmu jos suklestės.<br\/>Sausi krantai viltim žydės.<br\/><br\/>4. Valdo pasaulį Jo tiesa –<br\/>Tepripažins visi!<br\/>Malonė ir tiesa – tai Jo šlovės šviesa.<br\/>Jo meilė nuostabi, šlovinga ir didi!<br\/>O meilė Dievo nuostabi!",
-		"copyright": "Isaac Watts (1674–1748) tekstas, 1719<br\/>George F. Händel (1685–1759),<br\/>oratorijos „Mesijas“ fragmentas, 1742<br\/>Lowell Mason aranžuotė, 1830<br\/>Vertė Regina Laukytė, 1999"
-	},
-	{
-		"title"	: "Tyli naktis, šventa naktis", 
-		"songId": "21" ,
-		"id": 21,
-		"verse"	: "Šiandien Dovydo mieste jums gimė Išganytojas. Jis yra Viešpats Mesijas. Lk 2, 11",
-		"body"	: "Tyli naktis, šventa naktis,<br\/>Apgaubta žvaigždėmis.<br\/>Snaudžia kalvos, Betliejuj tyla,<br\/>Vien tik Juozapas ir Marija<br\/>Džiaugias Kūdikiu jau –<br\/>Šia palaima Dangaus.<br\/><br\/>2. Tyli naktis, šventa naktis,<br\/>Skleidžias jos paslaptis –<br\/>Žemei gieda šventi angelai,<br\/>Piemenims skelbia žinią linksmai:<br\/>„Priartėjo Dangus –<br\/>Gimė Kristus brangus“.<br\/><br\/>3. Tyli naktis, šventa naktis.<br\/>Atnešta mums viltis:<br\/>Žemėj nieko kilnesnio nėra<br\/>Nei Ganytojo meilė tyra.<br\/>Šlovink Dievą, žmogau,<br\/>Už malonę Dangaus!",
-		"copyright": "Joseph Mohr (1792–1848) tekstas, 1818<br\/>Franz Gruber (1787–1863) muzika, 1818<br\/>Vertė Romualda Adomaitytė-Chabarina,<br\/>Danielius Oželis, 2001"
-	},
-	{
-		"title"	: "Nakties tyloj ramius laukus", 
-		"songId": "22" ,
-		"id": 22,
-		"verse"	: "Garbė Dievui aukštybėse, o žemėje ramybė Jo mylimiems žmonėms! Lk 2, 14",
-		"body"	: "Nakties tyloj ramius laukus<br\/>Štai nutvieskė šviesa –<br\/>Aplankė žemę angelai<br\/>Su nuostabia žinia:<br\/>„Ramybė Dievo mylimiems,<br\/>Jo laukiantiems žmonėms!“<br\/>Nuščiuvo žemė nelauktai,<br\/>Suskambus šioms giesmėms.<br\/><br\/>2. Suspindi Dievo angelai<br\/>Lyg žvaigždės naktyje,<br\/>Kaskart ramybę nešdami<br\/>Žmonijai tamsoje.<br\/>Jie skuba ten, kur neviltis,<br\/>Kur sielvartai, skausmai.<br\/>Ir nenutildys jų giesmių<br\/>Pasaulio šio triukšmai.<br\/><br\/>3. Kai sunkiai kopiate aukštyn<br\/>Į dangiškus namus,<br\/>Jūs, prislėgti vargų naštų,<br\/>Tikėkit, džiaugsmas bus!<br\/>Pažvelkit, švinta jau aušra –<br\/>Naujos dienos pradžia.<br\/>Išgirskite, kaip angelai<br\/>Jums gieda giesmę šią.<br\/><br\/>4. Artėja greitai laikas tas,<br\/>Paskelbtas pranašų:<br\/>Neliks nelaimių nei vargų,<br\/>Dejonių nei skriaudų.<br\/>Ramybė žemėje klestės,<br\/>Nutils karų garsai,<br\/>Ir susilies vienoj giesmėj<br\/>Visatoje balsai.",
-		"copyright": "Edmund H. Sears (1810–1876) tekstas, 1849<br\/>Richard S. Willis (1819–1900) muzika, 1850<br\/>Vertė Romualda Adomaitytė-Chabarina, 2001"
-	},
-	{
-		"title"	: "Viešpats – Emanuelis", 
-		"songId": "23" ,
-		"id": 23,
-		"verse"	: "Jis vadinsis Emanuelis, o tai reiškia: „Dievas su mumis“. Mt 1, 23 ",
-		"body"	: "Viešpats – Emanuelis,<br\/>Kūrėjas galingas Jis, paguoda širdžių.<br\/>Tai – Jėzus Kristus – su mumis Dievas –<br\/>Valdo Visatą Jis gyvybės žodžiu.<br\/>Jis – mylintis Dievas – atpirko žmoniją<br\/>Iš pasmerkimo krauju šventuoju.<br\/>Šlovė Jam priklauso! Garbė Jam aukščiausia!<br\/>Jo rankose visa, likimai žmonių.",
-		"copyright": "Naida Hearn (1944–2001) tekstas ir muzika, 1974<br\/>Jim ir Ann Mills tekstas ir muzika, 1979<br\/>Vertė Danielius Oželis, 2001<br\/>Ryčio Baranausko aranžuotė, ~ 1995"
-	},
-	{
-		"title"	: "Kas tas vaikelis nuostabus?", 
-		"songId": "24" ,
-		"id": 24,
-		"verse"	: "Išminčiai iš Rytų... davė Jam dovanų: aukso, smilkalų ir miros. Mt 2, 1. 11",
-		"body"	: "Kas tas vaikelis nuostabus?<br\/>Kas palaimingai miega?<br\/>Kam angelų šventų pulkus<br\/>Į žemę siuntė Dievas?<br\/><br\/>Priegiesmis:<br\/>Karalius Jis Dangaus,<br\/>Išgelbėtojas Jis žmogaus,<br\/>Jam gieda angelai,<br\/>Skubėkit Jį pagarbint!<br\/><br\/>2. Kodėl tvartelyje kukliam<br\/>Karalius rado vietą?<br\/>Nejau pasiūlyt šiandien Jam<br\/>Tu nieko negalėtum?<br\/><br\/>3. Te mūsų širdys bus vieta<br\/>Pati mieliausia Kristui!<br\/>Jam – auksas, smilkalai – malda, –<br\/>Aukokim Jėzui viską!",
-		"copyright": "William C. Dix (1837–1898) tekstas, 1865<br\/>XVI a. anglų melodija<br\/>Vertė Inga Miller,<br\/>Romualda Adomaitytė-Chabarina, 2000"
-	},
-	{
-		"title"	: "Ant golgotos kalvos stovi kryžius šiurkštus,", 
-		"songId": "25" ,
-		"id": 25,
-		"verse"	: "Aš nieku nesigirsiu, nebent mūsų Viešpaties Jėzaus Kristaus kryžiumi. Gal 6, 14",
-		"body"	: "Ant golgotos kalvos stovi kryžius šiurkštus,<br\/>Mano siela nuščiūva prieš jį.<br\/>Už mane ir tave – nuodėmingus, kaltus –<br\/>Nekaltai kentė Meilė didi.<br\/><br\/>Priegiesmis:<br\/>Aš nuplautas jau Kristaus krauju<br\/>Ir išgydytas Jo žaizdomis!<br\/>Būsiu kūriniu Dievo nauju,<br\/>Uoliai seksiu aš Jo pėdomis.<br\/><br\/>2. Nors pasaulio akim šitas kryžius yra<br\/>Vien tik ženklas gėdingos mirties,<br\/>Bet džiaugsmingai kasdien mano siela tyra<br\/>Jį išaukštins kaip ženklą vilties!<br\/><br\/>3. Daug kentei, Jėzau, Tu ant to kryžiaus<br\/> šiurkštaus,<br\/>Man kantrumo esi pavyzdys.<br\/>Kai sunkioj kovoje širdį priešas užgaus,<br\/>Į Tave ji pažvelgus išgis.<br\/><br\/>4. Nepamiršiu aukos Tavo, Jėzau brangus!<br\/>Pasakyti aš trokštu visiems,<br\/>Kaip kalčių prispaustiems atsivėrė Dangus,<br\/>Dovanojo ramybę žmonėms.",
-		"copyright": "George Bennard (1873–1958) tekstas ir muzika, 1913<br\/>Vertė Romualda Adomaitytė-Chabarina, 2001"
-	},
-	{
-		"title"	: "Kas Jėzaus golgotoje kančią atmins", 
-		"songId": "26" ,
-		"id": 26,
-		"verse"	: "Jis prisiėmė mūsų negalias, Sau užsikrovė mūsų skausmus. Iz 53, 4",
-		"body"	: "Kas Jėzaus golgotoje kančią atmins,<br\/>Jo šventąją auką minės.<br\/>Kas sielą nuvargusią tuo nuramins –<br\/>Ramybę Dangaus tas laimės.<br\/><br\/>Priegiesmis:<br\/>Žvelk, žvelk, o žmogau!<br\/>Kaip kenčia Golgotoje Dievo Sūnus,<br\/>Kad amžiams išgelbėtų mus!<br\/><br\/>2. Našta, sunkiai slėgus Golgotoje Jį, –<br\/>Tai nuodėmės mūsų visų.<br\/>Jau negresia mums amžina pražūtis –<br\/>Per Jį išganytas esu!<br\/><br\/>3. Nei verksmas, nei raudos negelbės tavęs,<br\/>Jei tavo klastinga širdis.<br\/>Jei nuodėmes mėgsti, nuo Kristaus jos ves,<br\/>Kur laukia tavęs pražūtis.<br\/><br\/>4. Bet jei tu pas Jėzų ateit ketini,<br\/>Tikėk – neatstums Jis tavęs.<br\/>Ateik, nedvejok, nes ranka Jo švelni<br\/>Priglaudžia mielai prie Savęs",
-		"copyright": "Amelia M. Hull (1825–1882) tekstas, 1860<br\/>Edward G. Taylor (1784–1863) muzika, 1860"
-	},
-	{
-		"title"	: "Aš pasitikiu, o Jėzau", 
-		"songId": "27" ,
-		"id": 27,
-		"verse"	: "Aš pasitikiu Viešpačiu. Iz 8, 17",
-		"body"	: "Aš pasitikiu, o Jėzau,<br\/>Tavo gelbstinčiu krauju,<br\/>Juk anksčiau dar nemokėjau<br\/>Vertint amžinų turtų.<br\/><br\/>Priegiesmis:<br\/>Tau garbė, o Atpirkėjau,<br\/>Kad ant kryžiaus Tu mirei,<br\/>Ir krauju, mielasis Jėzau,<br\/>Nuo kalčių mus apvalei!<br\/><br\/>2. Kiek čia veltui aš kovojau<br\/>Dėl ramybės laikinos,<br\/>Netikėdamas klajojau<br\/>Ir vargau be paliovos.<br\/><br\/>3. Dieve, trokštu Tau tarnauti<br\/>Ir gyvent ištikimai,<br\/>Žemėj su Tavim bendrauti,<br\/>Kad gyvenčiau amžinai.<br\/><br\/>4. Jėzau, mano Atpirkėjau,<br\/>Nuoširdžiai Tavęs prašau:<br\/>Leisk pasiekti, ko tikėjaus, –<br\/>Šventą paveldą Dangaus.",
-		"copyright": "Robert Lowry (1826–1899) tekstas ir muzika, 1864"
-	},
-	{
-		"title"	: "Man atleista", 
-		"songId": "27 A" ,
-		"id": 28,
-		"verse"	: "Viešpatie... Tu turi galią atleisti. Ps 130, 4",
-		"body"	: "Man atleista,<br\/>Nes nuteistas buvai Tu.<br\/>Aš nuplautas –<br\/>Išduotas Tu.<br\/>Gyvas aš esu,<br\/>Many Dvasia Tavoji,<br\/>Nors ir mirei,<br\/>Vėl gyvas Tu!<br\/><br\/>Priegiesmis:<br\/>Ar gali meilė būt tokia,<br\/>Kai miršta Dievas už mane?!<br\/>O Dievo meile, tu tikra,<br\/>Nuolat garbinsiu Tave<br\/>Savais darbais, širdim tyra,<br\/>Savais darbais, širdim tyra.",
-		"copyright": "Chris Tomlin tekstas ir muzika<br\/>Vertė Giedrius Rimša"
-	},
-	{
-		"title"	: "Ant kryžiaus Viešpats kančiose", 
-		"songId": "28" ,
-		"id": 29,
-		"verse"	: "Jis buvo sužalotas dėl mūsų nusižengimų, ant Jo krito kirčiai už mūsų kaltes. Iz 53, 5",
-		"body"	: "Ant kryžiaus Viešpats kančiose<br\/>Ten mirė baisiose.<br\/>Mane tada atpirko jau,<br\/>Nors Jo nepažinau.<br\/>Priegiesmis:<br\/>Gelbėjo mane,<br\/>Gelbėjo tave.<br\/>Nuo amžinosios pražūties<br\/>Išgelbėti jau mes.<br\/><br\/>2. Teisusis Viešpaties Sūnus<br\/>Daug iškentė už mus.<br\/>Jis meile Savo nuostabia<br\/>Mylėjo taip mane!<br\/><br\/>3. Šiurpi tai buvo valanda,<br\/>Kai slėgė Jį našta,<br\/>Ir kirčiai teko Jam – šventam –<br\/>Mūs Jėzui nekaltam.<br\/><br\/>4. Kuo Viešpačiui atsidėkot<br\/>Už didžią auką Jo?<br\/>Kuo atsilyginti galiu, –<br\/>Juk menkas toks esu?<br\/><br\/>5. Aš atiduodu širdį Tau,<br\/>Ką duočiau dar daugiau?<br\/>Aš priklausysiu Tau tiktai<br\/>Dabar ir amžinai!",
-		"copyright": "Nežinomo autoriaus tekstas<br\/>Ernst H. Gebhardt (1832–1899) muzika"
-	},
-	{
-		"title"	: "Dangaus Sūnus, Jo vardas Jėzus", 
-		"songId": "29" ,
-		"id": 30,
-		"verse"	: "Kam ieškote gyvojo tarp mirusiųjų? Nėra Jo čia, Jis prisikėlė! Lk 24, 5–6",
-		"body"	: "Dangaus Sūnus, Jo vardas Jėzus,<br\/>Atėjo čia gyvent ir mirt,<br\/>Kentėt už mus, atleist, mylėti,<br\/>O tuščias kapas sako man, kad gyvas Jis!<br\/><br\/>Priegiesmis:<br\/>Vėl gyvas Jis – tai viltis rytojaus!<br\/>Vėl gyvas Jis – rami širdis.<br\/>Jis valdo ateitį ir mano.<br\/>Gyventi verta tikint tuo, kad gyvas Jis!<br\/><br\/>2. Kaip malonu globot vaikelį<br\/>Ir džiaugtis tuo, kad linksmas jis,<br\/>Bet dar džiugiau žinot, jog kelią<br\/>Ir jo žingsnius globoja Tas, kurs gyvas vis!",
-		"copyright": "Gloria ir William J. Gaither tekstas, 1971<br\/>William J. Gaither muzika, 1971<br\/>Vertė Regina Laukytė, 1999"
-	},
-	{
-		"title"	: "Giedoti noriu apie Jėzų", 
-		"songId": "30" ,
-		"id": 31,
-		"verse"	: "Širdis man tvinsta kilniais žodžiais, kai dedu šias eiles Karaliui. Ps 45, 2",
-		"body"	: "Giedoti noriu apie Jėzų,<br\/>Apie malonę, meilę Jo.<br\/>Kaip kentė kryžiaus kančią, gėdą,<br\/>Kai Jis žmoniją gelbėjo.<br\/><br\/>Priegiesmis:<br\/>O giedokim apie Jėzų,<br\/>Dėkokim Jam už auką Jo.<br\/>Per Savo kančią, mirtį ant kryžiaus<br\/>Nuo pražūties išgelbėjo.<br\/>2. Kas taip kaip Jėzus myli žemėj?<br\/>Kas taip aukojos dėl žmogaus?<br\/>Tikrą ramybę, šventą meilę<br\/>Atnešė Jis mums iš Dangaus.<br\/><br\/>3. Paklusnūs būkim Jėzaus žodžiams,<br\/>Šlovinkim Jėzų iš širdies,<br\/>Tai, pasibaigus žemės amžiams,<br\/>Jis pas Save mus pasikvies.",
-		"copyright": "Philip P. Bliss (1838–1876) tekstas, 1876<br\/>James McGranahan (1840–1907) muzika, 1877"
-	},
-	{
-		"title"	: "Jėzus atleidžia mūsų nuodėmes visas", 
-		"songId": "31" ,
-		"id": 32,
-		"verse"	: "Jame mes turime atpirkimą, nuodėmių atleidimą. Kol 1, 14",
-		"body"	: "Jėzus atleidžia mūsų nuodėmes visas<br\/> Ir pavadina mus Savais vaikais.<br\/> Tikrą džiaugsmą Jis mums teikia žemėje vargų,<br\/>Kaipgi amžinybėj bus su Juo smagu!<br\/><br\/>Priegiesmis:<br\/>Jėzus mus veda iš mirties gyveniman,<br\/>Kelią Jis rodo mums išganyman.<br\/><br\/>2. Kas šiam pasauly tik keliu tikruoju eis,<br\/>Nors puola, klysta, Viešpats tam atleis.<br\/>Malonus tiems Jėzus, kas Jo šaukiasi varge,<br\/>Palaikys kiekvieną mylinĀia ranka.<br\/><br\/>3. Jėzui už meilę padėkokim nuoširdžiai<br\/>Ir už Jo auką garbinkim karštai.<br\/>Kai kelionę baigsim verksmo slėnio šalyje,<br\/>Būsim mes su Jėzum vėlei Danguje.",
-		"copyright": "Nežinomo autoriaus tekstas<br\/>Hubert P. Main (1839–1925) muzika"
-	},
-	{
-		"title"	: "Kai man sunku – viską žino Jis", 
-		"songId": "32" ,
-		"id": 33,
-		"verse"	: "Viešpatie, Tu viską žinai. Jn 21, 17",
-		"body"	: "Kai man sunku – viską žino Jis<br\/>Ir be žodžių mane supras.<br\/>Kai vargų naštos prislėgta širdis,<br\/>Jis Pats išeitį man suras.<br\/><br\/>Priegiesmis:<br\/>Taip! Jėzus žino sunkumus<br\/>Ir gydo sielos skausmus.<br\/>Nors duotos žaizdos man metų žaizdro,<br\/>Bet viską žino Jis.<br\/><br\/>2. Kai man baugu – viską žino Jis,<br\/>Kai širdy net tamsa gūdi,<br\/>Nevilties nakty gęsta spindulys,<br\/>Sielai liūdint Jisai arti.<br\/><br\/>3. Kai silpnas aš – viską žino Jis,<br\/>Ir suklupus mane pakels,<br\/>Atgailos raudas visuomet išgirs,<br\/>Vartus į ramybę atkels.<br\/><br\/>4. Kada palies skausmas, netektis –<br\/>Širdį artimą pasiims,<br\/>Kada mus išskirs – viską žino Jis, –<br\/>Mano skausmas pas Jį pakils.",
-		"copyright": "Frank E. Graeff (1860–1919) tekstas, 1901<br\/>Joseph L. Hall (1866–1930) muzika, 1901<br\/>Vertė Romualda Adomaitytė-Chabarina, 2001"
-	}
+  {
+    "title": "Didis Dieve, giedam Tau",
+    "songId": "1",
+    "id": 1,
+    "verse": "Didis Viešpats ir vertas didžios šlovės. Ps 96, 4",
+    "body": " Didis Dieve, giedam Tau, <br/>Tavo vardą išpažįstam, <br/>Su šventais pulkais Dangaus <br/>Šlovinti Tave išdrįstam. <br/>Stebuklingas Tu visuos <br/>Žemės ir Dangaus darbuos. <br/><br/>2. Šlovę teikia Danguje <br/>Tau kerubai ir serafai, <br/>Lenkiasi jie prieš Tave, <br/>Garbindami dieną naktį. <br/>Gieda pagarbiai visi: <br/>Šventas, šventas Tu esi! <br/><br/>3. Vietose įvairiose<br/>Tavo mes vaikai sustoję,<br/>Džiugūs Tavo Namuose,<br/>Nuoširdžiausiai Tau dėkojam:<br/>Dieve, amžina šlovė<br/>Tau Visatoj teskambės!",
+    "copyright": "Ignaz Franz (1719–1790) tekstas, 1774 <br/>Heinrich Bone (1813–1893) muzika, 1852"
+  },
+  {
+    "title": "Pagarbinkim Dievą, valdovą Dangaus",
+    "songId": "2",
+    "id": 2,
+    "verse": "Būk pašlovintas, Viešpatie... nuo amžių per amžius! 1 Met 29, 10",
+    "body": "Pagarbinkim Dievą, valdovą Dangaus,<br/>Kūrėją Visatos ir žemės žmogaus.<br/>Jo rankose visa – pasaulių pulkai,<br/>Likimai žmonių ir žvaigždynų takai.<br/><br/><i>Priegiesmis:</i><br/>Jam garbė! Jam garbė! –<br/>Tesilies iš širdies.<br/>Jam garbė! Jam garbė! –<br/>Amžinai teskambės.<br/>Pagarbinkim Dievą pilni pagarbos!<br/>Osana Kūrėjui! – visi tekartos.<br/><br/>2. Pamilo pasaulį Kūrėjas kilnus<br/>Ir atsiuntė Sūnų, kad gelbėtų mus<br/>Iš pykčio, pavydo ir keršto purvų,<br/>Kad būtų ramybė, taika su Dievu.<br/><br/>3. Nors dūsauti tenka dar žemės kely,<br/>Bet būkime kantrūs – viltis netoli!<br/>Mūs laukia ramybės buveinės seniai –<br/>Danguj paruošti amžinieji Namai.<br/>",
+    "copyright": "Fanny J. Crosby (1820–1915), 1875<br/>William H. Doane (1832–1915) muzika, 1875<br/>Vertė Romualda Adomaitytė-Chabarina, 2000<br/>"
+  },
+  {
+    "title": "Mes džiaugsmingi garbę giedam",
+    "songId": "3",
+    "id": 3,
+    "verse": "Šlovinkite Viešpatį! Dėkokite Viešpačiui, nes Jis geras. Ps 106, 1",
+    "body": "Mes džiaugsmingi garbę giedam<br/>Dievui meilės ir šlovės!<br/>Skleidžiasi širdis lyg žiedas,<br/>Mūsų Saule, Tu mums šviesk. <br/>Debesį tamsos su vėju,<br/>Liūdesį kaltės nuvyk.<br/>Džiaugsmo amžino Kūrėjau,<br/>Meilės spinduliais valdyk.<br/><br/>2. Neaprėpiamoj Visatoj<br/>Šlovina Tave visi.<br/>Žvaigždės, angelai apsako,<br/>Koks Tu prakilnus esi!<br/>Kūriniai Tave apgieda<br/>Su džiaugsmingom širdimis.<br/>Jūra, paukščiai, miškas, pieva<br/>Kviečia džiaugtis Tavimi.<br/><br/>3. Kaip giliausias vandenynas<br/>Tavo ramuma gili.<br/>Džiaugsmo Tu šaltinis grynas,<br/>Mus kaip tėvas Tu gaili.<br/>Meilės spindinčias palaimas<br/>Lieji iš Dangaus skliautų.<br/>Dieve, mokyk brolių meilės<br/>Ir gyvent džiaugsmu šventu!<br/>",
+    "copyright": "Henry J. van Dyke (1852–1933) tekstas, 1907<br/>Ludwig van Beethoven (1770–1827) „Odė džiaugsmui“, 1824<br/>Vertė Vilma Vanagienė, Romualda Adomaitytė-Chabarina, 2000"
+  },
+  {
+    "title": "Aleliuja! – teikim šlovę",
+    "songId": "4",
+    "id": 4,
+    "verse": "Aleliuja!.. Šlovė ir galybė priklauso mūsų Dievui. Apr 19, 1",
+    "body": "Aleliuja! – teikim šlovę<br/>Viešpačiui galingam, vardui Jo šlovingam,<br/>Aukštinkim Dangaus Valdovą,<br/>Dievą šlovinkim visi!<br/><br/>Pr.: Giesmes Jam giedokim,<br/>Šlovinkim Kūrėją žemės ir Dangaus.<br/>Širdis Jam aukokim –<br/>Tikras Draugas Jis žmogaus.<br/><br/>2. Dieve, Tu toksai didingas,<br/>Tau garbė priklauso, Tau – šlovė didžiausia.<br/>Myli žmones nuodėmingus<br/>Meile Tu Sava kilnia.<br/><br/>3. Dieve, Sūnų paaukojai,<br/>Nuodėmes nuplovei Jo krauju šventuoju.<br/>Pergalę Jis iškovojo –<br/>Esame dabar laisvi!<br/><br/>4. Viešpats Dievas mus taip myli,<br/>Leidžia net vadintis Jo vaikais garbingais.<br/>Esame dabar laimingi.<br/>Dievą šlovinkim visi!",
+    "copyright": "Ella Lauder tekstas<br/>Daniel B. Towner (1850–1919) muzika<br/>Vertė Danielius Oželis, 2000"
+  },
+  {
+    "title": "Kūrėjau didis, Tau aš giedu šlovę",
+    "songId": "5",
+    "id": 5,
+    "verse": "Su džiaugsmu apgiedu Tavo rankų darbus... Mano Dieve, Tu be galo didis! Ps 92, 5; 104, 1",
+    "body": "Kūrėjau didis, Tau aš giedu šlovę,<br/>Kai kūrinių grožybę apmąstau,<br/>Tave aš garbinu gamtos šventovėj,<br/>Kur kiekviena žolelė lenkias Tau.<br/><br/>Pr.: Valdove didis, giedu su džiaugsmu:<br/>Koks didis Tu! Koks didis Tu!<br/>Tave išaukštinu aš su džiaugsmu:<br/>Koks nuostabus, koks geras Tu!<br/><br/>2. Kada nakties dangus žvaigždėm suspindi,<br/>O rytą džiugina aušra šviesi,<br/>Kai žavi jūra ir kalnai didingi,<br/>Aš giedu Tau: koks didis Tu esi!<br/><br/>3. Apgiedu Tavo rankų darbus, Tėve,<br/>Ir meilę Jėzaus, Jis – mana viltis!<br/>Ramybę atnešė Jisai atėjęs,<br/>Ir kryžių – mano naštą – nešė Jis.<br/><br/>4. Kai vėlei Jis sugrįš, trimitams gaudžiant,<br/>Nuves prie tviskančių Dangaus krantų,<br/>Giedosiu, ašarą užmiršęs graudžią:<br/>Koks geras, Dieve, koks didingas Tu!",
+    "copyright": "Carl G. Boberg (1859–1940),<br/>Stuart K. Hine (1899–1949) tekstas, 1885 ir 1953<br/>Švedų melodija, 1889<br/>Vertė Vilma Vanagienė, Romualda Adomaitytė-Chabarina, 2000"
+  },
+  {
+    "title": "Neriboton erdvėn ilgesingai žvelgiu",
+    "songId": "6",
+    "id": 6,
+    "verse": "Pakelkite akis ir pasižiūrėkite į aukštybes! Kas jas sukūrė? Iz 40, 26",
+    "body": "Neriboton erdvėn ilgesingai žvelgiu –<br/>Nesuskaitomai daug ten planetų, žvaigždžių.<br/>Tai – pasauliai nauji, jų tvarka nuostabi<br/>Skelbia esant Visatoj didį Viešpatį.<br/><br/>Priegiesmis:<br/>Suprask, žmogau, tu pagaliau,<br/>Koks galingas ir koks geras Viešpats tau!<br/><br/>2. Vaizdas slėnių, kalnų, upių, pievų, miškų<br/>Ir bangų neramių vandenynų plačių<br/>Nuolat žavi mane, nuolat įkvepia man<br/>Šventą pagarbą Dievui, Kūrėjui didžiam.<br/><br/>3. Meilė Dievo Sūnaus, Atpirkėjo brangaus,<br/>Tau suklupus, žmogau, tai kvietimas Dangaus.<br/>Jo šventoji auka ten, Golgotos kalne,<br/>Tai – išganymas tau, tai – pasauliui žinia.",
+    "copyright": "Jan Vilson tekstas<br/>L. Kratz muzika"
+  },
+  {
+    "title": "Šlovink, siela, tu galingąjį Dievą Karalių!",
+    "songId": "7",
+    "id": 7,
+    "verse": "Šlovink Viešpatį, mano siela, ir visa, kas manyje, tešlovina Jo šventąjį vardą! Ps 103, 1",
+    "body": "Šlovink, siela, tu galingąjį Dievą Karalių!<br/>Šlovink ir aukštinki vardą didžio Visagalio!<br/>Jam iš širdies amžiais šlovė tesilies –<br/>Mūsų Karaliui didingam!<br/><br/>2. Šlovinkim Viešpatį didį! – Jis valdo Visatą.<br/>Jėzus į dangišką šalį mums nutiesė taką.<br/>Eik su Dievu – sieloj tebūna ramu –<br/>Gausiai malonių Jis teikia.<br/><br/>3. Šlovinkim Dievą, sukūrusį mus Savo šlovei.<br/>Jis mums suteikia palaimų ir visą gerovę.<br/>Jei tau sunku, Dievas pagelbės laiku –<br/>Tau Jis išties Savo ranką.<br/><br/>4. Šlovinkim Dievą, Jis blogį per Kristų išrovė.<br/>Leidžia Jis lietis malonės išganančiai srovei.<br/>Įsidėmėk! Šlovinti Dievą pradėk!<br/>Amžiais garbė Jam teskamba!",
+    "copyright": "Joachim Neander (1650–1680) tekstas, 1680<br/>XVII a. vokiečių melodija"
+  },
+  {
+    "title": "Dievas čia, Dievas čia",
+    "songId": "8",
+    "id": 8,
+    "verse": "Tebūna Viešpats, mūsų Dievas, su mumis... Tepalenkia mūsų širdis į Save. 1 Kar 8, 57–58",
+    "body": "Dievas čia, Dievas čia,<br/>Visada Jis nori būti šalia.<br/>Tau mes lenkiamės žemai<br/>Ir dėkojam nuoširdžiai,<br/>Kad, o Dieve, Tu esi šiandien čia.<br/>Tau mes lenkiamės žemai<br/>Ir dėkojam nuoširdžiai,<br/>Kad, o Dieve, Tu esi šiandien čia.<br/><br/>2. Geras Jis! Geras Jis!<br/>Nori būti Jis kartu su mumis.<br/>Tau mes lenkiamės žemai<br/>Ir dėkojam nuoširdžiai,<br/>Kad, o Dieve, Tu esi šiandien čia.<br/>Tau mes lenkiamės žemai<br/>Ir dėkojam nuoširdžiai,<br/>Kad, o Dieve, Tu esi šiandien čia.",
+    "copyright": "Diane Ball tekstas ir muzika, 1978<br/>Dariaus Kudirkos aranžuotė, 2007"
+  },
+  {
+    "title": "Dangaus šventovėj didis Viešpats,",
+    "songId": "9",
+    "id": 9,
+    "verse": "Viešpats yra Savo šventykloje; tenutyla Jo akivaizdoje visa žemė! Hab 2, 20",
+    "body": "Dangaus šventovėj didis Viešpats,<br/>Valdovas amžinas, galingas! –<br/>Te žemė nutyla jau,<br/>Te žemė nutyla prieš Šventąjį!<br/>Nurimkim, paruoškim širdis Jam.<br/>Amen.",
+    "copyright": "George F. Root (1820–1895) muzika"
+  },
+  {
+    "title": "Viešpatie, Tave aš myliu",
+    "songId": "10",
+    "id": 10,
+    "verse": "Taip, Viešpatie. Tu žinai, kad Tave myliu. Jn 21, 16",
+    "body": "Viešpatie, Tave aš myliu,<br/>Tu – Šviesa, Gyvenimas.<br/>Nors visi Tave apleistų,<br/>Liksiu ištikimas aš.<br/>Kaip Draugu aš pasikliauju,<br/>Jėzau, neapleisk manęs!<br/>Kaip vaikelis prie motulės,<br/>Noriu glaustis prie Tavęs.<br/><br/>2. Viešpatie, aš myliu žmones,<br/>Jei Tave jie garbina,<br/>Tuos, kas trokšta Tavo meilės,<br/>Amžino gyvenimo.<br/>Tavo mokinius suradus,<br/>Džiaugiasi širdis mana,<br/>Ir dvasia džiaugsmingai veržias<br/>Į aukštybę pas Tave.<br/><br/>3. Viešpatie, žinai Tu viską<br/>Ir širdies kilnius jausmus,<br/>Negaliu aš Tau išreikšti,<br/>Koks Tu man esi brangus!<br/>O kai sykį viskas baigsis:<br/>Vargas, rūpesčiai, skausmai, –<br/>Mano siela Tave garbins<br/>Su šventaisiais amžinai!",
+    "copyright": "Nežinomo autoriaus tekstas<br/>François H. Barthélémon (1741–1808) muzika, 1785"
+  },
+  {
+    "title": "Džiaugsmo pilnos mūsų širdys!",
+    "songId": "11",
+    "id": 11,
+    "verse": "Vilties Dievas jus, gyvenančius tikėjimu, tepripildo visokių džiaugsmų. Rom 15, 13",
+    "body": "Džiaugsmo pilnos mūsų širdys!<br/>Teikiam garbę Dievui mes.<br/>Ką žadėjo, Jis išpildys,<br/>Jei paklusnūs būsime.<br/><br/>Priegiesmis:<br/>Džiaugsmo pilnos mūsų širdys,<br/>Dievo saulė šildo mus!<br/>Iš versmių palaimų girdo<br/>Viešpats mylimus vaikus.<br/><br/>2. Dievo meilė nuolat saugo<br/>Mus išbandymų ugny.<br/>Jo didi malonė gaubia,<br/>Kai su Juo tu gyveni.<br/><br/>3. Teikia džiaugsmą tikintiesiems<br/>Evangelijos šviesa.<br/>Kelias Jėzaus atpirktiesiems<br/>Jau paruoštas Jo auka.",
+    "copyright": "J. A. Reitz (1838–1904) tekstas<br/>Robert Lowry (1826–1899) muzika"
+  },
+  {
+    "title": "Dievas – tai meilė, kokia tai laimė!",
+    "songId": "12",
+    "id": 12,
+    "verse": "Dievas yra meilė, ir kas pasilieka meilėje, tas pasilieka Dieve. 1 Jn 4, 16",
+    "body": "Dievas – tai meilė, kokia tai laimė!<br/>Dievas – tai meilė, Jis myli mus!<br/><br/>Priegiesmis:<br/>Džiaugsmingi giedame:<br/>Dievas – tai meilė.<br/>Dievas – tai meilė,<br/>Jis myli mus!<br/><br/>2. Buvom paklydę mes nuodėmingi,<br/>Bet išvadavo meilingai Jis.<br/><br/>3. Ir siuntė Sūnų į šį pasaulį,<br/>Kad Jis atpirktų mus iš kalčių.<br/><br/>4. Gerasis Jėzus už mus kentėjo.<br/>Dabar laimingi per amžius mes!<br/><br/>5. Aš trokštu, Dieve, Tave mylėti,<br/>Vien Tau dėkoti, gyventi Tau!",
+    "copyright": "August D. Rische (1819–1906) muzika, 1852<br/>XIX a. Tiuringijos melodija"
+  },
+  {
+    "title": "Klajojau, Dieve, nevilty",
+    "songId": "13",
+    "id": 13,
+    "verse": "Juk aš esu... nevertas... Bet Dievo malone esu, kas esu. 1 Kor 15, 9–10",
+    "body": "Klajojau, Dieve, nevilty,<br/>Kol suradau Tave.<br/>Malonė Tavo nuostabi<br/>Išgelbėjo mane!<br/><br/>2. Tu man – ramybė, apsauga,<br/>Užuovėja nakty.<br/>Kol gyvas būsiu, visada<br/>Tu liksi man viltis.<br/><br/>3. Per daugel pinklių sumaišties<br/>Jau perėjau saugus!<br/>Malonė tiltą man nuties<br/>Į Viešpaties namus.<br/><br/>4. Nors ir gyvensiu amžinai<br/>Tuos spindinčiuos Namuos,<br/>Aš neužmiršiu, Tu žinai,<br/>Išganymo dienos",
+    "copyright": "John Newton (1725–1807) tekstas, 1779<br/>XIX a. amerikiečių melodija<br/>Vertė Vilma Vanagienė,<br/>Romualda Adomaitytė-Chabarina, 2000"
+  },
+  {
+    "title": "Dėkoju, Dieve, Tau už ryto vėsą",
+    "songId": "14",
+    "id": 14,
+    "verse": "Šlovinkite savo širdyse Viešpatį, visuomet ir už viską dėkodami. Ef 5, 19–20",
+    "body": "Dėkoju, Dieve, Tau už ryto vėsą,<br/>Dėkoju Tau už poilsį nakties,<br/>Dėkoju Tau už skaisčią saulės šviesą,<br/>Plakimą nenuilstančios širdies.<br/><br/>2. Dėkoju už melsvų pušų ošimą,<br/>Už baltą švelnų žiedlapį obels,<br/>Dėkoju už lakštingalos suokimą<br/>Ir už gėrybes gelstančio rudens.<br/><br/>3. Dėkoju už žvaigždes, mėnulį, saulę,<br/>Kuriuos dangaus tvirtybėj Tu laikai,<br/>Už šitą gražų, nuostabų pasaulį,<br/>Kurį galybe Savo Tu valdai.<br/><br/>4. Dėkoju už motutės tyrą širdį,<br/>Už šypsenėlę kūdikio veide,<br/>Dėkoju Tau už amžinybės viltį<br/>Ir džiaugsmą būti Tavo šeimoje.<br/><br/>5. Dėkoju, Dieve, Tau už didžią meilę,<br/>Kad Tu taip myli klystančius vaikus,<br/>Kad mūsų nuodėmes visas atleidi<br/>Ir mus vedi į amžinus Namus.<br/>dievo šLovinimas ir padėka<br/><br/>6. Dėkoju, Dieve, Tau aš už gerumą,<br/>Kurį širdim kaip vaikas pajutau,<br/>Už Tavo globą, rūpestį, kantrumą.<br/>Už viską viską aš dėkoju Tau!",
+    "copyright": "Danieliaus Oželio tekstas, 1999<br/>Nežinomo autoriaus muzika<br/>Dariaus Kudirkos aranžuotė, 2007"
+  },
+  {
+    "title": "Šlovė Dievui laiminančiam!",
+    "songId": "15",
+    "id": 15,
+    "verse": "Amžių Karaliui, nemirtingajam, neregimajam... tebūna garbė ir šlovė. 1 Tim 1, 17",
+    "body": "Šlovė Dievui laiminančiam!<br/>Šlovinkim Jį, mes, Jo vaikai!<br/>Šlovė Dievui Aukščiausiajam! –<br/>Tėvui, Sūnui, Dvasiai Šventai!",
+    "copyright": "Thomas Ken (1637–1710) tekstas, 1695<br/>Louis Bourgeois (1510–1561) muzika, 1551"
+  },
+  {
+    "title": "Dieve, Tau karštai dėkoju",
+    "songId": "16",
+    "id": 16,
+    "verse": "Dėkui Dievui už Jo neapsakomą dovaną! 2 Kor 8, 15",
+    "body": "Dieve, Tau karštai dėkoju<br/>Už dienas, kurias siunti,<br/>Už nežinomą rytojų,<br/>Už ramias, saugias naktis,<br/>Už džiaugsmingą, tyrą juoką,<br/>Už liūdnas, skaudžias mintis.<br/>Už pavasario žibuoklę,<br/>Už žiemos šaltas pusnis.<br/><br/>2. Dieve, Tau karštai dėkoju,<br/>Kad visad šalia esi,<br/>Kad apsaugai nuo pavojų,<br/>Kad išbandymus siunti.<br/>Tau dėkoju už malonę<br/>Ir už pamokas skaudžias,<br/>Už palaimas ir gerovę,<br/>Ir už ašaras karčias.<br/><br/>3. Dieve, Tau karštai dėkoju<br/>Už saulutę danguje,<br/>Grožį tą melsvųjų tolių,<br/>Už rudens niūrias dienas,<br/>Už gėrybių pilną kraitę<br/>Ir už dovanas gausias,<br/>Už sveikatos gausų saiką<br/>Ir už netektis sunkias.<br/>dievo šLovinimas ir padėka<br/><br/>4. Dieve, Tau karštai dėkoju,<br/>Kad atleidai man kaltes,<br/>Už pagalbą, kai kovoju,<br/>Ačiū Tau už nesėkmes.<br/>Ir už kryžiaus sunkią naštą,<br/>Ir už pergales puikias,<br/>Dieve, Tau širdingai ačiū,<br/>Kad išgelbėjai mane!",
+    "copyright": "August Storm (1862–1914) tekstas, 1891<br/>Johannes A. Hultman (1861–1942) muzika, 1908<br/>Vertė Danielius Oželis, 1999 "
+  },
+  {
+    "title": "Tu toks teisingas esi, šventas Dieve",
+    "songId": "17",
+    "id": 17,
+    "verse": "Giedosiu apie ištikimybę ir teisingumą, šlovės giesmę giedosiu Tau, Viešpatie. Ps 101, 1",
+    "body": "Tu toks teisingas esi, šventas Dieve,<br/>sSu Tavimi saugūs mano keliai.<br/>Tu vis toks pat – mums pagalba, guodėjas,<br/>Tu liksi toks, koks esi amžinai.<br/><br/>Priegiesmis:<br/>Tavo malonėje, ištikimybėje<br/>Aš, Tavo vaikas, jaučiuosi saugus.<br/>Duodi kas rytą Savųjų gėrybių.<br/>Tu toks teisingas ir toks nuostabus!<br/><br/>2. Saulė, mėnulis, žvaigždžių tvirtas takas<br/>Liudija Tavo galingus veiksmus.<br/>Auštantis rytas ir vakaras sako:<br/>Dievas teisingas ir toks pastovus.<br/><br/>3. Dievas atleidžia ir siunčia ramybę,<br/>Leidžia mums džiaugtis Jo meile kasdien.<br/>Duoda jėgų, viltį rytdienai didžią,<br/>Lyja lietus Jo palaimų visiems.",
+    "copyright": "Thomas O. Chisholm (1866–1960) tekstas, 1923<br/>William M. Runyan (1870–1957) muzika, 1925<br/>Vertė Regina Laukytė, Danielius Oželis, 1999"
+  },
+  {
+    "title": "Dievas toks geras – jis mane globoja",
+    "songId": "18",
+    "id": 18,
+    "verse": "Garbė Dievui, ...kuris palaimino mus Kristuje visokeriopa dvasine palaima. Ef 1, 3",
+    "body": "Dievas toks geras – jis mane globoja,<br/>Jo didžią meilę aš kasdien jaučiu.<br/>Savo gėrybių man Jis dovanoja,<br/>Jį nuolat šlovint man tikrai džiugu!<br/><br/>2. Dievas toks geras – man gyvybę teikia,<br/>Juo aš tikiu čia, vargo žemėje,<br/>Bet kai sulauksiu Kristų grįžtant veikiai,<br/>Į amžinybę Jis nuves mane.<br/><br/>3. Dievui dėkoju už metus laimingus,<br/>Už Jo palaimas, skausmą ir džiaugsmus.<br/>Už tai, kad priima mus nuodėmingus, –<br/>Per Kristaus auką vaikas Jo esu.<br/><br/>4. Jam trokštu aš gyvenimą pašvęsti,<br/>Apsauga Jo tvirtai pasitikiu.<br/>Nors daug sunkumų tenka man iškęsti,<br/>Su Juo į ateitį ramiai žvelgiu.",
+    "copyright": "Henrik Lebsak tekstas, ~ 1920<br/>Hubert P. Main (1839–1925) muzika, 1880<br/>Vertė Danielius Oželis, 2001"
+  },
+  {
+    "title": "Už viską Tau aš, Viešpatie, dėkoju",
+    "songId": "19",
+    "id": 19,
+    "verse": "Visokiomis aplinkybėmis dėkokite, nes to Dievas nori iš jūsų Kristuje Jėzuje. 1 Tes 5, 18",
+    "body": "Už viską Tau aš, Viešpatie, dėkoju –<br/>Ir už naštas, ir sielvartus kely,<br/>Ir už džiaugsmus, ir spindintį rytojų!<br/>Tu mano žvilgsnį vis aukštyn keli.<br/><br/>2. Už meilę ir paguodą man išlietą<br/>Tau aš lenkiuos dėkinga širdimi,<br/>Ir už dyglius, ir už naktis žvaigždėtas,<br/>Už tai, kad auklėji ir mėgini.<br/><br/>3. Už Tavo šviesą iš Dangaus aukštybių –<br/>Ašarų slėny ją kasdien matau,<br/>Ir už kantrybę tėvišką, beribę, –<br/>Už viską dėkui Tau karštai sakau!<br/><br/>4. Už viską Tau aš, Viešpatie, dėkingas,<br/>Už Tavo auką, viltį ateities,<br/>Už tai, kad Tu mus padarei laimingus<br/>Ir atpirkai iš amžinos žūties",
+    "copyright": "Olgos Gončarovos tekstas<br/>Hubert P. Main (1839–1925) muzika, 1880<br/>Vertė Zita Kirsnauskaitė, Danielius Oželis,<br/>Romualda Adomaitytė-Chabarina, ~ 1998"
+  },
+  {
+    "title": "Žeme, ateina Viešpats jau",
+    "songId": "20",
+    "id": 20,
+    "verse": "Iš džiaugsmo drauge tegieda kalnai Viešpaties Artume, nes Jis ateina. Ps 98, 8–9",
+    "body": "Žeme, ateina Viešpats jau –<br/>Karalių pasitik!<br/>Te kiekviena širdis Jam atveria duris.<br/>Visa gamta giedos, o širdys atkartos.<br/>Dangus ir žemė Jam giedos.<br/><br/>2. Viešpats – Valdovas žemės šios –<br/>Giedokim giesmes Jam!<br/>O kloniai ir miškai, ir jūros, ir kalnai<br/>Šį džiaugsmą atkartos, jį slėniai pakartos.<br/>Te džiaugsmą širdys atkartos.<br/><br/>3. Nuodėmė teneviešpataus,<br/>Neaugs pikti dygliai!<br/>Atėjo Jis mylėt, palaimas mums išliet.<br/>Ir širdys neliūdės, džiaugsmu jos suklestės.<br/>Sausi krantai viltim žydės.<br/><br/>4. Valdo pasaulį Jo tiesa –<br/>Tepripažins visi!<br/>Malonė ir tiesa – tai Jo šlovės šviesa.<br/>Jo meilė nuostabi, šlovinga ir didi!<br/>O meilė Dievo nuostabi!",
+    "copyright": "Isaac Watts (1674–1748) tekstas, 1719<br/>George F. Händel (1685–1759),<br/>oratorijos „Mesijas“ fragmentas, 1742<br/>Lowell Mason aranžuotė, 1830<br/>Vertė Regina Laukytė, 1999"
+  },
+  {
+    "title": "Tyli naktis, šventa naktis",
+    "songId": "21",
+    "id": 21,
+    "verse": "Šiandien Dovydo mieste jums gimė Išganytojas. Jis yra Viešpats Mesijas. Lk 2, 11",
+    "body": "Tyli naktis, šventa naktis,<br/>Apgaubta žvaigždėmis.<br/>Snaudžia kalvos, Betliejuj tyla,<br/>Vien tik Juozapas ir Marija<br/>Džiaugias Kūdikiu jau –<br/>Šia palaima Dangaus.<br/><br/>2. Tyli naktis, šventa naktis,<br/>Skleidžias jos paslaptis –<br/>Žemei gieda šventi angelai,<br/>Piemenims skelbia žinią linksmai:<br/>„Priartėjo Dangus –<br/>Gimė Kristus brangus“.<br/><br/>3. Tyli naktis, šventa naktis.<br/>Atnešta mums viltis:<br/>Žemėj nieko kilnesnio nėra<br/>Nei Ganytojo meilė tyra.<br/>Šlovink Dievą, žmogau,<br/>Už malonę Dangaus!",
+    "copyright": "Joseph Mohr (1792–1848) tekstas, 1818<br/>Franz Gruber (1787–1863) muzika, 1818<br/>Vertė Romualda Adomaitytė-Chabarina,<br/>Danielius Oželis, 2001"
+  },
+  {
+    "title": "Nakties tyloj ramius laukus",
+    "songId": "22",
+    "id": 22,
+    "verse": "Garbė Dievui aukštybėse, o žemėje ramybė Jo mylimiems žmonėms! Lk 2, 14",
+    "body": "Nakties tyloj ramius laukus<br/>Štai nutvieskė šviesa –<br/>Aplankė žemę angelai<br/>Su nuostabia žinia:<br/>„Ramybė Dievo mylimiems,<br/>Jo laukiantiems žmonėms!“<br/>Nuščiuvo žemė nelauktai,<br/>Suskambus šioms giesmėms.<br/><br/>2. Suspindi Dievo angelai<br/>Lyg žvaigždės naktyje,<br/>Kaskart ramybę nešdami<br/>Žmonijai tamsoje.<br/>Jie skuba ten, kur neviltis,<br/>Kur sielvartai, skausmai.<br/>Ir nenutildys jų giesmių<br/>Pasaulio šio triukšmai.<br/><br/>3. Kai sunkiai kopiate aukštyn<br/>Į dangiškus namus,<br/>Jūs, prislėgti vargų naštų,<br/>Tikėkit, džiaugsmas bus!<br/>Pažvelkit, švinta jau aušra –<br/>Naujos dienos pradžia.<br/>Išgirskite, kaip angelai<br/>Jums gieda giesmę šią.<br/><br/>4. Artėja greitai laikas tas,<br/>Paskelbtas pranašų:<br/>Neliks nelaimių nei vargų,<br/>Dejonių nei skriaudų.<br/>Ramybė žemėje klestės,<br/>Nutils karų garsai,<br/>Ir susilies vienoj giesmėj<br/>Visatoje balsai.",
+    "copyright": "Edmund H. Sears (1810–1876) tekstas, 1849<br/>Richard S. Willis (1819–1900) muzika, 1850<br/>Vertė Romualda Adomaitytė-Chabarina, 2001"
+  },
+  {
+    "title": "Viešpats – Emanuelis",
+    "songId": "23",
+    "id": 23,
+    "verse": "Jis vadinsis Emanuelis, o tai reiškia: „Dievas su mumis“. Mt 1, 23 ",
+    "body": "Viešpats – Emanuelis,<br/>Kūrėjas galingas Jis, paguoda širdžių.<br/>Tai – Jėzus Kristus – su mumis Dievas –<br/>Valdo Visatą Jis gyvybės žodžiu.<br/>Jis – mylintis Dievas – atpirko žmoniją<br/>Iš pasmerkimo krauju šventuoju.<br/>Šlovė Jam priklauso! Garbė Jam aukščiausia!<br/>Jo rankose visa, likimai žmonių.",
+    "copyright": "Naida Hearn (1944–2001) tekstas ir muzika, 1974<br/>Jim ir Ann Mills tekstas ir muzika, 1979<br/>Vertė Danielius Oželis, 2001<br/>Ryčio Baranausko aranžuotė, ~ 1995"
+  },
+  {
+    "title": "Kas tas vaikelis nuostabus?",
+    "songId": "24",
+    "id": 24,
+    "verse": "Išminčiai iš Rytų... davė Jam dovanų: aukso, smilkalų ir miros. Mt 2, 1. 11",
+    "body": "Kas tas vaikelis nuostabus?<br/>Kas palaimingai miega?<br/>Kam angelų šventų pulkus<br/>Į žemę siuntė Dievas?<br/><br/>Priegiesmis:<br/>Karalius Jis Dangaus,<br/>Išgelbėtojas Jis žmogaus,<br/>Jam gieda angelai,<br/>Skubėkit Jį pagarbint!<br/><br/>2. Kodėl tvartelyje kukliam<br/>Karalius rado vietą?<br/>Nejau pasiūlyt šiandien Jam<br/>Tu nieko negalėtum?<br/><br/>3. Te mūsų širdys bus vieta<br/>Pati mieliausia Kristui!<br/>Jam – auksas, smilkalai – malda, –<br/>Aukokim Jėzui viską!",
+    "copyright": "William C. Dix (1837–1898) tekstas, 1865<br/>XVI a. anglų melodija<br/>Vertė Inga Miller,<br/>Romualda Adomaitytė-Chabarina, 2000"
+  },
+  {
+    "title": "Ant golgotos kalvos stovi kryžius šiurkštus,",
+    "songId": "25",
+    "id": 25,
+    "verse": "Aš nieku nesigirsiu, nebent mūsų Viešpaties Jėzaus Kristaus kryžiumi. Gal 6, 14",
+    "body": "Ant golgotos kalvos stovi kryžius šiurkštus,<br/>Mano siela nuščiūva prieš jį.<br/>Už mane ir tave – nuodėmingus, kaltus –<br/>Nekaltai kentė Meilė didi.<br/><br/>Priegiesmis:<br/>Aš nuplautas jau Kristaus krauju<br/>Ir išgydytas Jo žaizdomis!<br/>Būsiu kūriniu Dievo nauju,<br/>Uoliai seksiu aš Jo pėdomis.<br/><br/>2. Nors pasaulio akim šitas kryžius yra<br/>Vien tik ženklas gėdingos mirties,<br/>Bet džiaugsmingai kasdien mano siela tyra<br/>Jį išaukštins kaip ženklą vilties!<br/><br/>3. Daug kentei, Jėzau, Tu ant to kryžiaus<br/> šiurkštaus,<br/>Man kantrumo esi pavyzdys.<br/>Kai sunkioj kovoje širdį priešas užgaus,<br/>Į Tave ji pažvelgus išgis.<br/><br/>4. Nepamiršiu aukos Tavo, Jėzau brangus!<br/>Pasakyti aš trokštu visiems,<br/>Kaip kalčių prispaustiems atsivėrė Dangus,<br/>Dovanojo ramybę žmonėms.",
+    "copyright": "George Bennard (1873–1958) tekstas ir muzika, 1913<br/>Vertė Romualda Adomaitytė-Chabarina, 2001"
+  },
+  {
+    "title": "Kas Jėzaus golgotoje kančią atmins",
+    "songId": "26",
+    "id": 26,
+    "verse": "Jis prisiėmė mūsų negalias, Sau užsikrovė mūsų skausmus. Iz 53, 4",
+    "body": "Kas Jėzaus golgotoje kančią atmins,<br/>Jo šventąją auką minės.<br/>Kas sielą nuvargusią tuo nuramins –<br/>Ramybę Dangaus tas laimės.<br/><br/>Priegiesmis:<br/>Žvelk, žvelk, o žmogau!<br/>Kaip kenčia Golgotoje Dievo Sūnus,<br/>Kad amžiams išgelbėtų mus!<br/><br/>2. Našta, sunkiai slėgus Golgotoje Jį, –<br/>Tai nuodėmės mūsų visų.<br/>Jau negresia mums amžina pražūtis –<br/>Per Jį išganytas esu!<br/><br/>3. Nei verksmas, nei raudos negelbės tavęs,<br/>Jei tavo klastinga širdis.<br/>Jei nuodėmes mėgsti, nuo Kristaus jos ves,<br/>Kur laukia tavęs pražūtis.<br/><br/>4. Bet jei tu pas Jėzų ateit ketini,<br/>Tikėk – neatstums Jis tavęs.<br/>Ateik, nedvejok, nes ranka Jo švelni<br/>Priglaudžia mielai prie Savęs",
+    "copyright": "Amelia M. Hull (1825–1882) tekstas, 1860<br/>Edward G. Taylor (1784–1863) muzika, 1860"
+  },
+  {
+    "title": "Aš pasitikiu, o Jėzau",
+    "songId": "27",
+    "id": 27,
+    "verse": "Aš pasitikiu Viešpačiu. Iz 8, 17",
+    "body": "Aš pasitikiu, o Jėzau,<br/>Tavo gelbstinčiu krauju,<br/>Juk anksčiau dar nemokėjau<br/>Vertint amžinų turtų.<br/><br/>Priegiesmis:<br/>Tau garbė, o Atpirkėjau,<br/>Kad ant kryžiaus Tu mirei,<br/>Ir krauju, mielasis Jėzau,<br/>Nuo kalčių mus apvalei!<br/><br/>2. Kiek čia veltui aš kovojau<br/>Dėl ramybės laikinos,<br/>Netikėdamas klajojau<br/>Ir vargau be paliovos.<br/><br/>3. Dieve, trokštu Tau tarnauti<br/>Ir gyvent ištikimai,<br/>Žemėj su Tavim bendrauti,<br/>Kad gyvenčiau amžinai.<br/><br/>4. Jėzau, mano Atpirkėjau,<br/>Nuoširdžiai Tavęs prašau:<br/>Leisk pasiekti, ko tikėjaus, –<br/>Šventą paveldą Dangaus.",
+    "copyright": "Robert Lowry (1826–1899) tekstas ir muzika, 1864"
+  },
+  {
+    "title": "Man atleista",
+    "songId": "27 A",
+    "id": 28,
+    "verse": "Viešpatie... Tu turi galią atleisti. Ps 130, 4",
+    "body": "Man atleista,<br/>Nes nuteistas buvai Tu.<br/>Aš nuplautas –<br/>Išduotas Tu.<br/>Gyvas aš esu,<br/>Many Dvasia Tavoji,<br/>Nors ir mirei,<br/>Vėl gyvas Tu!<br/><br/>Priegiesmis:<br/>Ar gali meilė būt tokia,<br/>Kai miršta Dievas už mane?!<br/>O Dievo meile, tu tikra,<br/>Nuolat garbinsiu Tave<br/>Savais darbais, širdim tyra,<br/>Savais darbais, širdim tyra.",
+    "copyright": "Chris Tomlin tekstas ir muzika<br/>Vertė Giedrius Rimša"
+  },
+  {
+    "title": "Ant kryžiaus Viešpats kančiose",
+    "songId": "28",
+    "id": 29,
+    "verse": "Jis buvo sužalotas dėl mūsų nusižengimų, ant Jo krito kirčiai už mūsų kaltes. Iz 53, 5",
+    "body": "Ant kryžiaus Viešpats kančiose<br/>Ten mirė baisiose.<br/>Mane tada atpirko jau,<br/>Nors Jo nepažinau.<br/>Priegiesmis:<br/>Gelbėjo mane,<br/>Gelbėjo tave.<br/>Nuo amžinosios pražūties<br/>Išgelbėti jau mes.<br/><br/>2. Teisusis Viešpaties Sūnus<br/>Daug iškentė už mus.<br/>Jis meile Savo nuostabia<br/>Mylėjo taip mane!<br/><br/>3. Šiurpi tai buvo valanda,<br/>Kai slėgė Jį našta,<br/>Ir kirčiai teko Jam – šventam –<br/>Mūs Jėzui nekaltam.<br/><br/>4. Kuo Viešpačiui atsidėkot<br/>Už didžią auką Jo?<br/>Kuo atsilyginti galiu, –<br/>Juk menkas toks esu?<br/><br/>5. Aš atiduodu širdį Tau,<br/>Ką duočiau dar daugiau?<br/>Aš priklausysiu Tau tiktai<br/>Dabar ir amžinai!",
+    "copyright": "Nežinomo autoriaus tekstas<br/>Ernst H. Gebhardt (1832–1899) muzika"
+  },
+  {
+    "title": "Dangaus Sūnus, Jo vardas Jėzus",
+    "songId": "29",
+    "id": 30,
+    "verse": "Kam ieškote gyvojo tarp mirusiųjų? Nėra Jo čia, Jis prisikėlė! Lk 24, 5–6",
+    "body": "Dangaus Sūnus, Jo vardas Jėzus,<br/>Atėjo čia gyvent ir mirt,<br/>Kentėt už mus, atleist, mylėti,<br/>O tuščias kapas sako man, kad gyvas Jis!<br/><br/>Priegiesmis:<br/>Vėl gyvas Jis – tai viltis rytojaus!<br/>Vėl gyvas Jis – rami širdis.<br/>Jis valdo ateitį ir mano.<br/>Gyventi verta tikint tuo, kad gyvas Jis!<br/><br/>2. Kaip malonu globot vaikelį<br/>Ir džiaugtis tuo, kad linksmas jis,<br/>Bet dar džiugiau žinot, jog kelią<br/>Ir jo žingsnius globoja Tas, kurs gyvas vis!",
+    "copyright": "Gloria ir William J. Gaither tekstas, 1971<br/>William J. Gaither muzika, 1971<br/>Vertė Regina Laukytė, 1999"
+  },
+  {
+    "title": "Giedoti noriu apie Jėzų",
+    "songId": "30",
+    "id": 31,
+    "verse": "Širdis man tvinsta kilniais žodžiais, kai dedu šias eiles Karaliui. Ps 45, 2",
+    "body": "Giedoti noriu apie Jėzų,<br/>Apie malonę, meilę Jo.<br/>Kaip kentė kryžiaus kančią, gėdą,<br/>Kai Jis žmoniją gelbėjo.<br/><br/>Priegiesmis:<br/>O giedokim apie Jėzų,<br/>Dėkokim Jam už auką Jo.<br/>Per Savo kančią, mirtį ant kryžiaus<br/>Nuo pražūties išgelbėjo.<br/>2. Kas taip kaip Jėzus myli žemėj?<br/>Kas taip aukojos dėl žmogaus?<br/>Tikrą ramybę, šventą meilę<br/>Atnešė Jis mums iš Dangaus.<br/><br/>3. Paklusnūs būkim Jėzaus žodžiams,<br/>Šlovinkim Jėzų iš širdies,<br/>Tai, pasibaigus žemės amžiams,<br/>Jis pas Save mus pasikvies.",
+    "copyright": "Philip P. Bliss (1838–1876) tekstas, 1876<br/>James McGranahan (1840–1907) muzika, 1877"
+  },
+  {
+    "title": "Jėzus atleidžia mūsų nuodėmes visas",
+    "songId": "31",
+    "id": 32,
+    "verse": "Jame mes turime atpirkimą, nuodėmių atleidimą. Kol 1, 14",
+    "body": "Jėzus atleidžia mūsų nuodėmes visas<br/> Ir pavadina mus Savais vaikais.<br/> Tikrą džiaugsmą Jis mums teikia žemėje vargų,<br/>Kaipgi amžinybėj bus su Juo smagu!<br/><br/>Priegiesmis:<br/>Jėzus mus veda iš mirties gyveniman,<br/>Kelią Jis rodo mums išganyman.<br/><br/>2. Kas šiam pasauly tik keliu tikruoju eis,<br/>Nors puola, klysta, Viešpats tam atleis.<br/>Malonus tiems Jėzus, kas Jo šaukiasi varge,<br/>Palaikys kiekvieną mylinčia ranka.<br/><br/>3. Jėzui už meilę padėkokim nuoširdžiai<br/>Ir už Jo auką garbinkim karštai.<br/>Kai kelionę baigsim verksmo slėnio šalyje,<br/>Būsim mes su Jėzum vėlei Danguje.",
+    "copyright": "Nežinomo autoriaus tekstas<br/>Hubert P. Main (1839–1925) muzika"
+  },
+  {
+    "title": "Kai man sunku – viską žino Jis",
+    "songId": "32",
+    "id": 33,
+    "verse": "Viešpatie, Tu viską žinai. Jn 21, 17",
+    "body": "Kai man sunku – viską žino Jis<br/>Ir be žodžių mane supras.<br/>Kai vargų naštos prislėgta širdis,<br/>Jis Pats išeitį man suras.<br/><br/>Priegiesmis:<br/>Taip! Jėzus žino sunkumus<br/>Ir gydo sielos skausmus.<br/>Nors duotos žaizdos man metų žaizdro,<br/>Bet viską žino Jis.<br/><br/>2. Kai man baugu – viską žino Jis,<br/>Kai širdy net tamsa gūdi,<br/>Nevilties nakty gęsta spindulys,<br/>Sielai liūdint Jisai arti.<br/><br/>3. Kai silpnas aš – viską žino Jis,<br/>Ir suklupus mane pakels,<br/>Atgailos raudas visuomet išgirs,<br/>Vartus į ramybę atkels.<br/><br/>4. Kada palies skausmas, netektis –<br/>Širdį artimą pasiims,<br/>Kada mus išskirs – viską žino Jis, –<br/>Mano skausmas pas Jį pakils.",
+    "copyright": "Frank E. Graeff (1860–1919) tekstas, 1901<br/>Joseph L. Hall (1866–1930) muzika, 1901<br/>Vertė Romualda Adomaitytė-Chabarina, 2001"
+  },
+  {
+    "title": "Tikrasis Gydytojas mūs",
+    "songId": "33",
+    "id": 34,
+    "verse": "Tave gydo Jėzus Kristus! Apd 9, 34",
+    "body": "<div>Tikrasis gydytojas mūs<br>Yra tik Kristus Jėzus.<br>Jis guodžia vargstančius, liūdnus,<br>Kai širdį slegia bėdos.<br><br>Priegiesmis:<br>Jėzui gieda angelai,<br>Žemėj aidi jų balsai:<br>„Koks didingas ir kilnus<br>Vardas mūsų Jėzaus!“<br><br>2. Jis nuodėmes atleidžia mūs,<br>Suranda, kai paklystam,<br>Ir veda į Dangaus namus,<br>Kur nieks neskirs nuo Kristaus.<br><br>3. Čia, ašarų pakalnėje,<br>Jisai numaldo skausmą.<br>Esu ramus Jo globoje,<br>Jaučiu didžiulį džiaugsmą.<br><br>4. Išauš jau greitai ta diena,<br>Kai Jėzus pasirodys.<br>Jį amžiais šlovinsiu tada<br>Pačiais tauriausiais žodžiais</div>",
+    "copyright": "William Hunter (1811–1877) tekstas, 1859 <br> John H. Stockton (1813–1877) muzika, 1874"
+  },
+  {
+    "title": "Žinau Jėzaus nuostabų vardą",
+    "songId": "34",
+    "id": 35,
+    "verse": "Jo vardu... bus skelbiama, kad atsiverstų ir gautų nuodėmių atleidimą. Lk 24, 47",
+    "body": "<div>Žinau Jėzaus nuostabų vardą –<br>Didingą ir šventą labai –<br>Palengvina žemišką vargą,<br>Sustiprina, jei pavargai.<br><br><em>Priegiesmis:</em><br>Te visi Jėzaus šlovina vardą,<br>Jam teskamba giesmė iš širdies.<br>Jis gyvenimą amžiną žada<br>Šventu Jo krauju atpirktiems.<br><br>2. Nėra Jam lygaus šiam pasauly,<br>Jį gerbia danguj angelai.<br>Man kelią Jis rodo geriausią,<br>Tarnausiu aš Jam amžinai.<br><br>3. Šis vardas suteikia mums laisvę,<br>Atpirko iš nuodėmių mus,<br>Neleidžia mums eiti be vaisių<br>Į amžinus Tėvo namus.<br><br>4. Garbė, padėka, mielas Jėzau,<br>Tebus Tavo vardui šventam.<br>Mums suteiki Savąją šviesą<br>Ir laimę žadi kiekvienam.</div>",
+    "copyright": "<div>Olgos Gončarovos tekstas<br>John R. Sweney (1837–1899) muzika<br>Vertė Danielius Oželis, 2001</div>"
+  },
+  {
+    "title": "Kai matau šventumą Tavyje",
+    "songId": "35",
+    "id": 36,
+    "verse": "Šventas yra Tasai, kuris jus pašaukė, tad ir jūs patys tapkite šventi visu savo elgesiu. 1 Pt 1, 15",
+    "body": "<div>Kai matau šventumą Tavyje,<br>Kai regiu meilumą Tavyje,<br>Viskas virsta aplink tik šešėliais<br>Tavo šviesoje.<br>Kai džiaugiuosi, kad Tave radau,<br>Kai širdis liepsnoja meile Tau,<br>Viskas virsta aplink tik šešėliais<br>Tavo šviesoje.<br><em><br>Priegiesmis:</em><br>Šlovė tik Tau! Šlovė tik Tau!<br>Gyventi tik Tau, šlovę teikiant Tau.<br>Šlovė tik Tau! Šlovė tik Tau!<br>Gyventi tik Tau, šlovę teikiant Tau.</div>",
+    "copyright": "<div>Wayne ir Cathy Perrin tekstas ir muzika<br>Vertė Regina Laukytė, 1999</div>"
+  },
+  {
+    "title": "Noriu gyvent su Jėzum tiktai",
+    "songId": "36",
+    "id": 37,
+    "verse": "Dievas paskyrė mus..., kad... gyventume su Juo. 1 Tes 5, 9–10",
+    "body": "<div>Noriu gyvent su Jėzum tiktai,<br>Gėrėtis dangiška tiesa,<br>Nejaust kalčių naštos.<br>Klastingi keliai, vilioję dažnai,<br>Išnyko amžiams – nauja šviesa<br>Jau nušvito širdy manoj!</div>",
+    "copyright": "<div>John W. Peterson (1921–2006) tekstas ir muzika<br>Vertė Laura Rubšaitė, Danielius Oželis, ~ 1995</div>"
+  },
+  {
+    "title": "Ateikit Betliejun, jūs ištikimieji",
+    "songId": "36 A",
+    "id": 38,
+    "verse": "Aukštinkite Viešpatį. Ps 99, 5",
+    "body": "<div>Ateikit Betliejun, jūs ištikimieji,<br>Ateikit su pagarba ir džiaugsmu!<br>Jūs pamatysit angelų Karalių.<br><br><em>Priegiesmis:</em><br>Ateikite pagarbint, ateikite pagarbint!<br>Ateikite pagerbt Karalių šlovės!<br><br>2. Ir angelų chorai garbina Valdovą.<br>Jam gieda aukštybėj Dangaus pulkai.<br>Šlovinkit Dievą, šlovinkit Aukščiausią.<br><br>3. O, gimė mūs Viešpats gražią, tylią naktį…<br>Ir Jėzui per amžius šlovė, garbė!<br>Jis – Dievo Tėvo Žodis, tapęs kūnu.</div>",
+    "copyright": "<div>John F. Wade tekstas, ~ 1743<br>Sicilijos melodija<br>Vertė Regina Laukytė, 1999<br>Romualda Adomaitytė-Chabarina, 2010</div>"
+  },
+  {
+    "title": "Šiandieną saulė širdyje",
+    "songId": "37",
+    "id": 39,
+    "verse": "Aš – pasaulio šviesa.  Jn 8, 12",
+    "body": "<div>Šiandieną saulė širdyje<br>Spalvingesnė nei rasa,<br>Viltis nušvito manyje,<br>Nes Jėzus – ta šviesa.<br><br><em>Priegiesmis:</em><br>O šviesa, Tu palaiminga<br>Spinduliais ramybės ir taikos!<br>Kai Jėzaus meilė spindi man,<br>Širdy saulė visados.<br><br>2. Šiandieną muzika širdy –<br>Karaliui ši giesmė.<br>Jis girdi, nors jinai tyli, –<br>Jam amžina šlovė!<br><br>3. Širdy – pavasario žiedai,<br>Nes Viešpats vėl šalia!<br>Malonės Dievo pažadais<br>Žydės dienų veja.<br><br>4. Šiandieną džiaugsmas vėl širdy,<br>Dangaus išlietas man!<br>Pagalbą ašarų slėny<br>Jis teikia kiekvienam</div>",
+    "copyright": "<div>Eliza E. Hewitt (1851–1920) tekstas<br>John R. Sweney (1837–1899) muzika<br>Vertė Gina Kapučinskaitė,<br>Romualda Adomaitytė-Chabarina, 2001</div>"
+  },
+  {
+    "title": "Keliu naujuoju einu su Kristum",
+    "songId": "38",
+    "id": 40,
+    "verse": "Pamiršęs, kas už manęs, aš veržiuosi pirmyn. Fil 3, 13",
+    "body": "<div>Keliu naujuoju einu su Kristum,<br>Kas praeity, jau pamiršęs viską.<br>Jis man atleido – kokia palaima<br>Su Juo draugaut, su Juo keliaut!<br><br>2. Atgal nežvelgsiu ir nesvyruosiu,<br>Jam savo širdį aš atiduosiu,<br>Mane Jis myli – kokia ramybė<br>Su Juo draugaut, su Juo keliaut!<br><br>3. Džiaugiuosi Kristum, didžiuojuos Kristum,<br>Jis duos vainiką, kuris nevysta,<br>Jis viltį duoda – kokia paguoda<br>Su Juo draugaut, su Juo keliaut!</div>",
+    "copyright": "<div>Romualdos Adomaitytės-Chabarinos tekstas, 2001<br>Indų misionierių melodija</div>"
+  },
+  {
+    "title": "Esu saugus, kai Tu šalia",
+    "songId": "38 A",
+    "id": 41,
+    "verse": "Suteiksiu saugią vietą tam, kuris jos ilgisi. Ps 11, 6",
+    "body": "<div>Esu saugus, kai Tu šalia.<br>Likai toks pat,<br>Ir Tavo meilė – čia, širdyje.<br><br><em>Priegiesmis:</em><br>Arti, aš tikiu,<br>Glaudi Tu mane glėbyje Savame,<br>Neleiski man ištrūkt!<br>Arti, aš tikiu,<br>Glaudi Tu mane glėbyje Savame,<br>Neleiski man ištrūkt!<br><br>2. Juk Tu mirei vardan visų,<br>Išvadavai,<br>Todėl dabar aš laisvas esu.<br><br><em>Priegiesmis:</em><br>Arti, aš tikiu,<br>Glaudi Tu mane glėbyje Savame.<br>Neleiski man ištrūkt!<br>Arti, aš tikiu,<br>Glaudi Tu mane glėbyje Savame.<br>Neleiski man ištrūkt!<br>Tu buvai visad šalia,<br>Netgi kai buvo sunku,<br>Aš maniau, esu vienui vienas,<br>Bet Tu buvai kartu...<br>Arti, aš tikiu,<br>Glaudi Tu mane glėbyje Savame.<br>Neleiski man ištrūkt!&nbsp;<br>Arti, aš tikiu,<br>Glaudi Tu mane glėbyje Savame.<br>Neleiski man ištrūkt!&nbsp;</div>",
+    "copyright": "<div>Reuben Morgan tekstas ir muzika<br>Vertė Giedrius Rimša</div>"
+  },
+  {
+    "title": "Tik su Jėzum noriu aš keliauti",
+    "songId": "39",
+    "id": 42,
+    "verse": "Visi Viešpaties takai – tai ištikimoji meilė ir tiesa. Ps 25, 10",
+    "body": "<div>Tik su Jėzum noriu aš keliauti,<br>Tik su Juo man gera ir saugu.<br>Negaliu aš kito draugo gauti,<br>Su kuriuo keliauti taip smagu!<br>Su kuriuo keliauti taip smagu!<br><br>2. Taip per jūras, kalnus ir per klonius<br>Vaikštau aš drąsus prie Jo šalies.<br>Jeigu Viešpats – mano palydovas,<br>Jis nelaimėj ranką man išties.<br>Jis nelaimėj ranką man išties.<br><br>3. Mano ramų miegą saugo naktį,<br>Jis apsaugos ir dienos metu.<br>Jis paguos, jei man kentėti tektų,<br>Ir patars, kai kryžkelėj esu.<br>Ir patars, kai kryžkelėj esu.<br><br>4. Aš todėl dabar keliauju drąsiai<br>Ten, kur Jėzus kviečia pas Save.<br>Laimę tikrąją aš ten surasiu,<br>Kai į Tėviškę mane parves.<br>Kai į Tėviškę mane parves.</div>",
+    "copyright": "<div>Johann Peter Schück (1811–1892) tekstas ir muzika, 1849</div>"
+  },
+  {
+    "title": "Savojo kelio Tu mokyk mane",
+    "songId": "39 A",
+    "id": 43,
+    "verse": "Mokyk Savo kelio mane, Viešpatie. Ps 86, 11",
+    "body": "<div>Savojo kelio Tu mokyk mane<br>Ir palaikyk ranka, Dieve, švelnia, –<br>Pasitikėt Tavim aušroj, tamsiom naktim, –<br>Savojo kelio Tu mokyk mane.<br><br>2. Kada audra sukils lig pat dangaus,<br>Dvejonės, neviltis, baimė prispaus,<br>Švieski pro liūdesį, sielvarto debesį,<br>Savojo kelio Tu mokyk mane.<br><br>3. Kol dar keliausiu aš, kol plaks širdis,<br>Kol amžina spindės man ateitis,<br>Kol angelai dar ten atneš vainiką man,<br>Savojo kelio Tu mokyk mane.</div>",
+    "copyright": "<div>Benjamin M. Ramsey (1849–1923) tekstas ir muzika, 1919<br>Vertė Arūnas ÿerkesas,<br>Romualda Adomaitytė-Chabarina, 2010</div>"
+  },
+  {
+    "title": "Žemės aš vaikas toks nuodėmingas",
+    "songId": "40",
+    "id": 44,
+    "verse": "Žiūrėk! Įrėžiau tavo vardą Savo rankos delne. Iz 49, 16",
+    "body": "<div>Žemės aš vaikas toks nuodėmingas,<br>Kelias manasis toks pražūtingas,<br>Bet Jėzus Kristus myli mane<br>Meile Sava kilnia.<br><br><em>Priegiesmis:</em><br>Jėzus mane atpirko<br>Savo brangiu krauju.<br>Jam priklausau aš amžinai,<br>Vaikas aš Jo esu!<br><br>2. Myli mane Visatos Kūrėjas,<br>Jis – mano Dievas ir Atpirkėjas.<br>Aš įrašytas Jo delnuose –<br>Mirė Jis už mane.<br><br>3. Šlovinsiu Dievo meilę didingą<br>Ir Jo malonę man, nuodėmingam.<br>Noriu tarnauti Jam tik vienam,<br>Amžiais dėkoti Jam!</div>",
+    "copyright": "<div>Danieliaus Oželio tekstas, 2001<br>Norman J. Clayton (1903–1992) muzika</div>"
+  },
+  {
+    "title": "Blaškomas gyvenimo, nuodėmėse skendau",
+    "songId": "41",
+    "id": 45,
+    "verse": "Jis išgelbės Savo tautą iš nuodėmių. Mt 1, 21",
+    "body": "<div>Blaškomas gyvenimo, nuodėmėse skendau,<br>Tarsi jūros bangose viltį aš praradau.<br>Bet – o džiaugsmas ir viltis, laimė man iš tiesų! –<br>Jėzaus Kristaus štai išgelbėtas esu.<br><br><em>Priegiesmis:</em><br>Jeigu prislėgs skausmo našta –<br>Jėzaus ranka visad tau ištiesta.<br>Juo patikėk, mano širdie, –<br>Meile tave pridengs nuo pražūties.<br><br>2. Gera Juo pasitikėt, glaustis prie Jo širdies –<br>Jo Artumą jaust kasdien, sielą malda išliet.<br>Nors ir audros graso man, bet aš esu ramus, –<br>Jėzaus lydimas tikiu pasiekt namus.<br><br>3. Jei kovoj tu pavargai, apimtas nevilties,<br>Eik pas Jėzų – neatstums, ranką Jis tau išties!<br>Jei ir nusisuks visi, vieną paliks skausme,<br>Jėzus niekad neapleis, globos tave!</div>",
+    "copyright": "<div>James Rowe (1865–1933) tekstas, 1912<br>Howard E. Smith (1863–1918) muzika, 1912<br>Vertė Romualda Adomaitytė-Chabarina, 2000</div>"
+  },
+  {
+    "title": "Jėzau mieliausias, didis Valdove",
+    "songId": "42",
+    "id": 46,
+    "verse": "Dangus tešlovina Tavo nuostabius darbus, Viešpatie. Ps 89, 6",
+    "body": "<div>Jėzau mieliausias, didis Valdove,<br>Dievo ir Žmogaus Sūnau,<br>Džiaugsmas Tu mano širdies šventovėj,<br>Tau – mano gyrius, giesmės Tau!<br><br>2. Nuostabios pievos, kvepiančios girios,<br>Kiek pavasario žiedų!<br>Jėzus mielesnis – Jis mūsų gyrius,<br>Viltis išvargintų širdžių!<br><br>3. Aušros spalvingos, mėnuo žavingas,<br>Koks grožis žvaigždžių pulkų!<br>Jėzus skaistesnis, tyras, didingas –<br>Giesmė Jis angelų šventų.<br><br>4. Tu – Atpirkėjas mūsų žmonijos,<br>Dievo ir Žmogaus Sūnus.<br>Šlovė aukščiausia, giesmė ir gyrius<br>Dabar ir amžinai Tau bus!</div>",
+    "copyright": "<div>Nežinomo XVII a. autoriaus tekstas<br>Silezijos melodija<br>Vertė Kęstutis Jankevičius, ~ 1996</div>"
+  },
+  {
+    "title": "Elnė trokšta vandens upelio",
+    "songId": "43",
+    "id": 47,
+    "verse": "Kaip elnė ilgisi tekančio vandens, taip aš ilgiuosi Tavęs, Dieve. Ps 42, 2",
+    "body": "<div>Elnė trokšta vandens upelio,<br>Ilgiuosi aš Tavęs!<br>Dieve, Tu man širdies Karalius,<br>Ir aš šlovinu Tave.<br><br><em>Priegiesmis:</em><br>Tu esi skydas man saugus,<br>Tik su Tavim sielai gera bus!<br>Tu esi man širdies Karalius,<br>Ir aš šlovinu Tave!<br><br>2. Tu esi draugas man ir brolis,<br>Karalius nors esi.<br>Tu brangesnis labiau nei lobis,<br>Netgi nei draugai visi.<br><br>3. Tavo meilė svarbiau už auksą,<br>Sidabrą ir perlus.<br>Tu teiki man ramybę gausią,<br>Gera su Tavim man bus</div>",
+    "copyright": "<div>Martin J. Nyström tekstas ir muzika, 1984<br>Vertė Regina Laukytė,<br>Romualda Adomaitytė-Chabarina,<br>Danielius Oželis, 1999</div>"
+  },
+  {
+    "title": "Būk man vadu, o Valdove širdžių",
+    "songId": "44",
+    "id": 48,
+    "verse": "Viešpats visuomet bus tavo vadovas... Jis atnaujins tavo jėgas. Iz 58, 11",
+    "body": "<div>Būk man vadu, o Valdove širdžių,<br>Nieks mūs negali išgelbėt, vien Tu!<br>Būki palaima dienom ir naktim,<br>Miegant, dirbant, Tu būk su manim.<br><br>2. Būk išmintis ir šviesa man kely,<br>Trokštu per amžius aš likti Tavy.<br>Tu esi Tėvas, mes Tavo – vaikai,<br>Saugūs – rankose Savo laikai.<br><br>3. Turtų nereik man nei liaupsių žmonių,<br>Tu – mano paveldas, jį aš turiu!<br>Tau, vien tik Tau savo širdį skiriu,<br>Man brangiausias esi iš visų!<br><br>4. Kovos kai baigsis ir saulė tekės,<br>Širdys nuliūdusios džiaugtis galės.<br>Tau nusilenksim, Valdove širdžių,<br>Būki vadu, Karaliau visų!</div>",
+    "copyright": "<div>Senovės airių tekstas<br>VIII a. airių melodija<br>Vertė Regina Laukytė, 1999</div>"
+  },
+  {
+    "title": "Upė šventojo vandens",
+    "songId": "45",
+    "id": 49,
+    "verse": "Jie gėrė iš dvasinės juos lydinčios uolos, o ta uola buvo Kristus. 1 Kor 10, 4",
+    "body": "<div>Upė šventojo vandens<br>Liejas iš uolos akmens.<br>Ten prieiti aš galiu<br>Nusiplaut savų kalčių. –<br>Jo nekaltas kraujas tas<br>Valo nuodėmes visas.<br><br>2. Vykdyt Dievo liepimus<br>Man sunku – aš tik žmogus.<br>Nors ir stengčiausi labai,<br>Mano per menki darbai.<br>Bet išvengsiu pražūties<br>Tik dėl Viešpaties mirties!<br><br>3. Menkas aš esu, matau,<br>Tad Tavęs karštai prašau:<br>Kai ateisi iš Dangaus<br>Gelbėt laukiančio žmogaus,<br>Vesk į šalį amžiną,<br>Dieve, Tu – Uola mana!</div>",
+    "copyright": "<div>Augustus M. Toplady (1740–1778) tekstas, 1776<br>Thomas Hastings (1784–1872) muzika, 1830</div>"
+  },
+  {
+    "title": "Mes statom sau namą ant uolos",
+    "songId": "46",
+    "id": 50,
+    "verse": "Kas klauso šitų Mano žodžių ir juos vykdo, panašus į išmintingą žmogų, pasistačiusį namą ant uolos. Mt 7, 24",
+    "body": "<div>Mes statom sau namą ant uolos,<br>Uola amžinoji – Kristus.<br>Toks namas negrius jau niekados,<br>Nors žemėj žūtų viskas.<br><em><br>Priegiesmis:</em><br>Statyk ant Uolos,<br>Šventos ir tvirtos,<br>Statyk ant Uolos, ant Uolos tikros,<br>Ant amžinos Uolos!<br><br>2. Paikieji ant smėlio pastatys,<br>Nes tiki jėgom tik savo.<br>Išnykstantys turtai – jų viltis –<br>Klastingai juos apgavo.<br><br>3. Skubėkite greit prie šios Uolos!<br>Pradėtąjį darbą tęskit,<br>Stiprybės, pagalbos Viešpats duos,<br>Tik rankų nenuleiskit!</div>",
+    "copyright": "<div>Franklin E. Belden (1858–1945) tekstas ir muzika, 1886&nbsp;</div>"
+  },
+  {
+    "title": "Mes dangun akis pakelkim",
+    "songId": "47",
+    "id": 51,
+    "verse": "Pakelkite akis į dangus.  Iz 51, 6",
+    "body": "<div>Mes dangun akis pakelkim<br>Nuo liūdnų, tamsių takų<br>Ir į Jėzų Kristų žvelkim,<br>Prislėgti vargų naštų.<br>Visiškai Jam atsiduokim –<br>Geras Tėvas saugos mus –<br>Ir pavojų nebijokim,<br>Nors pasaulis neramus.<br><br>2. Tik pas Jį tikra ramybė,<br>Užsimiršta net vargai,<br>Nes laimingą amžinybę<br>Jau dabar dvasia matai.<br>Jeigu sieloj nuodėmingoj<br>Kristaus Žodis vietą ras,<br>Jam paklusi rūpestingai –<br>Jis tave Dangun nuves.<br><br>3. Visos mano mintys, norai<br>Ir gyvenimas patsai<br>Tetarnauja Dievo šlovei,<br>Jo teklauso amžinai.<br>Kad nuklydusiems nuo Kristaus<br>Rodyčiau tiesos kelius,<br>Sielos atpirktos tegrįžtų<br>Vėl į dangiškus namus.</div>",
+    "copyright": "<div>Nežinomo autoriaus tekstas<br>Johannes Heyer (1872–1945) muzika</div>"
+  },
+  {
+    "title": "O siela, silpna ir nuvargus",
+    "songId": "48",
+    "id": 52,
+    "verse": "Steponas... žvelgė į dangų ir išvydo Dievo šlovę ir Jėzų, stovintį Dievo dešinėje. Apd 7, 55",
+    "body": "<div>O siela, silpna ir nuvargus,<br>Vilties tamsoje nematai?<br>Ji spindi, pažvelk tik į Dangų –<br>Gyvensi ir džiaugsies šventai.<br><br><em>Priegiesmis:</em><br>Atsisuki į Jėzų,<br>Į veidą Jo nuostabų žvelk,<br>Ir šioj žemėj viskas keistai nublanks<br>Jo šlovės ir malonės šviesoj!<br><br>2. Kad amžiais galėtum gyventi,<br>Jis įveikė jėgą mirties,<br>Tad nuodėmė galios netenka.<br>Kas Jėzumi tiki – laimės!<br><br>3. Jo Žodis negali apvilti –<br>Šventais pažadais patikėk<br>Ir eik į pasaulį, kurs miršta,<br>Išganymą skelbti pradėk.</div>",
+    "copyright": "<div>Helen H. Lemmel (1863–1961) tekstas ir muzika, 1922<br>Vertė Regina Laukytė, 1999</div>"
+  },
+  {
+    "title": "Ramybę duodu Aš tau",
+    "songId": "49",
+    "id": 53,
+    "verse": "Duodu jums Savo ramybę... Tenebūgštauja jūsų širdys ir teneliūdi! Jn 14, 27",
+    "body": "<div>Ramybę duodu Aš tau –<br>Negali jos pasaulyje rast,<br>Tą ramybę, kurios žmonės nesupras.<br>Ją priimk, ja gyvenk –<br>Ramybę duodu Aš tau.<br><br>2. Dangaus siunčiu džiaugsmą tau –<br>Negali jo pasaulyje rast,<br>Savo džiaugsmą, kurio žmonės nesupras.<br>Jį patirk, juo gyvenk –<br>Dangaus siunčiu džiaugsmą tau.<br><br>3. Dangaus siunčiu meilę tau –<br>Negali jos pasaulyje rast,<br>Savo meilę, kurios žmonės nesupras.<br>Ją pažink, ja gyvenk –<br>Dangaus siunčiu meilę tau.</div>",
+    "copyright": "<div>Keith Routledge tekstas ir muzika<br>Vertė Regina Laukytė,<br>Romualda Adomaitytė-Chabarina,<br>Danielius Oželis, 1999</div>"
+  },
+  {
+    "title": "Jėzaus širdyje ir tau vieta yra",
+    "songId": "50",
+    "id": 54,
+    "verse": "Eikš į savo šeimininko džiaugsmą! Mt 25, 21",
+    "body": "<div>Jėzaus širdyje ir tau vieta yra,<br>Meilė Jo švelniausia, ji gili, tyra.<br>Gal bijai vienatvės? Ieškai gal draugų?<br>Jėzaus širdyje juk viską rasi tu.<br><br>2. Jėzaus mintyse ir tau vieta yra –<br>Jo kelių šviesa tau – lyg gaivi rasa.<br>Ko gi tau bijoti, sielvartaut tuščiai?<br>Rūpinasi Jėzus Savo atpirktais.<br><br>3. Jėzaus laukuose tau darbo daug yra,<br>Angelai džiaugsmingai dirbtų darbą tą!<br>Kam bandai pelningą vietą rasti tu?<br>Laukia Jėzaus laukas rankų daug darbščių.<br><br>4. Jėzaus namuose ir tau yra vieta,<br>Džiaugsmo bei ramybės ir šlovės pilna.<br>Tai kodėl lyg vargšas nuolatos liūdi?<br>Juk namai tau Jėzaus laukia prirengti.</div>",
+    "copyright": "<div>Alice Pugh tekstas<br>C. H. Forrest (1846–1925) muzika, 1897<br>Vertė Regina Laukytė, 1999</div>"
+  },
+  {
+    "title": "O ta diena – ji diena nuostabi",
+    "songId": "51",
+    "id": 55,
+    "verse": "Mano širdis džiūgaus, nes Tu mane išgelbėsi. Ps 13, 6",
+    "body": "<div>O ta diena – ji diena nuostabi –<br>Jos neužmiršiu, žinau!<br>Kai tamsoje aš klajojau toli,<br>Jėzų kely sutikau.<br>O, koks švelnus, užjaučiąs Draugas Jis!<br>Guodžia Jo meilės gausa.<br>Nyksta šešėliai, džiaugiuosi aš vėlei, –<br>Jis pavertė tamsą šviesa!<br><br><em>Priegiesmis:</em><br>Dievo šlovė pripildė sielą jau,<br>Kai Jo krauju išgelbėtas buvau.<br>Kaltė jau nuplauta,<br>Virto man naktis diena.<br>Dievo šlovė pripildė sielą man!<br><br>2. Gimęs iš Dvasios gyvybe nauja,<br>Dievo šventojoj šeimoj!<br>Viešpaties meilė! – Išteisintas ja!<br>O, kaip smagu tai žinot!<br>Jėzus taip greitai suprato mane,<br>Nors kaltėse aš skendau,<br>Priėmiau uoliai man skirtą malonę.<br>Šlovė Jam tekils lig Dangaus!<br><br>3. Nors ir prabėgtų dienų daug ilgų,<br>Likti neteks man vienam.<br>Aš esu tikras, kad būsiu Danguj –<br>Vietos užteks kiekvienam.<br>Džiaugsiuos dėl tos nuostabiosios dienos,<br>Kai patikėjau Dievu!<br>Amžiną laimę ir tikrą palaimą<br>Gavau iš Jo rankų brangių!</div>",
+    "copyright": "<div>John W. Peterson (1921–2006) tekstas ir muzika, 1961<br>Vertė Regina Laukytė, 1999</div>"
+  },
+  {
+    "title": "Turiu aš Draugą mielą ir brangų man labai",
+    "songId": "52",
+    "id": 56,
+    "verse": "Jus Aš draugais vadinu. Jn 15, 15",
+    "body": "<div>Turiu aš Draugą mielą ir brangų man labai,<br>Taip švelniai myli Jis mane ir taip ištikimai.<br>Be Jo gyventi negaliu, ramu, kai Juo tikiu,<br>Jis – Viešpats visad ir visur kartu.<br><br>2. Kai aš esu pavargęs, kai silpnas aš labai,<br>Jis prašo pasikliauti Juo, padės Jis man tikrai.<br>Taip veda Jis mane šviesiu gyvenimo keliu,<br>Jis – Viešpats visad ir visur kartu.<br><br>3. Jam išsakau bėdas aš, džiaugsmus visos dienos,<br>Kai linksma aš dėkoju Jam, sunku – karštai<br>&nbsp;meldžiuos.<br>Jis pataria man, ką daryt, kaip elgtis aš turiu,<br>Jis – Viešpats visad ir visur kartu.<br><br>4. Jis žino mano norą pavargėliams padėt,<br>Todėl Jis liepia eit dabar ir liudyti pradėt.<br>Jo didžią meilę apsakyt ir tikslą Jo kančių,<br>Jis – Viešpats visad ir visur kartu.</div>",
+    "copyright": "<div>Mary A. E. Shorey Lancaster (1851–?) tekstas, 1890<br>Hubert P. Main (1839–1925) muzika<br>Vertė Regina Laukytė, 1999</div>"
+  }
 ]
