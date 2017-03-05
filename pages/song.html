@@ -1,10 +1,11 @@
 <div layout="row" layout-align="center center" layout-padding>
 
 	<md-card flex flex-xs flex-gt-xs=none class="home-card">
-	<md-card-actions layout="row" layout-align="space-around center">
+		<md-card-actions layout="row" layout-align="space-around center">
         	<md-button class="md-primary" ng-click="song.textDw()">Aa -</md-button>
-        	<md-button class="md-primary" ng-click="song.textUp()">Aa +</md-button>
-		</md-card-actions>
+	    	<span class="song-num">{{song.song.songId}}</span>
+        	<md-button class="md-primary" ng-click="song.textUp()">Aa +</md-button>        	
+		</md-card-actions><!--
 		<md-card-title>
 	        <md-card-title-text layout="column">
 
@@ -15,19 +16,14 @@
 
 	        	</div>
 
-				<!--<p layout="">{{song.song.verse}}</p>-->
+				<p layout="">{{song.song.verse}}</p>
 
 	        </md-card-title-text>
-	    </md-card-title>
-
-		<md-card-content >
-
-			<p ng-bind-html="song.body" style="font-size: {{song.fontSize}}px"></p>
-
+	    </md-card-title>-->
+		<md-card-content class="first-letter first-line">
+			<p ng-bind-html="song.body" style="font-size: {{song.fontSize}}px;"></p>
 			<hr>
-
 			<small ng-bind-html="song.copyright" class="text-italic"></small>
-
 		</md-card-content>
 		<md-card-actions layout="row" layout-align="end center">
 			<md-button class="md-accent" ng-href="/">ATGAL</md-button>
