@@ -5,8 +5,14 @@
     angular.module('app', ['ngRoute', 'ngMaterial'])
 
     //Config
-    .config(function($mdThemingProvider, $mdToastProvider) {
-        //Theme colors
+
+    //Debug
+    .config(['$compileProvider', function ($compileProvider) {
+        $compileProvider.debugInfoEnabled(false);
+    }])
+
+    //Theme colors
+    .config(function($mdThemingProvider) {
         $mdThemingProvider.theme('default')
             .primaryPalette('deep-orange')
             .accentPalette('grey');
@@ -50,7 +56,7 @@
     })
 
     .run(
-        function($http, $rootScope, serviceWorker, $filter, $mdToast) {           
+        function($http, $rootScope, serviceWorker, $mdToast) {           
 
             //Init ServiceWorker
             if (swActive) {
@@ -58,21 +64,10 @@
             }
 
             //Fetch hymns
-            $http.get('edeno-aidai.json').then(
-
-                function(res){
-                    //Let's shuffle it, to get some random
-                    /*$rootScope.library = $filter('orderBy')(res.data, function() {
-                        return 0.5 - Math.random();
-                    });
-
-                    console.log('Fetch order: ');
-                    console.log($rootScope.library);*/
-
-                    $rootScope.library = res.data;
-                }
-                
-            ).catch(
+            $http.get('edeno-aidai.json').then(function(res){
+                $rootScope.library = res.data;
+                //console.log("Here at run it works normally " + $rootScope.library.length);
+            }).catch(
                 function(res){
                     console.log('Klaida: edeno-aidai.json '+res.status + ' ' + res.statusText);
 
@@ -85,10 +80,8 @@
                             '<md-button ng-click="toast.update(\'reload\')">'+
                                 'Bandyti dar kartą' + 
                             '</md-button>'+
-                        '</md-toast>'
-
-
-                    }).then(function(value){
+                        '</md-toast>'})
+                    .then(function(value){
                         if (value == 'reload') {
                             window.location.reload();
                         }
@@ -121,7 +114,7 @@
                                     //console.log('we are using ', usedBytes, ' of ', grantedBytes, 'bytes');
 
                                     $mdToast.show({
-                                        hideDelay   : 3000,
+                                        hideDelay   : 6000,
                                         controller  : 'toastController',
                                         controllerAs: 'toast',
                                         template: 
@@ -171,7 +164,7 @@
 
                 console.log('Klaida: ' +res);
                 $mdToast.show({
-                    hideDelay   : 3000,
+                    hideDelay   : 6000,
                     controller  : 'toastController',
                     controllerAs: 'toast',
                     template: 
@@ -253,24 +246,42 @@
         };
     })
 
-    .controller('mainController', function($rootScope, $filter, $location) {
+    .controller('mainController', function($rootScope, $filter, $location, $timeout) {
+
     	var main = this;
-
-        /*main.songs = $filter('orderBy')($rootScope.library, function() {
-            return 0.5 - Math.random();
-        });*/
-
         main.songs = $rootScope.library;
 
-        /*main.songs = $filter('orderBy')($rootScope.library);
+        var loadHymns = function(){
 
-        console.log('Controller order: ');
-        console.log(main.songs);*/
+            retriesNum += 1;
 
+            main.songs = $rootScope.library;
 
-        /*main.go = function ( path ) {
-            $location.path( path );
-        };  */      
+            if (!main.songs && retriesNum < 10) {
+
+                $timeout(function() {
+                    loadHymns();
+                    console.log("This is " + retriesNum + " try so far!");
+                }, 500);
+            }
+        }
+
+        //Let's do some retries
+        if (!main.songs) {      
+
+            main.songs = [{
+                "title"  : "Palaukite...",
+                "id": null
+              }];
+
+            var retriesNum = 0;
+
+            $timeout(function() {
+                    loadHymns();
+            }, 300);
+        }
+
+        //main.songs = $filter('orderBy')($rootScope.library);
 
 
     })

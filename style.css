@@ -16,14 +16,13 @@
 
 .first-letter p::first-letter { 
 	float: left;
-	font-family: Georgia;
 	font-size: 200%;
 	line-height: 90%;
 	padding-right: 8px;
 	padding-left: 2px;
 }
 .first-line p::first-line { 
-    font-weight: bold;
+    font-weight: 700;
 }
 
 @media screen and (min-width: 600px) {

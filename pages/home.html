@@ -10,17 +10,14 @@
         <span class="song-num" layout-padding>{{song.songId}}</span>      
       </div>
 
-
       <md-card-title-text layout-align="start center" flex-order-gt-xs="1">
-        <!--<md-button ng-href="song/{{song.id}}" ng-click="$root.searchQuery = ''"><span class="md-headline" style="font-size: 22px;">{{song.title}}</span></md-button>-->
         <span class="md-headline" style="font-size: 22px;">{{song.title}}</span>
         <span class="md-subhead">{{song.verse}}</span>        
       </md-card-title-text>      
-
         
     </md-card-title>
 
-    <md-card-actions layout layout-align="end center">
+    <md-card-actions layout layout-align="end center" ng-show="{{song.id}}">
         <md-button class="md-primary" ng-href="song/{{song.id}}" ng-click="$root.searchQuery = ''">ŽIŪRĖTI</md-button>
     </md-card-actions>  
 
