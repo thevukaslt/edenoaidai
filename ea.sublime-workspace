@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"retries",
+				"retriesNum"
+			],
+			[
 				"font-st",
 				"font-style"
 			],
@@ -34,10 +42,6 @@
 			[
 				"ac",
 				"active"
-			],
-			[
-				"fun",
-				"function"
 			],
 			[
 				"ser",
@@ -175,7 +179,16 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 9880,
+				"buffer_size": 10069,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/home.html",
+			"settings":
+			{
+				"buffer_size": 1138,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -184,7 +197,7 @@
 			"file": "sw.js",
 			"settings":
 			{
-				"buffer_size": 2532,
+				"buffer_size": 2081,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -197,7 +210,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 357.0,
 		"last_filter": "Snippet: ",
 		"selected_items":
 		[
@@ -214,7 +227,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 792.0
 	},
 	"console":
 	{
@@ -235,15 +248,18 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Projects/edenoaidai"
+		"/D/Projects/edenoaidai",
+		"/D/Projects/edenoaidai/pages"
 	],
 	"file_history":
 	[
+		"/D/Projects/edenoaidai/edeno-aidai.json",
+		"/D/Projects/edenoaidai/style.css",
+		"/D/Projects/edenoaidai/manifest.json",
+		"/D/Projects/edenoaidai/index.html",
 		"/D/Projects/edenoaidai/store/index.html",
 		"/D/Projects/edenoaidai/pages/song.html",
-		"/D/Projects/edenoaidai/style.css",
 		"/D/Projects/edenoaidai/store/store.js",
-		"/D/Projects/edenoaidai/edeno-aidai.json",
 		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/edeno-aidai-characters.sublime-snippet",
 		"/C/Windows/System32/drivers/etc/HOSTS",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -254,7 +270,6 @@
 		"/D/Projects/edenoaidai/pages/store.html",
 		"/D/Projects/edenoaidai/store/app.js",
 		"/D/Projects/edenoaidai/pages/home.html",
-		"/D/Projects/edenoaidai/index.html",
 		"/D/Projects/edenoaidai/layout/toast.html",
 		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/edeno-aidai.sublime-snippet",
 		"/D/Projects/edenoaidai/layout/navbar.html",
@@ -266,7 +281,6 @@
 		"/G/Add-ons/► Software/FayTeq.FayIN.v2.3.1.for.After.Effects/FayTeq.FayIN.v2.3.1.for.After.Effects.CC.2015-AMPED/amped.nfo",
 		"/D/Projects/edenoaidai/robots.txt",
 		"/D/Projects/edenoaidai/layout/sidenav.html",
-		"/D/Projects/edenoaidai/manifest.json",
 		"/C/Users/Me/Desktop/Tavo Šeimai - Prie šeimos, prie meilės židinio susėskim….html",
 		"/D/Projects/edenoaidai/.gitignore",
 		"/D/Projects/edenoaidai/pages/about.html",
@@ -529,7 +543,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -538,7 +552,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9880,
+						"buffer_size": 10069,
 						"regions":
 						{
 						},
@@ -556,27 +570,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 627.0,
+						"translation.y": 1870.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sw.js",
+					"file": "pages/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2532,
+						"buffer_size": 1138,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								862,
+								862
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sw.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1193,
+								1193
 							]
 						],
 						"settings":
@@ -585,7 +629,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 10.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,

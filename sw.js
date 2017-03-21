@@ -1,4 +1,4 @@
-var currentCache = "6";
+var currentCache = "7";
 //Updated on 2017-03-21
 var cacheTitle = "edeno-aidai";
 var activeCache = cacheTitle + '-v' + currentCache;
@@ -38,7 +38,6 @@ self.addEventListener('install', function(e) {
 
 
 self.addEventListener('activate', function(e) {
-  	//console.log('SW: activated.');
 	e.waitUntil(
 		caches.keys().then(function(cacheNames) {
 			return Promise.all(
@@ -46,7 +45,6 @@ self.addEventListener('activate', function(e) {
 					return cacheName.startsWith(cacheTitle) &&
 				    	cacheName != activeCache;
 				}).map(function(cacheName) {
-  					//console.log('SW: deleted old caches.');
 					return caches.delete(cacheName);
 				})
 			);
@@ -56,8 +54,6 @@ self.addEventListener('activate', function(e) {
 
 
 self.addEventListener('fetch', function(e) {
-
-
 	var offlineres = function() {
 		if (e.request.headers.get('Accept').indexOf('text/html') != -1) {
 			return caches.match(e.request).then(function (response) { 
@@ -65,14 +61,12 @@ self.addEventListener('fetch', function(e) {
 			})
 		} 
 	}	
-
     e.respondWith(
 		caches.match(e.request).then(function(response) {
 			return response || fetch(e.request).catch(offlineres);
 		})
   	);
 });
-
 
 self.addEventListener('message', function(e) {
   if (e.data.action === 'skipWaiting') {
