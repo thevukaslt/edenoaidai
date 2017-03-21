@@ -1,0 +1,49 @@
+<div layout="column" layout-padding>
+	
+
+
+		<form layout-wrap layout="column">
+			
+			<div layout="row">
+				<md-input-container flex>
+			    	<label>Pavadinimas</label>
+			    	<input type="text" ng-model="store.new.title">
+			    </md-input-container>
+
+			    <md-input-container flex="33">
+			    	<label>Giesmės numeris</label>
+			    	<input type="text" ng-model="store.new.songId">
+			    </md-input-container>
+			</div>
+
+		    <md-input-container class="md-block">
+		    	<label>Eilutė</label>
+		    	<input type="text" ng-model="store.new.verse">
+		    </md-input-container>
+
+		    <md-input-container class="md-block">
+		    	<label>Žodžiai</label>
+		    	<input type="text" ng-model="store.new.body">
+		    </md-input-container>
+
+		    <md-input-container class="md-block">
+				<label>Autoriai</label>
+				<input type="text" ng-model="store.new.copyright">
+		    </md-input-container>
+
+		    
+	   		<md-button aria-label="Generuoti" ng-click="store.generate()">Generuoti</md-button>
+		    
+
+		</form>
+
+		<div layout="row">
+			
+			<textarea readonly flex> {{ store.library }} </textarea>
+			
+
+		</div>
+
+		
+
+</div>

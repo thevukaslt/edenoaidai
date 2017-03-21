@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="lt" ng-app="store">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Edeno Aidų giesmynas">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+		<meta name="theme-color" content="orange">
+
+
+		<title>Edeno aidai</title>
+
+		<link rel="icon" type="image/png" href="favicon.png" />	
+
+		<link rel="stylesheet" href="/style.css"/>
+
+		<!-- Angular Material stylesheet -->
+  		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+
+  		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/trix/0.9.2/trix.css">
+
+
+		<base href="/">
+	</head>
+
+	<body ng-cloak layout="column" ng-controller="storeCtrl as store">
+
+		<md-toolbar class="md-hue-3">
+			<h2 class="md-toolbar-tools">
+				<span>Naujausia giesmė: {{store.latest.songId}} | pavadinimu: {{store.latest.title}}</span>
+				<span flex></span>
+				<span><a href="/" target="_blank">PAGRINDINIS</a></span>
+			</h2>
+    	</md-toolbar>
+
+		<div class="container" layout="row" flex>
+
+			
+
+			<md-content flex>			    
+
+				<div layout="column" layout-margin>
+
+					<form layout-wrap layout="column" ng-submit="store.generate()">
+						
+
+						<div layout="row">
+							<md-input-container flex style="margin: 0">
+						    	<label>Pavadinimas</label>
+						    	<input type="text" ng-model="store.new.title" required="">
+						    </md-input-container>
+
+						    <md-input-container flex="33" style="margin: 0">
+						    	<label>Giesmės numeris</label>
+						    	<input type="text" ng-model="store.new.songId" required="">
+						    </md-input-container>
+						</div>
+
+					    <md-input-container class="md-block" style="margin: 0">
+					    	<label>Eilutė</label>
+					    	<input type="text" ng-model="store.new.verse" required="">
+					    </md-input-container>
+
+					    <md-input-container class="md-block" style="margin: 0">
+					    	<label>Žodžiai</label>
+					    	<input type="" name="" disabled="">
+					    </md-input-container>
+					    	<trix-editor angular-trix ng-model="store.new.body" required style="min-height: 150px;"></trix-editor>
+
+					    <md-input-container class="md-block" style="margin-bottom: 0">
+							<label>Autoriai</label>
+					    	<input type="" name="" disabled="">
+					    </md-input-container>
+					    	<trix-editor angular-trix ng-model="store.new.copyright" required></trix-editor>
+					    
+				   		<div layout layout-align="space-around center">
+				   			<md-button class="md-primary" ng-click="store.preview()">Peržiūrėti</md-button>
+				   			<md-button class="md-primary" md-whiteframe="1" type="submit" ng-hide="store.new.verse == '' || store.new.body == '' || store.new.copyright == '' ">Generuoti</md-button>
+				   		</div>
+					    
+
+					</form>
+
+					<div layout="row">
+						
+						<textarea readonly="readonly" flex select-on-click rows="5">{{ store.output | json }}</textarea>
+						
+
+					</div>
+
+				</div>
+
+			</md-content>
+		</div>
+		
+		<!-- Angular.js Libraries -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+		<!-- Application -->
+		<script src="/store/store.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/trix/0.9.2/trix.js"></script>
+		<script src="/store/angular-trix.js"></script>
+	</body>
+
+</html>

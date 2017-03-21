@@ -1,0 +1,679 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"order",
+				"orderBy"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"md",
+				"md-button"
+			],
+			[
+				"son",
+				"songs"
+			],
+			[
+				"sw",
+				"swActive"
+			],
+			[
+				"layout",
+				"layout-padding"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ser",
+				"serviceWorker"
+			],
+			[
+				"control",
+				"controllerAs"
+			],
+			[
+				"toast",
+				"toastController"
+			],
+			[
+				"state",
+				"statechange"
+			],
+			[
+				"in",
+				"installing"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"ad",
+				"addEventListener"
+			],
+			[
+				"cac",
+				"cacheversion"
+			],
+			[
+				"md-t",
+				"md-toolbar\tAngular Material - Toolbars are usually used above a content area to display the title of the current page, and show relevant action buttons for that page."
+			],
+			[
+				"song",
+				"songId"
+			],
+			[
+				"fetc",
+				"fetch"
+			],
+			[
+				"form-",
+				"form-control"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"md-white",
+				"md-whiteframe-4dp"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"created",
+				"created_at"
+			],
+			[
+				"bendr",
+				"Bendruomenė"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"Finance",
+				"FinanceDivision"
+			],
+			[
+				"belongs",
+				"belongsTo"
+			],
+			[
+				"cas",
+				"cascade"
+			],
+			[
+				"financ",
+				"financedivision_id"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"max",
+				"maxlength"
+			],
+			[
+				"total",
+				"totalsent"
+			],
+			[
+				"boo",
+				"boolean"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"fu",
+				"fun\tfunction …"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 9880,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sw.js",
+			"settings":
+			{
+				"buffer_size": 2532,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: edeno-aidai-characters"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/edenoaidai"
+	],
+	"file_history":
+	[
+		"/D/Projects/edenoaidai/store/index.html",
+		"/D/Projects/edenoaidai/pages/song.html",
+		"/D/Projects/edenoaidai/style.css",
+		"/D/Projects/edenoaidai/store/store.js",
+		"/D/Projects/edenoaidai/edeno-aidai.json",
+		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/edeno-aidai-characters.sublime-snippet",
+		"/C/Windows/System32/drivers/etc/HOSTS",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Projects/edenoaidai/app.js",
+		"/D/Projects/edenoaidai/sw.js",
+		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/e.sublime-snippet",
+		"/C/Users/Me/Desktop/angular-trix-master/dist/angular-trix.js",
+		"/D/Projects/edenoaidai/pages/store.html",
+		"/D/Projects/edenoaidai/store/app.js",
+		"/D/Projects/edenoaidai/pages/home.html",
+		"/D/Projects/edenoaidai/index.html",
+		"/D/Projects/edenoaidai/layout/toast.html",
+		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/edeno-aidai.sublime-snippet",
+		"/D/Projects/edenoaidai/layout/navbar.html",
+		"/C/Users/Me/Desktop/wpdatatables/wpdatatables.php",
+		"/C/Users/Me/Desktop/wpdatatables/controllers/wdt_admin.php",
+		"/C/Users/Me/Desktop/wpdatatables/config/config.inc.php",
+		"/C/Users/Me/Desktop/hugo_0.18.1_Windows-64bit/README.md",
+		"/C/Users/Me/Desktop/hugo_0.18.1_Windows-64bit/LICENSE.md",
+		"/G/Add-ons/► Software/FayTeq.FayIN.v2.3.1.for.After.Effects/FayTeq.FayIN.v2.3.1.for.After.Effects.CC.2015-AMPED/amped.nfo",
+		"/D/Projects/edenoaidai/robots.txt",
+		"/D/Projects/edenoaidai/layout/sidenav.html",
+		"/D/Projects/edenoaidai/manifest.json",
+		"/C/Users/Me/Desktop/Tavo Šeimai - Prie šeimos, prie meilės židinio susėskim….html",
+		"/D/Projects/edenoaidai/.gitignore",
+		"/D/Projects/edenoaidai/pages/about.html",
+		"/C/Users/Me/Google Drive/Mark Finley LT (word).doc.gdoc",
+		"/D/Projects/Giedu/Hymnlyric/pages/about.html",
+		"/D/Projects/Giedu/Hymnlyric/webpack.config.babel.js",
+		"/D/Projects/Giedu/Hymnlyric/package.json",
+		"/D/Projects/Giedu/Hymnlyric/404.html",
+		"/D/Projects/AdventOS/config/mail.php",
+		"/D/Projects/AdventOS/resources/views/theme/_footer.blade.php",
+		"/D/Projects/AdventOS/resources/views/pages/sermon/create.blade.php",
+		"/D/Projects/AdventOS/resources/views/auth/emails/password.blade.php",
+		"/D/Projects/AdventOS/resources/views/pages/user/show.blade.php",
+		"/D/Projects/AdventOS/app/Http/Controllers/sermonController.php",
+		"/D/Projects/AdventOS/resources/views/emails/_top.blade.php",
+		"/D/Projects/AdventOS/resources/views/emails/user_new.blade.php",
+		"/D/Projects/AdventOS/resources/views/emails/sermon.blade.php",
+		"/D/Projects/AdventOS/resources/views/emails/finance.blade.php",
+		"/D/Projects/AdventOS/resources/views/pages/option/index.blade.php",
+		"/D/Projects/AdventOS/resources/views/theme/_sidebar.blade.php",
+		"/D/Projects/AdventOS/database/migrations/2016_07_27_100154_create_roles_table.php",
+		"/D/Projects/AdventOS/.env",
+		"/C/Users/Me/Desktop/monsta_ftp_2017_01_14_19_42_07/public_html/wp-content/w3-total-cache-config-adventistai.lt.php",
+		"/C/Users/Me/Desktop/monsta_ftp_2017_01_14_19_42_07/public_html/wp-content/w3-total-cache-config.php",
+		"/C/Users/Me/Desktop/SQLDumpSplitter.rar",
+		"/C/Users/Me/Desktop/wp-config.php",
+		"/D/Projects/Giedu/Hymnlyric/app.js",
+		"/D/Projects/Giedu/Hymnlyric/layout/navbar.html",
+		"/D/Projects/Giedu/Hymnlyric/index.html",
+		"/C/Users/Me/Desktop/monsta_ftp_2017_01_14_19_42_07/public_html/wp-config.php",
+		"/C/Users/Me/Desktop/tavoseimai.lt.txt",
+		"/D/Projects/Giedu/Hymnlyric/pages/home.html",
+		"/D/Projects/Giedu/Hymnlyric/pages/song.html",
+		"/D/Projects/Giedu/Hymnlyric/style.css",
+		"/D/Projects/Giedu/Hymnlyric/edeno-aidai.json",
+		"/D/Projects/Giedu/Hymnlyric/library.js",
+		"/D/Projects/Giedu/Hymnlyric/server.js",
+		"/D/Projects/Giedu/Hymnlyric/static_server.js",
+		"/D/Projects/Giedu/Hymnlyric/layout/nav.html",
+		"/D/Projects/Giedu/material-start/app/index.html",
+		"/D/Projects/Giedu/material-start/app/src/AppController.js",
+		"/D/Projects/Giedu/material-start/app/config.js",
+		"/D/Projects/Giedu/index.html",
+		"/D/Projects/Giedu/app.js",
+		"/D/Projects/Giedu/material-start/package.json",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/pages/finance/index.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/pages/finance/pdf.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/.env",
+		"/C/Users/Me/Desktop/Dev/AdventOS/database/migrations/2016_09_11_194850_create_finance_divisions_table.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/app/Exceptions/Handler.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/errors/401.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/errors/404.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/errors/503.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/errors/500.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/vendor/webmozart/assert/src/Assert.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/pages/finance/create.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/auth/login.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/auth/passwords/reset.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/auth/passwords/email.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/theme/_head.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/auth/profile.blade.php",
+		"/C/Users/Me/Desktop/Dev/php.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/theme/_sidebar.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/pages/finance/check.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/pages/finance/financediv.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/app/Http/routes.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/app/Http/Controllers/FinancialController.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/database/migrations/2016_08_25_160252_create_finance_subs_table.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/database/migrations/2016_08_22_112839_create_finances_table.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/theme/_foot.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/app/Finance.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/app/FinanceDivision.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/app/FinanceSub.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/pages/finance/my.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/theme/adminlte.blade.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/Users/Me/Desktop/Dev/AdventOS/resources/views/theme/notice.blade.php",
+		"/C/Users/Me/Desktop/Dev/FB-Kaunas/index.html",
+		"/C/Users/Me/Desktop/Dev/AdventOS/.gitattributes",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/auth/login.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/auth/passwords/reset.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/theme/_header.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/theme/_head.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/auth/passwords/email.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/.env",
+		"/C/Users/Me/Desktop/Dev/pamokslai/app/Http/Controllers/FinancialController.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/finance/create.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/.env.example",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/theme/_footer.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/database/migrations/2016_07_27_100154_create_roles_table.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/emails/sermon.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/app/Http/Controllers/sermonController.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/client/submit.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/finance/check.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/app/Http/Controllers/Auth/UserCtrl.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/emails/finance.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/finance/pdf.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/app/Http/Controllers/OptionsCtrl.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/option/index.blade.php",
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/theme/notice.blade.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Ā",
+			"ÿ",
+			"Ā",
+			"ÿ",
+			"ssl.",
+			" License info for commercial purposes c",
+			"Ā",
+			"ÿ",
+			"Ā",
+			"&&",
+			"or ",
+			"or",
+			"<br><br>",
+			"Ā",
+			"bottom",
+			"Ā",
+			"ÿ",
+			"Ā",
+			"ngModel.$setViewValue(element.html())",
+			"ngModel.$setViewValue(element[0].inputElement.value);",
+			"store",
+			"input",
+			"div",
+			"pre",
+			"response",
+			"Ā",
+			"fontSize",
+			"primary",
+			"ng-href=\"song/{{song.id}}\" ",
+			"Ā",
+			"di",
+			"d",
+			"span",
+			"this",
+			"main",
+			"$scope",
+			"this",
+			"indexController",
+			"event",
+			"google",
+			"span",
+			"h2",
+			"span",
+			"8",
+			"event",
+			"//",
+			"10",
+			"6",
+			"10",
+			"Ā",
+			"2",
+			"<br\\/",
+			"Skleidžiasi",
+			"<br\\/",
+			"<br\\/\n<br\\/",
+			"<br\\/",
+			"h3",
+			"small",
+			"h2",
+			"p",
+			"div",
+			"h2",
+			"indigo",
+			"brown",
+			"md",
+			"sm",
+			"md",
+			"this",
+			"self",
+			"data",
+			"-html",
+			"data",
+			"-html",
+			"č",
+			"small",
+			"http:",
+			"small",
+			"1",
+			"body",
+			"data",
+			"response",
+			"data",
+			"songId",
+			"number",
+			"body",
+			"žodžiai",
+			"isCurrentPath",
+			"number",
+			"svg",
+			"scotchApp",
+			"div",
+			"item",
+			"div",
+			"žodžiai",
+			"Rūšis:",
+			".image",
+			"delete",
+			"<div class=\"aform-group\">",
+			"md",
+			"month",
+			"$d['name']",
+			"Eur",
+			"month",
+			"$cus",
+			"required",
+			"readonly",
+			"o",
+			"option",
+			"strong",
+			"back",
+			"delete",
+			"enable",
+			"delete",
+			"btn-info",
+			"success",
+			"button",
+			"</option>",
+			"<option>",
+			"div",
+			"post",
+			"financedivision",
+			"data",
+			"permission",
+			"check",
+			"h1",
+			"h2",
+			"row",
+			"card-group"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 627.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sw.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ea.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
