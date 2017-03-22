@@ -287,7 +287,7 @@
     })
 
     //Song controller
-    .controller('songController', function($rootScope, $routeParams, $filter, $sce) {
+    .controller('songController', function($rootScope, $routeParams, $filter, $sce, $timeout) {
  		var self = this;
 
         var assign = function() {
