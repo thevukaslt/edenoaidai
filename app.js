@@ -66,7 +66,6 @@
             //Fetch hymns
             $http.get('edeno-aidai.json').then(function(res){
                 $rootScope.library = res.data;
-                //console.log("Here at run it works normally " + $rootScope.library.length);
             }).catch(
                 function(res){
                     console.log('Klaida: edeno-aidai.json '+res.status + ' ' + res.statusText);
@@ -270,7 +269,7 @@
         if (!main.songs) {      
 
             main.songs = [{
-                "title"  : "Palaukite...",
+                "title"  : "Minutėlę...",
                 "id": null
               }];
 
@@ -319,7 +318,7 @@
         if (!$rootScope.library) {
              //initiate waiting            
             self.song = {};
-            self.song.songId = "Palaukite...";
+            self.song.songId = "Minutėlę...";
 
             var retriesNum = 0;
 
