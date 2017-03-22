@@ -290,11 +290,47 @@
     .controller('songController', function($rootScope, $routeParams, $filter, $sce) {
  		var self = this;
 
-        //Find hymn
-        self.song = $filter('filter')($rootScope.library, {id: $routeParams.id})[0];
-        //Trust body for HTML output
-        self.body = $sce.trustAsHtml(self.song.body);
-        self.copyright = $sce.trustAsHtml(self.song.copyright);
+        var assign = function() {
+            //Find hymn
+            self.song = $filter('filter')($rootScope.library, {id: $routeParams.id})[0];
+            //Trust body for HTML output
+            self.body = $sce.trustAsHtml(self.song.body);
+            self.copyright = $sce.trustAsHtml(self.song.copyright);
+        }
+
+        //Prevent reading of undefined
+        var loadHymn = function(){
+
+            retriesNum += 1;            
+
+            if ($rootScope.library) {
+              assign();
+            }
+
+            if (!$rootScope.library && retriesNum < 10) {
+
+                $timeout(function() {
+                    loadHymn();
+                    console.log("This is " + retriesNum + " try so far!");
+                }, 500);
+            }
+        }
+
+        if (!$rootScope.library) {
+             //initiate waiting            
+                self.song = {
+                    "title"  : "Palaukite...",
+                    "id": null
+                  };
+
+                var retriesNum = 0;
+
+                $timeout(function() {
+                        loadHymn();
+                }, 300);
+        } else {
+            assign();
+        }
 
         self.fontSize = 16;
         self.textUp = function() {
@@ -302,7 +338,7 @@
         }
         self.textDw = function() {
             self.fontSize = self.fontSize - 2;
-        }
+        }            
 
     })
 

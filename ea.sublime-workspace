@@ -185,19 +185,10 @@
 			}
 		},
 		{
-			"file": "pages/home.html",
-			"settings":
-			{
-				"buffer_size": 1138,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "sw.js",
 			"settings":
 			{
-				"buffer_size": 2081,
+				"buffer_size": 1992,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -253,6 +244,7 @@
 	],
 	"file_history":
 	[
+		"/D/Projects/edenoaidai/pages/home.html",
 		"/D/Projects/edenoaidai/edeno-aidai.json",
 		"/D/Projects/edenoaidai/style.css",
 		"/D/Projects/edenoaidai/manifest.json",
@@ -269,7 +261,6 @@
 		"/C/Users/Me/Desktop/angular-trix-master/dist/angular-trix.js",
 		"/D/Projects/edenoaidai/pages/store.html",
 		"/D/Projects/edenoaidai/store/app.js",
-		"/D/Projects/edenoaidai/pages/home.html",
 		"/D/Projects/edenoaidai/layout/toast.html",
 		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/edeno-aidai.sublime-snippet",
 		"/D/Projects/edenoaidai/layout/navbar.html",
@@ -543,7 +534,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -570,36 +561,6 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1870.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "pages/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1138,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								862,
-								862
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -607,20 +568,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "sw.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2081,
+						"buffer_size": 1992,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1193,
-								1193
+								1872,
+								1872
 							]
 						],
 						"settings":
@@ -629,7 +590,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 10.0,
+						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
