@@ -1,5 +1,5 @@
-var currentCache = "7";
-//Updated on 2017-03-21
+var currentCache = "8";
+//Updated on 2017-03-22
 var cacheTitle = "edeno-aidai";
 var activeCache = cacheTitle + '-v' + currentCache;
 
