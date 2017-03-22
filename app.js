@@ -318,13 +318,14 @@
 
         if (!$rootScope.library) {
              //initiate waiting            
-            self.song.title = "Palaukite...";
+            self.song = {};
+            self.song.songId = "Palaukite...";
 
             var retriesNum = 0;
 
             $timeout(function() {
                     loadHymn();
-            }, 300);
+            });
         } else {
             assign();
         }
