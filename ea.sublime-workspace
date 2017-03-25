@@ -179,8 +179,16 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 10069,
+				"buffer_size": 10828,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2895,
 				"line_ending": "Windows"
 			}
 		},
@@ -244,8 +252,9 @@
 	],
 	"file_history":
 	[
-		"/D/Projects/edenoaidai/pages/home.html",
 		"/D/Projects/edenoaidai/edeno-aidai.json",
+		"/D/Projects/edenoaidai/404.html",
+		"/D/Projects/edenoaidai/pages/home.html",
 		"/D/Projects/edenoaidai/style.css",
 		"/D/Projects/edenoaidai/manifest.json",
 		"/D/Projects/edenoaidai/index.html",
@@ -370,12 +379,11 @@
 		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/emails/finance.blade.php",
 		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/finance/pdf.blade.php",
 		"/C/Users/Me/Desktop/Dev/pamokslai/app/Http/Controllers/OptionsCtrl.php",
-		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/option/index.blade.php",
-		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/theme/notice.blade.php"
+		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/option/index.blade.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -389,6 +397,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Palaukite",
 			"Ā",
 			"ÿ",
 			"Ā",
@@ -515,8 +524,7 @@
 			"check",
 			"h1",
 			"h2",
-			"row",
-			"card-group"
+			"row"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -543,15 +551,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10069,
+						"buffer_size": 10828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								1830,
+								1830
 							]
 						],
 						"settings":
@@ -561,7 +569,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 960.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -569,6 +577,35 @@
 				},
 				{
 					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "sw.js",
 					"semi_transient": false,
 					"settings":
@@ -580,8 +617,8 @@
 						"selection":
 						[
 							[
-								1872,
-								1872
+								21,
+								21
 							]
 						],
 						"settings":
@@ -590,7 +627,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
