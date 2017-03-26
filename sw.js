@@ -1,5 +1,6 @@
-var currentCache = "8";
-//Updated on 2017-03-22
+var currentCache = "9";
+//Updated on 2017-03-26
+//Updated to latest Angular + MD libraries, enabled browser color through Angular.
 var cacheTitle = "edeno-aidai";
 var activeCache = cacheTitle + '-v' + currentCache;
 
@@ -7,23 +8,23 @@ self.addEventListener('install', function(e) {
 
 	var urlsToCache = [
 		'/',
-		'style.css',
 		'app.js',
-		'pages/about.html',
+		'style.css',
 		'pages/home.html',
 		'pages/song.html',
+		'pages/about.html',
 		'layout/navbar.html',
 		'logo.png',
 		'favicon.png',
 		'edeno-aidai.json',
 		'manifest.json',
 		'index.html',
-		'https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css',
-		'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js',
-		'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js',
-		'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js',
-		'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js',
-		'https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js',
+		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js',
+		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-aria.min.js',
+		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js',
+		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.min.js',
+		'https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.3/angular-material.min.js',
+		'https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.3/angular-material.min.css',
 		'https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic'
 	];
 

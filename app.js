@@ -3,21 +3,20 @@
     var swActive = true;
 
     angular.module('app', ['ngRoute', 'ngMaterial'])
-
-    //Config
-
     //Debug
     .config(['$compileProvider', function ($compileProvider) {
         $compileProvider.debugInfoEnabled(false);
     }])
-
     //Theme colors
     .config(function($mdThemingProvider) {
         $mdThemingProvider.theme('default')
             .primaryPalette('deep-orange')
             .accentPalette('grey');
+        $mdThemingProvider.enableBrowserColor({
+            palette: 'orange',
+            hue: '400'
+        });
     })
-
 	//Routing
     .config(function($routeProvider, $locationProvider) {
         $routeProvider
