@@ -2,30 +2,16 @@
 
 	<md-card flex flex-xs flex-gt-xs=none class="home-card">
 		<md-card-actions layout="row" layout-align="space-around center">
-        	<md-button class="md-primary" ng-click="song.textDw()">Aa -</md-button>
+        	<md-button class="md-primary" ng-click="song.textDw()" ng-show="song.body">Aa -</md-button>
 	    	<span class="song-num">{{song.song.songId}}</span>
-        	<md-button class="md-primary" ng-click="song.textUp()">Aa +</md-button>        	
-		</md-card-actions><!--
-		<md-card-title>
-	        <md-card-title-text layout="column">
-
-	        	<div layout="row">
-		        	<span class="md-headline">{{song.song.title}}</span>
-		        	<span flex></span>
-			    	<span class="song-num">{{song.song.songId}}</span>
-
-	        	</div>
-
-				<p layout="">{{song.song.verse}}</p>
-
-	        </md-card-title-text>
-	    </md-card-title>-->
-		<md-card-content class="first-letter first-line">
+        	<md-button class="md-primary" ng-click="song.textUp()" ng-show="song.body">Aa +</md-button>        	
+		</md-card-actions>
+		<md-card-content class="first-letter first-line" ng-show="song.body">
 			<p ng-bind-html="song.body" style="font-size: {{song.fontSize}}px;"></p>
 			<hr>
 			<small ng-bind-html="song.copyright" class="text-italic"></small>
 		</md-card-content>
-		<md-card-actions layout="row" layout-align="end center">
+		<md-card-actions layout="row" layout-align="end center" ng-show="song.body">
 			<md-button class="md-accent" ng-href="/">ATGAL</md-button>
 		</md-card-actions>
 	</md-card>
