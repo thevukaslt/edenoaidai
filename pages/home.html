@@ -18,7 +18,7 @@
     </md-card-title>
 
     <md-card-actions layout layout-align="end center" ng-show="{{song.id}}">
-        <md-button class="md-primary" ng-href="song/{{song.id}}" ng-click="$root.searchQuery = ''">ŽIŪRĖTI</md-button>
+        <md-button class="md-primary" ng-href="song/{{song.id}}" ng-click="$root.searchQuery.songId = null">ŽIŪRĖTI</md-button>
     </md-card-actions>  
 
   </md-card>

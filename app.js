@@ -260,7 +260,7 @@
                 $timeout(function() {
                     loadHymns();
                     console.log("This is " + retriesNum + " try so far!");
-                }, 500);
+                }, 100);
             }
         }
 
@@ -269,14 +269,15 @@
 
             main.songs = [{
                 "title"  : "Minutėlę...",
-                "id": null
+                "id": null,
+                "songId": null
               }];
 
             var retriesNum = 0;
 
             $timeout(function() {
                     loadHymns();
-            }, 300);
+            }, 100);
         }
 
         //main.songs = $filter('orderBy')($rootScope.library);
@@ -290,7 +291,8 @@
 
         var assign = function() {
             //Find hymn
-            self.song = $filter('filter')($rootScope.library, {id: $routeParams.id})[0];
+           //self.song = $filter('filter')($rootScope.library, {id: $routeParams.id})[0];
+            self.song = $rootScope.library[$routeParams.id-1];
             //Trust body for HTML output
             self.body = $sce.trustAsHtml(self.song.body);
             self.copyright = $sce.trustAsHtml(self.song.copyright);
@@ -310,7 +312,7 @@
                 $timeout(function() {
                     loadHymn();
                     console.log("This is " + retriesNum + " try so far!");
-                }, 500);
+                }, 100);
             }
         }
 

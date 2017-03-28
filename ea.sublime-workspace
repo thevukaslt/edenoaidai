@@ -176,19 +176,20 @@
 	"buffers":
 	[
 		{
-			"file": "app.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10828,
+				"buffer_size": 2787,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 2895,
+				"buffer_size": 10925,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -196,7 +197,7 @@
 			"file": "sw.js",
 			"settings":
 			{
-				"buffer_size": 1992,
+				"buffer_size": 2086,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -252,6 +253,8 @@
 	],
 	"file_history":
 	[
+		"/D/Projects/edenoaidai/pages/about.html",
+		"/D/Projects/edenoaidai/pages/song.html",
 		"/D/Projects/edenoaidai/edeno-aidai.json",
 		"/D/Projects/edenoaidai/404.html",
 		"/D/Projects/edenoaidai/pages/home.html",
@@ -259,7 +262,6 @@
 		"/D/Projects/edenoaidai/manifest.json",
 		"/D/Projects/edenoaidai/index.html",
 		"/D/Projects/edenoaidai/store/index.html",
-		"/D/Projects/edenoaidai/pages/song.html",
 		"/D/Projects/edenoaidai/store/store.js",
 		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/edeno-aidai-characters.sublime-snippet",
 		"/C/Windows/System32/drivers/etc/HOSTS",
@@ -283,7 +285,6 @@
 		"/D/Projects/edenoaidai/layout/sidenav.html",
 		"/C/Users/Me/Desktop/Tavo Šeimai - Prie šeimos, prie meilės židinio susėskim….html",
 		"/D/Projects/edenoaidai/.gitignore",
-		"/D/Projects/edenoaidai/pages/about.html",
 		"/C/Users/Me/Google Drive/Mark Finley LT (word).doc.gdoc",
 		"/D/Projects/Giedu/Hymnlyric/pages/about.html",
 		"/D/Projects/Giedu/Hymnlyric/webpack.config.babel.js",
@@ -397,6 +398,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/",
 			"Palaukite",
 			"Ā",
 			"ÿ",
@@ -523,8 +525,7 @@
 			"permission",
 			"check",
 			"h1",
-			"h2",
-			"row"
+			"h2"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -547,19 +548,48 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app.js",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10828,
+						"buffer_size": 2787,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1830,
-								1830
+								1444,
+								1408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
 							]
 						],
 						"settings":
@@ -569,39 +599,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 960.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2895,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								322,
-								322
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -610,15 +611,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1992,
+						"buffer_size": 2086,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								198,
+								198
 							]
 						],
 						"settings":
@@ -630,7 +631,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

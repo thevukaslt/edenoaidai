@@ -1,8 +1,8 @@
-var currentCache = "9";
-//Updated on 2017-03-26
-//Updated to latest Angular + MD libraries, enabled browser color through Angular.
+var currentCache = "10";
+//Updated on 2017-03-28
+//Fixed search box not working after choosing song, faster hymn assign.
 var cacheTitle = "edeno-aidai";
-var activeCache = cacheTitle + '-v' + currentCache;
+var activeCache = cacheTitle + '-v-' + currentCache;
 
 self.addEventListener('install', function(e) {
 
