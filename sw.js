@@ -1,6 +1,4 @@
-var currentCache = "10";
-//Updated on 2017-03-28
-//Fixed search box not working after choosing song, faster hymn assign.
+var currentCache = "11";
 var cacheTitle = "edeno-aidai";
 var activeCache = cacheTitle + '-v-' + currentCache;
 

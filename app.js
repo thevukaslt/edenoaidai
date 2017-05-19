@@ -1,6 +1,6 @@
 (function(){
 
-    var swActive = false;
+    var swActive = true;
 
     angular.module('app', ['ngRoute', 'ngMaterial'])
     //Debug
@@ -344,7 +344,7 @@
             var previousSong = $routeParams.id-1;
             var nextSong = $routeParams.id;
             nextSong++;
-            
+
             if (direction == "up" && nextSong < 277) {
                 $location.path('song/' + nextSong);
             }
