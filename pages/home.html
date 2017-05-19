@@ -1,7 +1,7 @@
 <div layout="row" layout-align="center center" layout-padding
-    ng-repeat="song in main.songs | filter:(($root.searchQuery.songId===null)?undefined:$root.searchQuery) | limitTo:5">
+    ng-repeat="song in main.songs | filter:(($root.searchQuery===null)?undefined:$root.searchQuery) | limitTo:5">
 
-  <md-card ng-init="height = 6" ng-mouseenter="height = 1" ng-mouseleave="height = 6" md-whiteframe="{{height}}" 
+  <md-card ng-init="height = 3" ng-mouseenter="height = 1" ng-mouseleave="height = 3" md-whiteframe="{{height}}" 
            flex-xs flex-gt-xs=none flex-gt-lg=50 class="home-card" ang-click="main.go(song/{{song.id}})" layout-wrap>
 
     <md-card-title layout-wrap>
@@ -18,7 +18,7 @@
     </md-card-title>
 
     <md-card-actions layout layout-align="end center" ng-show="{{song.id}}">
-        <md-button class="md-primary" ng-href="song/{{song.id}}" ng-click="$root.searchQuery.songId = null">ŽIŪRĖTI</md-button>
+        <md-button class="md-primary" ng-href="song/{{song.id}}" ng-click="$root.searchQuery = null">ŽIŪRĖTI</md-button>
     </md-card-actions>  
 
   </md-card>

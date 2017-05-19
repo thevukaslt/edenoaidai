@@ -19,6 +19,7 @@ self.addEventListener('install', function(e) {
 		'edeno-aidai.json',
 		'manifest.json',
 		'index.html',
+		'https://fonts.googleapis.com/icon?family=Material+Icons',
 		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js',
 		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-aria.min.js',
 		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js',

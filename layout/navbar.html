@@ -1,18 +1,18 @@
-<!--<md-toolbar>
-	<h2 class="text-center">
-		Edeno Aidai
-	</h2>
-</md-toolbar>-->
+<md-toolbar layout="row" md-whiteframe="4" class="md-accent md-hue-1" style="padding: 0 10px 0 10px;" layout-align="start center">
 
+	<md-input-container ng-if="searchText" flex ng-click="nav.go('/')" style="margin: 20px 0 -5px 0">
+		<label>Paieška pagal tekstą</label>
+		<input type="text" ng-model="$root.searchQuery">				
+	</md-input-container> 
 
-<md-toolbar>
-	<md-content class="md-padding" layout>
+	<md-input-container ng-if="!searchText" flex ng-click="nav.go('/')" style="margin: 20px 0 -5px 0">
+		<label>Paieška pagal giesmės numerį</label>
+		<input type="number" min="0" max="300" ng-model="$root.searchQuery.songId">			
+	</md-input-container> 
 
-			<md-input-container flex ng-click="nav.go('/')">
-				<label>Paieška pagal giesmės numerį</label>
-				<input type="number" min="0" max="300" ng-model="$root.searchQuery.songId">
-			</md-input-container> 
+	<md-button class="md-icon-button md-primary" ng-click="searchText=!searchText;$root.searchQuery=null">
+		<md-icon ng-bind="searchText?'receipt':'edit'"></md-icon>
+	</md-button>
 
-	</md-content>
 </md-toolbar>
 

@@ -1,6 +1,6 @@
 (function(){
 
-    var swActive = true;
+    var swActive = false;
 
     angular.module('app', ['ngRoute', 'ngMaterial'])
     //Debug
