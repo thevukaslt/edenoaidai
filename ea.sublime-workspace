@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ne",
+				"nextSong"
+			],
+			[
 				"son",
 				"songId"
 			],
@@ -179,7 +183,16 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 11021,
+				"buffer_size": 11455,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/song.html",
+			"settings":
+			{
+				"buffer_size": 1310,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -188,7 +201,7 @@
 			"file": "layout/navbar.html",
 			"settings":
 			{
-				"buffer_size": 374,
+				"buffer_size": 835,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -197,16 +210,7 @@
 			"file": "pages/home.html",
 			"settings":
 			{
-				"buffer_size": 1147,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sw.js",
-			"settings":
-			{
-				"buffer_size": 2076,
+				"buffer_size": 1133,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -258,34 +262,37 @@
 	"expanded_folders":
 	[
 		"/D/Projects/edenoaidai",
-		"/D/Projects/edenoaidai/layout",
-		"/D/Projects/edenoaidai/Logo",
-		"/D/Projects/edenoaidai/pages"
+		"/D/Projects/edenoaidai/Logo"
 	],
 	"file_history":
 	[
-		"/D/Projects/edenoaidai/index.html",
-		"/D/Projects/edenoaidai/pages/about.html",
-		"/D/Projects/edenoaidai/pages/song.html",
+		"/D/Projects/edenoaidai/README.md",
 		"/D/Projects/edenoaidai/edeno-aidai.json",
+		"/D/Projects/edenoaidai/sw.js",
+		"/D/Projects/edenoaidai/README",
+		"/D/Projects/edenoaidai/pages/song.html",
+		"/D/Projects/edenoaidai/style.css",
+		"/D/Projects/edenoaidai/layout/navbar.html",
+		"/D/Projects/edenoaidai/index.html",
+		"/D/Projects/YouTube Draugas/layouts/partials/head.html",
+		"/D/Projects/YouTube Draugas/layouts/partials/header.html",
+		"/D/Projects/edenoaidai/.gitignore",
+		"/D/Projects/edenoaidai/app.js",
+		"/D/Projects/edenoaidai/pages/about.html",
 		"/D/Projects/edenoaidai/404.html",
 		"/D/Projects/edenoaidai/pages/home.html",
-		"/D/Projects/edenoaidai/style.css",
 		"/D/Projects/edenoaidai/manifest.json",
 		"/D/Projects/edenoaidai/store/index.html",
 		"/D/Projects/edenoaidai/store/store.js",
 		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/edeno-aidai-characters.sublime-snippet",
 		"/C/Windows/System32/drivers/etc/HOSTS",
 		"/C/Windows/System32/drivers/etc/hosts",
-		"/D/Projects/edenoaidai/app.js",
-		"/D/Projects/edenoaidai/sw.js",
 		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/e.sublime-snippet",
 		"/C/Users/Me/Desktop/angular-trix-master/dist/angular-trix.js",
 		"/D/Projects/edenoaidai/pages/store.html",
 		"/D/Projects/edenoaidai/store/app.js",
 		"/D/Projects/edenoaidai/layout/toast.html",
 		"/C/Users/Me/AppData/Roaming/Sublime Text 3/Packages/User/edeno-aidai.sublime-snippet",
-		"/D/Projects/edenoaidai/layout/navbar.html",
 		"/C/Users/Me/Desktop/wpdatatables/wpdatatables.php",
 		"/C/Users/Me/Desktop/wpdatatables/controllers/wdt_admin.php",
 		"/C/Users/Me/Desktop/wpdatatables/config/config.inc.php",
@@ -295,7 +302,6 @@
 		"/D/Projects/edenoaidai/robots.txt",
 		"/D/Projects/edenoaidai/layout/sidenav.html",
 		"/C/Users/Me/Desktop/Tavo Šeimai - Prie šeimos, prie meilės židinio susėskim….html",
-		"/D/Projects/edenoaidai/.gitignore",
 		"/C/Users/Me/Google Drive/Mark Finley LT (word).doc.gdoc",
 		"/D/Projects/Giedu/Hymnlyric/pages/about.html",
 		"/D/Projects/Giedu/Hymnlyric/webpack.config.babel.js",
@@ -387,11 +393,7 @@
 		"/C/Users/Me/Desktop/Dev/pamokslai/app/Http/Controllers/sermonController.php",
 		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/client/submit.blade.php",
 		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/finance/check.blade.php",
-		"/C/Users/Me/Desktop/Dev/pamokslai/app/Http/Controllers/Auth/UserCtrl.php",
-		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/emails/finance.blade.php",
-		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/finance/pdf.blade.php",
-		"/C/Users/Me/Desktop/Dev/pamokslai/app/Http/Controllers/OptionsCtrl.php",
-		"/C/Users/Me/Desktop/Dev/pamokslai/resources/views/pages/option/index.blade.php"
+		"/C/Users/Me/Desktop/Dev/pamokslai/app/Http/Controllers/Auth/UserCtrl.php"
 	],
 	"find":
 	{
@@ -402,6 +404,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"D:\\Projects\\edenoaidai"
 		]
 	},
 	"find_state":
@@ -409,6 +412,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"redme",
+			"layout-max-width",
+			"ngIf",
 			"https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/",
 			"Palaukite",
 			"Ā",
@@ -533,10 +539,7 @@
 			"post",
 			"financedivision",
 			"data",
-			"permission",
-			"check",
-			"h1",
-			"h2"
+			"permission"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -563,15 +566,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11021,
+						"buffer_size": 11455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8146,
-								8146
+								37,
+								37
 							]
 						],
 						"settings":
@@ -581,7 +584,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -589,24 +592,25 @@
 				},
 				{
 					"buffer": 1,
-					"file": "layout/navbar.html",
+					"file": "pages/song.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 374,
+						"buffer_size": 1310,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								314
+								266,
+								266
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -617,26 +621,25 @@
 				},
 				{
 					"buffer": 2,
-					"file": "pages/home.html",
+					"file": "layout/navbar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1147,
+						"buffer_size": 835,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1076,
-								1076
+								757,
+								757
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -647,25 +650,26 @@
 				},
 				{
 					"buffer": 3,
-					"file": "sw.js",
+					"file": "pages/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2076,
+						"buffer_size": 1133,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								120,
-								120
+								347,
+								347
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
