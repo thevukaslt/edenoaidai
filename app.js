@@ -286,7 +286,7 @@
     })
 
     //Song controller
-    .controller('songController', function($rootScope, $routeParams, $filter, $sce, $timeout) {
+    .controller('songController', function($rootScope, $routeParams, $filter, $sce, $timeout, $location) {
  		var self = this;
 
         var assign = function() {
@@ -336,8 +336,23 @@
         }
         self.textDw = function() {
             self.fontSize = self.fontSize - 2;
-        }            
+        }     
 
+
+        self.swipeSong = function(direction) {
+
+            var previousSong = $routeParams.id-1;
+            var nextSong = $routeParams.id;
+            nextSong++;
+            
+            if (direction == "up" && nextSong < 277) {
+                $location.path('song/' + nextSong);
+            }
+            if (direction == "down" && previousSong != 0) {
+                $location.path('song/' + previousSong);
+            }
+
+        }
     })
 
     //Navigation controller
