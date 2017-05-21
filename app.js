@@ -244,13 +244,27 @@
     .controller('mainController', function($rootScope, $filter, $location, $timeout) {
 
     	var main = this;
+
         main.songs = $rootScope.library;
+
+        var shuffleArray = function(array) {
+          var m = array.length, t, i;
+          while (m) {
+            i = Math.floor(Math.random() * m--);
+            t = array[m];
+            array[m] = array[i];
+            array[i] = t;
+          }
+          console.log("Done shuffling!");
+          return array;
+        }
 
         var loadHymns = function(){
 
             retriesNum += 1;
 
             main.songs = $rootScope.library;
+            //shuffleArray(main.songs); 
 
             if (!main.songs && retriesNum < 10) {
 
@@ -262,7 +276,9 @@
         }
 
         //Let's do some retries
-        if (!main.songs) {      
+        if (!main.songs) {    
+
+            //console.log("Loading...");
 
             main.songs = [{
                 "title"  : "Minutėlę...",
@@ -277,7 +293,10 @@
             }, 100);
         }
 
+
+
         //main.songs = $filter('orderBy')($rootScope.library);
+        
     })
 
     //Song controller
