@@ -1,5 +1,5 @@
-var currentCache = "12";
-//Incremented to avoid vad caches and miscaching
+var currentCache = "13";
+//Another update
 var cacheTitle = "edeno-aidai";
 var activeCache = cacheTitle + '-v-' + currentCache;
 
