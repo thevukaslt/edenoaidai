@@ -14,6 +14,11 @@
 	font-size: 24pt;
 }
 
+.priegiesmis {
+	font-weight: bold;
+	font-style: italic;
+}
+
 .first-line p::first-line { 
 	font-size: 110%;
     font-weight: 700;
