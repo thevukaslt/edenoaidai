@@ -2,6 +2,7 @@
 
 Elektroninė giesmyno Edeno Aidai versija. Sukurta AngularJS pagrindu bei PWA programėlės tipu. Pasiekiama adresu: [giesmynas.adventistai.lt](https://giesmynas.adventistai.lt/) ir veikia be interneto ryšio (reikalinga naršyklė palaikanti angl. Service Worker.)
 
+Giesmyno skaitmenizavimas prieinamas [/store](https://giesmynas.adventistai.lt/store/).
 
 ## Atnaujinimai (2017-05-21)
 
