@@ -3,8 +3,15 @@
 Elektroninė giesmyno Edeno Aidai versija. Sukurta AngularJS pagrindu bei PWA programėlės tipu. Pasiekiama adresu: [giesmynas.adventistai.lt](https://giesmynas.adventistai.lt/) ir veikia be interneto ryšio (reikalinga naršyklė palaikanti angl. Service Worker.)
 
 
-## Atnaujinimai (2017-05-19)
+## Atnaujinimai (2017-05-21)
 
+#### 2017-05-21
+
+- Dizaino atnaujinimai.
+- Paieška tekstu tik giesmės žodžiuose.
+- Sutvarkyta giesmuno struktūra.
+- Shuffle išjungta (neveikia su paieška.)
+- Išvalytas projektas.
 
 
 #### 2017-05-17
@@ -21,3 +28,11 @@ Elektroninė giesmyno Edeno Aidai versija. Sukurta AngularJS pagrindu bei PWA pr
 - Pataisyta paieškos laukelio klaida.
 - Spartesnis duomenų apdorojimas.
 - Patobulintas giesmyno įkrovimas, (balto ekrano klaida.)
+
+#### 2017-03-05
+
+- Skaitmenizuotas visas giesmynas.
+
+##### 2016-12-28 - 2017-03-00
+
+- Dev...
