@@ -14,14 +14,8 @@
 	font-size: 24pt;
 }
 
-.first-letter p::first-letter { 
-	float: left;
-	font-size: 200%;
-	line-height: 90%;
-	padding-right: 8px;
-	padding-left: 2px;
-}
 .first-line p::first-line { 
+	font-size: 110%;
     font-weight: 700;
 }
 

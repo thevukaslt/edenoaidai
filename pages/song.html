@@ -3,12 +3,12 @@
 	<md-card flex flex-xs flex-gt-xs=none class="home-card">
 
 		<md-card-actions layout="row" layout-align="space-around center" md-swipe-left="song.swipeSong('up')" md-swipe-right="song.swipeSong('down')">
-        	<md-button class="md-primary" ng-click="song.textDw()" ng-show="song.body">Aa -</md-button>
+        	<md-button ng-click="song.textDw()" ng-show="song.body">Aa -</md-button>
 	    	<span class="song-num">{{song.song.songId}}</span>
-        	<md-button class="md-primary" ng-click="song.textUp()" ng-show="song.body">Aa +</md-button>        	
+        	<md-button ng-click="song.textUp()" ng-show="song.body">Aa +</md-button>        	
 		</md-card-actions>
 
-		<md-card-content class="first-letter first-line" ng-show="song.body">
+		<md-card-content class="first-letter first-line" ng-show="song.body" >
 			<p ng-bind-html="song.body" style="font-size: {{song.fontSize}}px;"></p>
 			<hr>
 			<small ng-bind-html="song.copyright" class="text-italic"></small>
@@ -19,7 +19,9 @@
 			<md-button class="md-accent" ng-click="song.swipeSong('down')">
 				<md-icon>arrow_back</md-icon>
 			</md-button>
-			<md-button class="md-accent" ng-href="/">ATGAL</md-button>
+			<md-button class="md-accent" ng-href="/">
+				<md-icon>home</md-icon>
+			</md-button>
 			<md-button class="md-accent" ng-click="song.swipeSong('up')">
 				<md-icon>arrow_forward</md-icon>
 			</md-button>

@@ -1,7 +1,7 @@
 <div layout="row" layout-align="center center" layout-padding
     ng-repeat="song in main.songs | filter:(($root.searchQuery===null)?undefined:$root.searchQuery) | limitTo:5">
 
-  <md-card ng-init="height = 3" ng-mouseenter="height = 1" ng-mouseleave="height = 3" md-whiteframe="{{height}}" 
+  <md-card ng-init="height = 1" ng-mouseenter="height = 3" ng-mouseleave="height = 1" md-whiteframe="{{height}}" 
            flex-xs flex-gt-xs=none flex-gt-lg=50 class="home-card" ang-click="main.go(song/{{song.id}})" layout-wrap>
 
     <md-card-title layout-wrap>

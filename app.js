@@ -1,6 +1,6 @@
 (function(){
 
-    var swActive = true;
+    var swActive = false;
 
     angular.module('app', ['ngRoute', 'ngMaterial'])
     //Debug
@@ -17,6 +17,7 @@
             hue: '400'
         });
     })
+
 	//Routing
     .config(function($routeProvider, $locationProvider) {
         $routeProvider
@@ -49,9 +50,7 @@
             .otherwise({ redirectTo: '/' });
 
         // use the HTML5 History API
-    	$locationProvider.html5Mode(true);
-
-            
+    	$locationProvider.html5Mode(true);       
     })
 
     .run(
@@ -149,8 +148,6 @@
                     self._trackInstalling(reg.installing);
                 });
 
-                // Ensure refresh is only called once.
-                // This works around a bug in "force update on reload".
                 var refreshing;
                 navigator.serviceWorker.addEventListener('controllerchange', function() {
                     if (refreshing) return;
@@ -281,8 +278,6 @@
         }
 
         //main.songs = $filter('orderBy')($rootScope.library);
-
-
     })
 
     //Song controller
@@ -364,10 +359,9 @@
         this.go = function ( path ) {
           $location.path( path );
         };
-
     })
-/*
-    //Store controller
+
+/*  //Store controller
     .controller('storeCtrl', function($scope, $location, $filter, $rootScope) {
         var self = this;
 

@@ -1,4 +1,4 @@
-<md-toolbar layout="row" md-whiteframe="4" class="md-accent md-hue-1" style="padding: 0 10px 0 10px;" layout-align="start center">
+<md-toolbar layout="row" md-whiteframe="2" class="md-toolbar-tools md-accent md-hue-1" style="padding-top: 10px;" layout-align="start center">
 
 	<md-input-container ng-if="searchText" flex ng-click="nav.go('/')" style="margin: 20px 0 -5px 0">
 		<label>Paieška pagal tekstą</label>
@@ -10,9 +10,8 @@
 		<input type="number" min="0" max="300" ng-model="$root.searchQuery.songId">			
 	</md-input-container> 
 
-	<md-button class="md-icon-button md-primary" ng-click="searchText=!searchText;$root.searchQuery=null">
+	<md-button class="md-icon-button" ng-click="searchText=!searchText;$root.searchQuery=null">
 		<md-icon ng-bind="searchText?'exposure_zero':'edit'" aria-label="keisti paieškos tipą"></md-icon>
 	</md-button>
 
 </md-toolbar>
-
