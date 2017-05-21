@@ -8,8 +8,8 @@ Elektroninė giesmyno Edeno Aidai versija. Sukurta AngularJS pagrindu bei PWA pr
 #### 2017-05-21
 
 - Dizaino atnaujinimai.
-- Paieška tekstu tik giesmės žodžiuose.
-- Sutvarkyta giesmuno struktūra.
+- Paieška tekstu apribota giesmės žodžiuose.
+- Sutvarkyta giesmyno struktūra.
 - Shuffle išjungta (neveikia su paieška.)
 - Išvalytas projektas.
 
@@ -33,6 +33,6 @@ Elektroninė giesmyno Edeno Aidai versija. Sukurta AngularJS pagrindu bei PWA pr
 
 - Skaitmenizuotas visas giesmynas.
 
-##### 2016-12-28 - 2017-03-00
+#### 2016-12-28 - 2017-03-00
 
 - Dev...
