@@ -1,5 +1,5 @@
-var currentCache = "14";
-//Integrating G-Analytics + Offline MaterialIcons
+var currentCache = "2017-06-18";
+//Integrating G-Analytics + Offline MaterialIcons + Persistent font size
 var cacheTitle = "edeno-aidai";
 var activeCache = cacheTitle + '-v-' + currentCache;
 
