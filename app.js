@@ -296,7 +296,6 @@
 
 
         //main.songs = $filter('orderBy')($rootScope.library);
-        
     })
 
     //Song controller
@@ -344,12 +343,19 @@
             assign();
         }
 
-        self.fontSize = 16;
+        if (window.localStorage.getItem('fontSize') == null) {
+            self.fontSize = 16;
+        } else {
+            self.fontSize = window.localStorage.getItem('fontSize');
+        }
+
         self.textUp = function() {
-            self.fontSize = self.fontSize + 2;
+            self.fontSize++;
+            window.localStorage.setItem('fontSize', self.fontSize);
         }
         self.textDw = function() {
-            self.fontSize = self.fontSize - 2;
+            self.fontSize--;
+            window.localStorage.setItem('fontSize', self.fontSize);
         }     
 
 
@@ -391,7 +397,6 @@
 
             self.new = '';
         };
-
     })*/
 
     .directive('back', ['$window', function($window) {
