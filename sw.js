@@ -1,7 +1,9 @@
-var currentCache = "13";
-//Another update
+var currentCache = "14";
+//Integrating G-Analytics + Offline MaterialIcons
 var cacheTitle = "edeno-aidai";
 var activeCache = cacheTitle + '-v-' + currentCache;
+
+importScripts('sw-offline-google-analytics.prod.v0.0.25.js');
 
 self.addEventListener('install', function(e) {
 
@@ -18,7 +20,7 @@ self.addEventListener('install', function(e) {
 		'edeno-aidai.json',
 		'manifest.json',
 		'index.html',
-		'https://fonts.googleapis.com/icon?family=Material+Icons',
+		'MaterialIcons-Regular.woff2',
 		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js',
 		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-aria.min.js',
 		'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js',
@@ -33,7 +35,6 @@ self.addEventListener('install', function(e) {
 		  return cache.addAll(urlsToCache);
 		})
 	);
-
 
 });
 
@@ -53,7 +54,7 @@ self.addEventListener('activate', function(e) {
 	);
 });
 
-
+goog.offlineGoogleAnalytics.initialize();
 self.addEventListener('fetch', function(e) {
 	var offlineres = function() {
 		if (e.request.headers.get('Accept').indexOf('text/html') != -1) {
