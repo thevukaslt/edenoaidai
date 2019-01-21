@@ -1,4 +1,4 @@
-var currentCache = "2017-06-18";
+var currentCache = "2017-06-18"; // bump cache, disabled Netlify asset processing to fix menu bar
 //Integrating G-Analytics + Offline MaterialIcons + Persistent font size
 var cacheTitle = "edeno-aidai";
 var activeCache = cacheTitle + '-v-' + currentCache;
