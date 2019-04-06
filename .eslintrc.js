@@ -17,6 +17,13 @@ module.exports = {
                 allowTaggedTemplates: true,
             },
         ],
+        'vue/script-indent': [
+            'error',
+            4,
+            {
+                baseIndent: 1,
+            },
+        ],
     },
     parserOptions: {
         parser: 'babel-eslint',
