@@ -1,18 +1,29 @@
-<template>
-    <div class="home">
-        <img alt="Vue logo" src="../assets/logo.png" />
-        <HelloWorld msg="Welcome to Your Vue.js App" />
-    </div>
-</template>
-
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+    import List from '../components/List.vue';
 
-export default {
-    name: 'home',
-    components: {
-        HelloWorld,
-    },
-};
+    export default {
+        name: 'Home',
+        data() {
+            return {
+                songs: [],
+            };
+        },
+        created() {
+            this.$songs
+                .orderBy('id')
+                .offset(67)
+                .limit(10)
+                .toArray()
+                .then(songs => {
+                    this.songs = songs;
+                });
+        },
+        render(h) {
+            return h(List, {
+                props: {
+                    songs: this.songs,
+                },
+            });
+        },
+    };
 </script>
