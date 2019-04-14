@@ -23,7 +23,7 @@
         height: 100vh;
 
         grid-template-rows: auto 1fr;
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(290px, 1fr);
 
         justify-items: center;
     }
