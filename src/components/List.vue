@@ -4,7 +4,7 @@
             class="element"
             v-for="{ songId, id, title } in songs"
             :key="id"
-            :to="`song/${songId}`"
+            :to="`/song/${songId}`"
         >
             <span class="element__number">{{ songId }}</span>
             <p class="element__title">{{ title }}</p>
