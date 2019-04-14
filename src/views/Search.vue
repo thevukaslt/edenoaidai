@@ -1,7 +1,7 @@
 <template>
     <div class="form">
         <div class="input-container">
-            <input type="text" placeholder="Ieškoti..." @input="parseSearch" :value="query">
+            <input type="text" placeholder="Rašyk čia..." @input="parseSearch" :value="query">
         </div>
         <list :songs="songs"/>
     </div>
@@ -26,7 +26,7 @@
             };
         },
         created() {
-            this.parseSearch = this.debounce(this.parseSearch, 400);
+            this.parseSearch = this.debounce(this.parseSearch, 225);
             this.searchSongs();
         },
         watch: {
@@ -71,7 +71,7 @@
                     return this.$songs
                         .where('songId')
                         .startsWith(search)
-                        .limit(3)
+                        .limit(6)
                         .toArray()
                         .then(songs => {
                             this.songs = songs || [];
@@ -81,8 +81,10 @@
                         });
                 }
                 return this.$songs
-                    .where('title')
-                    .anyOfIgnoreCase(search)
+                    .filter(song =>
+                        song.title.toLowerCase().includes(search.toLowerCase()),
+                    )
+                    .limit(6)
                     .toArray()
                     .then(songs => {
                         this.songs = songs || [];
@@ -99,12 +101,11 @@
     .form {
         display: grid;
 
-        // height: 100vh;
         min-width: 300px;
 
         grid-gap: 20px;
         grid-template-columns: 1fr;
-        grid-auto-rows: auto 1fr;
+        grid-template-rows: auto 1fr;
 
         .input-container {
             display: grid;
