@@ -101,7 +101,7 @@
     .form {
         display: grid;
 
-        min-width: 300px;
+        margin: 0 10px;
 
         grid-gap: 20px;
         grid-template-columns: 1fr;
@@ -109,17 +109,22 @@
 
         .input-container {
             display: grid;
+
             grid-gap: 5px;
             grid-auto-flow: row;
+
             font-size: 16px;
 
             input {
                 width: 100%;
+
                 box-sizing: border-box;
                 border-radius: 10px;
-                border: 1px solid rgba(0, 0, 0, 0.01);
+
                 padding: 10px;
-                box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+
+                border: 1px solid rgba(0, 0, 0, 0.01);
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
             }
         }
     }
