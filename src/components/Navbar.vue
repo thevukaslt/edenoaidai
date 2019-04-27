@@ -1,5 +1,5 @@
 <template>
-    <footer>
+    <footer class="footer">
         <ul class="menu">
             <li>
                 <router-link to="/" class="menu__item">
@@ -28,6 +28,8 @@
     export default {
         name: 'navbar',
         mounted() {
+            // Since Vue root template cannot have two root elements, move footer
+            // navbar to the next sibling to <main/> element right on mount
             document.body.insertBefore(
                 this.$el,
                 document.querySelector('main').nextSibling,
@@ -37,12 +39,22 @@
 </script>
 
 <style lang="scss">
-    footer {
+    .footer {
+        display: block;
+        position: fixed;
+
+        left: 0;
+        bottom: 0;
+
         width: 100%;
+        z-index: 10;
 
         border-top: 1px solid rgba(0, 0, 0, 0.1);
-        box-shadow: 0 -8px 10px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.1);
 
+        background-color: white;
+
+        // Row element <ul />
         .menu {
             display: flex;
 
@@ -52,6 +64,7 @@
             padding: 0;
             list-style: none;
 
+            // Link <a /> element as child of <li />
             &__item {
                 display: flex;
                 flex-direction: column;
