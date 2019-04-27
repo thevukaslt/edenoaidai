@@ -38,18 +38,24 @@
     };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
     .song {
-        text-align: left;
-
         &__title {
             font-size: 20px;
+
+            width: auto;
+
+            margin: 0;
+            margin-bottom: 10px;
+
+            border-bottom: 1px solid black;
         }
 
         &__verse {
             font-size: 16px;
 
-            max-width: 50vw;
+            margin: 0;
+            margin-bottom: 20px;
         }
 
         &__body {
