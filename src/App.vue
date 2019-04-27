@@ -1,6 +1,7 @@
 <template>
     <main>
         <router-view/>
+        <!-- Navbar is moved under <main /> on mount -->
         <navbar></navbar>
     </main>
 </template>
@@ -16,16 +17,7 @@
 
 
 <style lang="scss">
-    html,
     body {
-        height: 100%;
-    }
-    body {
-        display: flex;
-        flex-direction: column;
-
-        align-items: center;
-
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -33,10 +25,9 @@
         margin: 0;
     }
     main {
-        flex: 1;
-        display: flex;
+        padding: 15px;
 
-        padding: 0 15px;
-        padding-top: 30px;
+        // Give extra padding to offset navbar height
+        padding-bottom: 60px;
     }
 </style>
