@@ -23,10 +23,13 @@ function getDatabaseInstance() {
  * @param {Dexie} table Table of Dexie Database
  */
 function needsInstall(table) {
-    return table
-        .count()
-        .then(count => count === 0)
-        .catch(err => console.log(err));
+    return (
+        table
+            .count()
+            .then(count => count === 0)
+            /* eslint-disable-next-line no-console */
+            .catch(err => console.error(err))
+    );
 }
 
 export default async function(Vue) {
