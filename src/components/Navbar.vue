@@ -23,7 +23,7 @@
                     <svg class="icon">
                         <use xlink:href="#icon-star-full"></use>
                     </svg>
-                    Pamėgti
+                    Išsaugota
                 </router-link>
             </li>
         </ul>
