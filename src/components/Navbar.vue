@@ -32,7 +32,7 @@
 
 <script>
     export default {
-        name: 'navbar',
+        name: 'Navbar',
         mounted() {
             // Since Vue root template cannot have two root elements, move footer
             // navbar to the next sibling to <main/> element right on mount

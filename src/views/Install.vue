@@ -18,18 +18,17 @@
                 current: 0,
             };
         },
+        computed: {
+            progress() {
+                return `${this.current}/${this.total}`;
+            },
+        },
         async beforeMount() {
             if ((await this.$songs.count()) === 0)
                 this.fetchSongs().then(songs => {
                     if (this.importSongs(songs)) this.success();
                 });
             else this.success();
-        },
-        computed: {
-            progress() {
-                return this.current + '/' + this.total;
-                return ((this.current * 100) / this.total || 0) + '%';
-            },
         },
         methods: {
             /**
@@ -63,7 +62,7 @@
                 let status = false;
 
                 songs.forEach(song => {
-                    ++this.current;
+                    this.current += 1;
                     status = true;
 
                     const { songId, title, verse, body, copyright } = song;

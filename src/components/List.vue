@@ -1,9 +1,9 @@
 <template>
     <div class="list">
         <router-link
-            class="element"
             v-for="{ songId, id, title } in songs"
             :key="id"
+            class="element"
             :to="`/song/${songId}`"
         >
             <span class="element__number">{{ songId }}</span>

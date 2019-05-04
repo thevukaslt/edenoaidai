@@ -1,7 +1,7 @@
 <template>
     <div class="form">
         <div class="input-container">
-            <input type="text" placeholder="Rašyk čia..." @input="parseSearch" :value="query">
+            <input type="text" placeholder="Rašyk čia..." :value="query" @input="parseSearch">
         </div>
         <list :songs="songs"/>
     </div>
@@ -25,22 +25,25 @@
                 songs: [],
             };
         },
+        watch: {
+            $route() {
+                this.searchSongs();
+            },
+        },
         created() {
             this.parseSearch = this.debounce(this.parseSearch, 225);
             this.searchSongs();
         },
-        watch: {
-            $route(to, from) {
-                this.searchSongs();
-            },
-        },
         methods: {
             debounce(func, wait, immediate = false) {
                 let timeout;
+                /* eslint-disable-next-line func-names */
                 return function() {
                     const context = this;
+                    /* eslint-disable-next-line prefer-rest-params */
                     const args = arguments;
 
+                    /* eslint-disable-next-line func-names */
                     const later = function() {
                         timeout = null;
                         if (!immediate) func.apply(context, args);
@@ -68,7 +71,7 @@
                 if (!!search === false) return;
 
                 if (Number.isInteger(Number(search))) {
-                    return this.$songs
+                    this.$songs
                         .where('songId')
                         .startsWith(search)
                         .limit(6)
@@ -79,8 +82,9 @@
                         .catch(err => {
                             console.error(err.message);
                         });
+                    return;
                 }
-                return this.$songs
+                this.$songs
                     .filter(song =>
                         song.title.toLowerCase().includes(search.toLowerCase()),
                     )
