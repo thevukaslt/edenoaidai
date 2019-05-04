@@ -30,4 +30,12 @@
         // Give extra padding to offset navbar height
         padding-bottom: 60px;
     }
+    .icon {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+    }
 </style>

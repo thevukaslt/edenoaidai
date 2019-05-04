@@ -2,21 +2,27 @@
     <footer class="footer">
         <ul class="menu">
             <li>
-                <router-link to="/" class="menu__item">
-                    <span class="icon-home"></span>
+                <router-link to="/" class="menu__item" exact>
+                    <svg class="icon">
+                        <use xlink:href="#icon-home"></use>
+                    </svg>
                     Titulinis
                 </router-link>
             </li>
             <li>
                 <router-link to="/search" class="menu__item">
-                    <span class="icon-search"></span>
+                    <svg class="icon">
+                        <use xlink:href="#icon-search"></use>
+                    </svg>
                     Paieška
                 </router-link>
             </li>
 
             <li>
-                <router-link to="/star" class="menu__item">
-                    <span class="icon-star"></span>
+                <router-link to="/favorites" class="menu__item">
+                    <svg class="icon">
+                        <use xlink:href="#icon-star-full"></use>
+                    </svg>
                     Pamėgti
                 </router-link>
             </li>
