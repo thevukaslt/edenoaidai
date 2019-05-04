@@ -3,12 +3,17 @@ module.exports = {
     env: {
         node: true,
     },
-    plugins: ['prettier'],
-    extends: ['plugin:vue/essential', '@vue/airbnb', 'plugin:prettier/recommended'],
+    plugins: ['prettier', 'vue'],
+    extends: [
+        '@vue/airbnb',
+        'plugin:vue/recommended',
+        'prettier',
+        'prettier/standard',
+        'prettier/vue',
+    ],
     rules: {
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-        indent: ['error', 4],
         'no-unused-expressions': [
             'error',
             {
@@ -17,13 +22,15 @@ module.exports = {
                 allowTaggedTemplates: true,
             },
         ],
-        'vue/script-indent': [
-            'error',
-            4,
-            {
-                baseIndent: 1,
-            },
-        ],
+        vue: {
+            'script-indent': [
+                'warning',
+                4,
+                {
+                    baseIndent: 1,
+                },
+            ],
+        },
     },
     parserOptions: {
         parser: 'babel-eslint',
