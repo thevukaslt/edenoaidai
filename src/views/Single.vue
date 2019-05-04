@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
     <div v-if="song" class="song">
-        <h2 class="song__title">{{ song.title }}</h2>
+        <h2 class="song__title">{{ song.songId }} {{ song.title }}</h2>
         <p class="song__verse">
             <em>{{ song.verse }}</em>
         </p>
