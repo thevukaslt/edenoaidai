@@ -1,6 +1,6 @@
 <template>
-    <div v-if="status === 'ready'">Paruošta!</div>
-    <div v-else>
+    <div v-if="status === 'ready'" class="install-message">Paruošta!</div>
+    <div v-else class="install-message">
         {{ message }}
         {{ progress }}
     </div>
@@ -43,11 +43,10 @@
 
                 return fetch(SONGS_JSON)
                     .then(res => res.json())
-                    .catch(
-                        err =>
-                            (this.message = `Failed to download songs ${err.messaage ||
-                                err}`),
-                    );
+                    .catch(err => {
+                        this.message = `Failed to download songs ${err.messaage ||
+                            err}`;
+                    });
             },
 
             /**
@@ -92,4 +91,7 @@
 </script>
 
 <style>
+    .install-message {
+        text-align: center;
+    }
 </style>
