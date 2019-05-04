@@ -29,7 +29,7 @@
         padding: 15px;
 
         // Give extra padding to offset navbar height
-        padding-bottom: 60px;
+        padding-bottom: 70px;
     }
     .icon {
         display: inline-block;
