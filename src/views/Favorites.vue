@@ -10,30 +10,34 @@
         },
         created() {
             this.$songs
-                .orderBy('id')
-                .offset(Math.round(Math.random() * 100))
-                .limit(1)
+                .where({ favorited: 1 })
                 .toArray()
                 .then(songs => {
                     this.songs = songs;
-                });
+                })
+                .catch(err =>
+                    console.error(`Error loading favorites: ${err.message || err}`),
+                );
         },
         render(h) {
+            // If exists, show favorited songs
+            if (this.songs.length) {
+                return h(List, {
+                    props: {
+                        songs: this.songs,
+                    },
+                });
+            }
+
+            // Else show suggestion
             return h(
-                'div',
+                'h2',
                 {
                     style: {
                         'text-align': 'center',
                     },
                 },
-                [
-                    'In Development',
-                    h(List, {
-                        props: {
-                            songs: this.songs,
-                        },
-                    }),
-                ],
+                'Tuštoka... Pasinaudok žvaigždute ;)',
             );
         },
     };

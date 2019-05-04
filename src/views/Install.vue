@@ -37,18 +37,17 @@
              */
             fetchSongs() {
                 if (SONGS_JSON === null) {
-                    this.message = 'Klaida...';
-                    console.error('URL for database is unavailable.');
+                    this.message = 'URL for database is missing.';
                     return false;
                 }
 
                 return fetch(SONGS_JSON)
-                    .then(res => {
-                        return res.json();
-                    })
-                    .catch(err => {
-                        console.error('Failed to download songs', err);
-                    });
+                    .then(res => res.json())
+                    .catch(
+                        err =>
+                            (this.message = `Failed to download songs ${err.messaage ||
+                                err}`),
+                    );
             },
 
             /**
@@ -73,6 +72,7 @@
                             verse,
                             body,
                             copyright,
+                            favorited: 0,
                         })
                         .catch(error => {
                             status = false;
@@ -85,7 +85,7 @@
 
             success() {
                 this.status = 'ready';
-                setTimeout(() => this.$router.push('/'), 750);
+                setTimeout(() => this.$router.push('/'), 1000);
             },
         },
     };
