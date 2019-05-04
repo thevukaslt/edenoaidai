@@ -77,7 +77,7 @@
 
                 align-items: center;
 
-                color: rgba(175, 170, 185, 1);
+                color: rgba(0, 0, 0, 0.8);
                 text-decoration: none;
 
                 padding: 10px;
@@ -92,7 +92,7 @@
                 }
 
                 &:hover {
-                    color: rgba(165, 36, 61, 0.5);
+                    color: rgba(165, 36, 61, 0.8);
                 }
             }
         }
