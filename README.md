@@ -1,29 +1,13 @@
-# new
+# Modern Hymns Book PWA
 
-## Project setup
-```
-yarn install
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/74dc9fff-7af3-461a-bba9-d106d1f806c4/deploy-status)](https://app.netlify.com/sites/edeno-aidai/deploys)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+Simple yet modern Hymns app that works **offline**. Designed for Seventh-Day Adventist Church in Lithuania Hymn book, that originally appears as _Edeno Aidai_.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## Deployment
 
-### Run your tests
-```
-yarn run test
-```
+To run locally, clone the repository and install Node dependencies by running `yarn`.
 
-### Lints and fixes files
-```
-yarn run lint
-```
+Start local server with `yarn install`.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Production build can be built with `yarn build`.
