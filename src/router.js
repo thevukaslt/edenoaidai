@@ -4,6 +4,7 @@ import Home from './views/Home.vue';
 import Single from './views/Single.vue';
 import Search from './views/Search.vue';
 import Install from './views/Install.vue';
+import NotFound from './views/NotFound.vue';
 import Favorites from './views/Favorites.vue';
 
 Vue.use(Router);
@@ -39,6 +40,11 @@ export default new Router({
             path: '/install',
             name: 'install',
             component: Install,
+        },
+        {
+            path: '*',
+            name: 'Not Found',
+            component: NotFound,
         },
     ],
 });
