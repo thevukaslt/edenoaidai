@@ -1,3 +1,5 @@
+const runtimeCaching = require('./runtimeCaching.config');
+
 module.exports = {
     css: {
         sourceMap: true,
@@ -11,5 +13,14 @@ module.exports = {
                 ...options,
                 hotReload: false,
             }));
+    },
+    // Netlify should be able to handle cache invalidation
+    filenameHashing: false,
+
+    pwa: {
+        workboxOptions: {
+            runtimeCaching,
+            offlineGoogleAnalytics: true,
+        },
     },
 };
