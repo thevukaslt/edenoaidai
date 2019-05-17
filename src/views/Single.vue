@@ -1,24 +1,19 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
     <div v-if="song" class="song">
-        <h2 class="song__title">
-            {{ song.songId }} {{ song.title }}
+        <h2 class="song__title">{{ song.songId }} {{ song.title }}</h2>
+        <div class="song__buttons">
+            <button @click="adjustFontSize(true)" class="song__font-size-button">Aa++</button>
+            <button @click="adjustFontSize(false)" class="song__font-size-button">Aa--</button>
             <button
                 class="song__favorite-button"
                 :title="song.favorited ? 'Išsaugota' : 'Pamėgti'"
                 @click="toggleFavorite"
             >
-                <svg v-if="song.favorited" class="icon">
-                    <use xlink:href="#icon-star-full"></use>
-                </svg>
-                <svg v-else class="icon">
-                    <use xlink:href="#icon-star-empty"></use>
+                <svg class="icon">
+                    <use :xlink:href="song.favorited ? '#icon-star-full' : '#icon-star-empty'"></use>
                 </svg>
             </button>
-        </h2>
-        <div class="song__buttons">
-            <button @click="adjustFontSize(true)" class="font-size-button">Aa++</button>
-            <button @click="adjustFontSize(false)" class="font-size-button">Aa--</button>
         </div>
         <p class="song__verse">
             <em>{{ song.verse }}</em>
@@ -117,6 +112,24 @@
             margin-bottom: 20px;
         }
 
+        &__buttons {
+            display: flex;
+
+            padding: 10px 0;
+
+            > :not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+
+        %button-shadow {
+            border: none;
+            border-radius: 20px;
+
+            background-color: white;
+            box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
+        }
+
         &__favorite-button {
             display: inline-block;
 
@@ -125,32 +138,20 @@
 
             vertical-align: bottom;
 
-            padding: 0 10px;
+            padding: 0 2px;
 
             border: none;
 
             color: rgba(228, 179, 99, 1);
-            background-color: transparent;
+
+            @extend %button-shadow;
         }
 
-        &__buttons {
-            display: flex;
+        &__font-size-button {
+            font-size: 16px;
+            line-height: 1.5;
 
-            padding: 10px 0;
-
-            .font-size-button {
-                font-size: 16px;
-                line-height: 1.5;
-
-                border: none;
-                border-radius: 20px;
-                background-color: white;
-                box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
-
-                &:not(:last-child) {
-                    margin-right: 10px;
-                }
-            }
+            @extend %button-shadow;
         }
     }
 </style>
