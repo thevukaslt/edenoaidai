@@ -20,7 +20,8 @@ module.exports = {
     pwa: {
         workboxOptions: {
             runtimeCaching,
-            offlineGoogleAnalytics: true,
+            skipWaiting: true,
+            // offlineGoogleAnalytics: true,
         },
     },
 };

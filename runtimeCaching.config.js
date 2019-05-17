@@ -4,7 +4,7 @@ module.exports = [
     {
         // JSON file containing hymns
         urlPattern: new RegExp('.json$'),
-        handler: 'staleWhileRevalidate',
+        handler: 'networkFirst',
         options: {
             cacheableResponse: {
                 statuses: [200],
@@ -13,6 +13,6 @@ module.exports = [
     },
     {
         urlPattern: '*',
-        handler: 'cacheFirst',
+        handler: 'networkFirst',
     },
 ];
