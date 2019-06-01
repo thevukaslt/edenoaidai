@@ -1,4 +1,4 @@
-<!-- eslint-disable vue/no-v-html vue/no-dupe-keys -->
+<!-- eslint-disable vue/no-v-html -->
 <template>
     <div v-if="song" class="song">
         <h2 class="song__title">{{ song.songId }} {{ song.title }}</h2>
@@ -70,7 +70,7 @@
                         if (successfullyUpadated) {
                             this.song.favorited = this.song.favorited ? 0 : 1;
                         } else {
-                            console.info('Failed to toggle favorite');
+                            // console.info('Failed to toggle favorite');
                         }
                     })
                     .catch(err => Sentry && Sentry.captureException(err));
