@@ -19,7 +19,7 @@ export default async () => {
         }
     } else {
         navigator.serviceWorker
-            .register('/sw.js')
+            .register(`${window.location.origin}/service-worker.js`)
             // .then(() => console.info('Browser supports SW, PWA Enabled!'))
             .catch(err =>
                 Sentry

@@ -25,8 +25,8 @@ module.exports = {
         plugins: [
             //
             new InjectManifest({
-                swSrc: 'src/service-worker.js',
-                swDest: path.join(config.output.path, 'sw.js'),
+                swSrc: 'src/ServiceWorker.js',
+                swDest: path.join(config.output.path, 'service-worker.js'),
                 precacheManifestFilename: `sw-manifest.js?=[manifestHash]`,
                 exclude: [
                     /\.map$/,
