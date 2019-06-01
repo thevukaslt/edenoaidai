@@ -28,7 +28,6 @@ workbox.googleAnalytics.initialize({
 workbox.precaching.precacheAndRoute([
     {
         url: '/',
-        revision: Date.now(),
     },
     ...self.__precacheManifest /* eslint-disable-line */,
 ]);
@@ -54,7 +53,7 @@ workbox.routing.setCatchHandler(catchHandler);
 workbox.routing.setDefaultHandler({
     handle: args => {
         if (args.event.request.method === 'GET') {
-            return new strategies.NetworkFirst({
+            return new strategies.CacheFirst({
                 cacheName: 'default',
                 // as a default handler, it may cache too many resources,
                 // limit to 50 entries and only for good w/200 responses
