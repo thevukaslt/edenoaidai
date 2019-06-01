@@ -3,8 +3,8 @@
     <div v-if="song" class="song">
         <h2 class="song__title">{{ song.songId }} {{ song.title }}</h2>
         <div class="song__buttons">
-            <button @click="adjustFontSize(true)" class="song__font-size-button">Aa++</button>
-            <button @click="adjustFontSize(false)" class="song__font-size-button">Aa--</button>
+            <button class="song__font-size-button" @click="adjustFontSize(true)">Aa++</button>
+            <button class="song__font-size-button" @click="adjustFontSize(false)">Aa--</button>
             <button
                 class="song__favorite-button"
                 :title="song.favorited ? 'Išsaugota' : 'Pamėgti'"
@@ -18,7 +18,7 @@
         <p class="song__verse">
             <em>{{ song.verse }}</em>
         </p>
-        <div class="song__body" v-html="song.body" :style="fontSizeStyle"></div>
+        <div class="song__body" :style="fontSizeStyle" v-html="song.body"></div>
         <small class="song__copyright" v-html="song.copyright"></small>
     </div>
 </template>
@@ -43,6 +43,13 @@
                 },
             };
         },
+        computed: {
+            fontSizeStyle() {
+                return {
+                    fontSize: `${this.fontSize}px`,
+                };
+            },
+        },
         created() {
             this.$songs
                 .get({
@@ -54,13 +61,6 @@
                 .catch(err => {
                     console.error(err.message);
                 });
-        },
-        computed: {
-            fontSizeStyle: function() {
-                return {
-                    fontSize: `${this.fontSize}px`,
-                };
-            },
         },
         methods: {
             toggleFavorite() {
