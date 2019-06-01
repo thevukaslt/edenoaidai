@@ -3,6 +3,7 @@
     <div v-else class="install-message">
         {{ message }}
         {{ progress }}
+        <div v-if="errorId">Klaidos kodas: {{ errorId }}</div>
     </div>
 </template>
 
@@ -16,6 +17,7 @@
                 status: '',
                 total: 0,
                 current: 0,
+                errorId: '',
             };
         },
         computed: {
@@ -44,8 +46,8 @@
                 return fetch(SONGS_JSON)
                     .then(res => res.json())
                     .catch(err => {
-                        this.message = `Failed to download songs ${err.messaage ||
-                            err}`;
+                        this.errorId = Sentry && Sentry.captureException(err);
+                        this.message = `Įvyko klaida...`;
                     });
             },
 
@@ -75,7 +77,7 @@
                         })
                         .catch(error => {
                             status = false;
-                            console.error(error.message);
+                            this.errorId = Sentry && Sentry.captureException(error);
                         });
                 });
 

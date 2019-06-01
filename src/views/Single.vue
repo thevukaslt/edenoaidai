@@ -1,4 +1,4 @@
-<!-- eslint-disable vue/no-v-html -->
+<!-- eslint-disable vue/no-v-html vue/no-dupe-keys -->
 <template>
     <div v-if="song" class="song">
         <h2 class="song__title">{{ song.songId }} {{ song.title }}</h2>
@@ -36,7 +36,7 @@
             return {
                 song: {},
                 get fontSize() {
-                    return parseInt(localStorage.getItem('fontSize')) || 16;
+                    return parseInt(localStorage.getItem('fontSize'), 10) || 16;
                 },
                 set fontSize(newVal) {
                     localStorage.setItem('fontSize', newVal);
@@ -58,9 +58,7 @@
                 .then(song => {
                     this.song = song;
                 })
-                .catch(err => {
-                    console.error(err.message);
-                });
+                .catch(err => Sentry && Sentry.captureException(err));
         },
         methods: {
             toggleFavorite() {
@@ -75,9 +73,7 @@
                             console.info('Failed to toggle favorite');
                         }
                     })
-                    .catch(err =>
-                        console.error(`Error toggling favorite status ${err}`),
-                    );
+                    .catch(err => Sentry && Sentry.captureException(err));
             },
             adjustFontSize(increase) {
                 increase ? (this.fontSize += 1) : (this.fontSize -= 1);

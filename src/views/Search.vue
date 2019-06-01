@@ -79,9 +79,7 @@
                         .then(songs => {
                             this.songs = songs || [];
                         })
-                        .catch(err => {
-                            console.error(err.message);
-                        });
+                        .catch(err => Sentry && Sentry.captureException(err));
                     return;
                 }
                 this.$songs
@@ -93,9 +91,7 @@
                     .then(songs => {
                         this.songs = songs || [];
                     })
-                    .catch(err => {
-                        console.error(err.message);
-                    });
+                    .catch(err => Sentry && Sentry.captureException(err));
             },
         },
     };

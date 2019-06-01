@@ -15,9 +15,7 @@
                 .then(songs => {
                     this.songs = songs;
                 })
-                .catch(err =>
-                    console.error(`Error loading favorites: ${err.message || err}`),
-                );
+                .catch(err => Sentry && Sentry.captureException(err));
         },
         render(h) {
             // If exists, show favorited songs
