@@ -24,7 +24,8 @@ export default async () => {
             .catch(err =>
                 Sentry
                     ? Sentry.captureException(err)
-                    : console.error(`Failed to register SW: `, err),
+                    : // eslint-disable-next-line no-console
+                      console.error(`Failed to register SW: `, err),
             );
     }
 };

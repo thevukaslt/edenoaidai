@@ -38,6 +38,7 @@
                 get fontSize() {
                     return parseInt(localStorage.getItem('fontSize'), 10) || 16;
                 },
+                // eslint-disable-next-line vue/no-dupe-keys
                 set fontSize(newVal) {
                     localStorage.setItem('fontSize', newVal);
                 },
