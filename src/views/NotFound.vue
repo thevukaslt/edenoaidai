@@ -1,6 +1,6 @@
 <script>
     export default {
-        name: 'not-found',
+        name: 'NotFound',
         created() {
             const metaNoIndex = document.createElement('meta');
             metaNoIndex.name = 'robots';
