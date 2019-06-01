@@ -1,32 +1,30 @@
-/* eslint-disable no-console */
+/* global Sentry */
+import { isBot } from './helpers/isBot';
 
-import { register } from 'register-service-worker';
+export default async () => {
+    // Skip registration for unsupported browsers, bots
+    if (!('serviceWorker' in navigator) || isBot) {
+        return;
+    }
 
-if (process.env.NODE_ENV === 'production') {
-    register(`${process.env.BASE_URL}service-worker.js`, {
-        ready() {
-            console.log(
-                'App is being served from cache by a service worker.\n' +
-                    'For more details, visit https://goo.gl/AFskqB',
+    const swDisabled = false || localStorage.getItem('sw');
+
+    if (swDisabled) {
+        // If disabled, try to unregister it
+        // usually for developments reasons
+        const serviceWorker = await navigator.serviceWorker.getRegistration();
+        if (serviceWorker) {
+            await serviceWorker.unregister();
+            console.info('Service worker successfully unregistered.');
+        }
+    } else {
+        navigator.serviceWorker
+            .register('/sw.js')
+            // .then(() => console.info('Browser supports SW, PWA Enabled!'))
+            .catch(err =>
+                Sentry
+                    ? Sentry.captureException(err)
+                    : console.error(`Failed to register SW: `, err),
             );
-        },
-        registered() {
-            console.log('Service worker has been registered.');
-        },
-        cached() {
-            console.log('Content has been cached for offline use.');
-        },
-        updatefound() {
-            console.log('New content is downloading.');
-        },
-        updated() {
-            console.log('New content is available; please refresh.');
-        },
-        offline() {
-            console.log('No internet connection found. App is running in offline mode.');
-        },
-        error(error) {
-            console.error('Error during service worker registration:', error);
-        },
-    });
-}
+    }
+};

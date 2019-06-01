@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import './registerServiceWorker';
+import ServiceWorker from './registerServiceWorker';
 import Database from './database';
 
 Vue.use(Database);
@@ -29,3 +29,5 @@ if ('Sentry' in window && process.env.NODE_ENV === 'production') {
     ];
     window.Sentry.init(config);
 }
+
+ServiceWorker();

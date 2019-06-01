@@ -15,12 +15,13 @@
         "vue": "^2.6.10",
         "vue-router": "^3.0.6",
         "vue-template-compiler": "^2.6.10",
-        "webpack": "^4.31.0"
+        "webpack": "^4.31.0",
+        "workbox": "^0.0.0",
+        "workbox-webpack-plugin": "^4.3.1"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "^3.7.0",
         "@vue/cli-plugin-eslint": "^3.7.0",
-        "@vue/cli-plugin-pwa": "^3.7.0",
         "@vue/cli-service": "^3.7.0",
         "@vue/eslint-config-airbnb": "^4.0.0",
         "babel-eslint": "^10.0.1",
