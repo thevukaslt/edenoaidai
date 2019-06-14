@@ -42,5 +42,13 @@
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#d9b26f"
+    "theme_color": "#d9b26f",
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=org.lukasDev.twa.edenoaidai",
+            "id": "org.lukasDev.twa.edenoaidai"
+        }
+    ]
 }
