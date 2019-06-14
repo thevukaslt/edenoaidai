@@ -4,7 +4,8 @@
     "namespace": "android_app",
     "package_name": "org.lukasDev.twa.edenoaidai",
     "sha256_cert_fingerprints": [
-      "6B:01:91:F1:33:5A:AE:15:52:F7:89:B2:CA:5F:A3:F2:1B:52:98:16:B7:05:AD:84:7E:59:27:2C:F1:FE:BB:6C"
+	"6B:01:91:F1:33:5A:AE:15:52:F7:89:B2:CA:5F:A3:F2:1B:52:98:16:B7:05:AD:84:7E:59:27:2C:F1:FE:BB:6C",
+	"3E:35:9B:10:4C:63:96:1C:C7:0B:29:88:9C:71:12:FB:D2:98:15:48:25:E1:B3:AE:58:1A:F9:E2:55:5C:00:71"
     ]
   }
 }]
