@@ -5,4 +5,4 @@ https://edeno-aidai.netlify.com/* https://giesmynas.adventistai.lt/:splat 301!
 /sw.js*    /service-worker.js:splat   200!
 
 # Netlify settings for single-page application
-# /*    /index.html   200
+/*    /index.html   200
